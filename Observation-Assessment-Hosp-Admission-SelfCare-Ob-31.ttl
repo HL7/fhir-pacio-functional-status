@@ -1,0 +1,124 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://paciowg.github.io/functional-status-ig/Observation/Assessment-Hosp-Admission-SelfCare-Ob-31> a fhir:Observation;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Assessment-Hosp-Admission-SelfCare-Ob-31"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs";
+       fhir:index 0;
+       fhir:link <https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>id</b>: Assessment-Hosp-Admission-SelfCare-Ob-31</p><p><b>meta</b>: </p><p></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 83222-0}\">Lower body dressing</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: id: patientBSJ1; Betsy Smith-Johnson </a></p><p><b>effective</b>: Apr 2, 2020, 11:00:00 AM</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Practitioner-SallySmith.html\">Generated Summary: id: Practitioner-SallySmith; active; Sally Smith ; gender: female</a></li><li><a href=\"PractitionerRole-Role-PT.html\">Generated Summary: id: Role-PT; active; <span title=\"Codes: {http://snomed.info/sct 36682004}\">Physiotherapist</span></a></li><li><a href=\"Organization-Org-01.html\">Organization. Generated Summary: id: Org-01; name: San Antonio General Hospital</a></li></ul><p><b>value</b>: <span title=\"Codes: {http://loinc.org LA26735-3}\">Not Attempted</span></p><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse-QResponse-Hosp-Admission-SelfCare.html\">Generated Summary: id: QResponse-Hosp-Admission-SelfCare; questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Apr 2, 2020, 11:00:00 AM</a></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 83233-7}\">Self-Care - Admission Performance</span></p><p><b>value</b>: <span title=\"Codes: {http://loinc.org LA26735-3}\">Not Attempted</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 83254-3}\">Self-Care - Discharge Performance</span></p><p><b>value</b>: <span title=\"Codes: {http://loinc.org LA26735-3}\">Not Attempted</span></p></blockquote></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/event-location" ];
+     fhir:Extension.valueReference [
+       fhir:link <https://paciowg.github.io/functional-status-ig/Location/Org-Loc-01>;
+       fhir:Reference.reference [ fhir:value "Location/Org-Loc-01" ]
+     ]
+  ];
+  fhir:Observation.status [ fhir:value "final"];
+  fhir:Observation.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:83222-0;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "83222-0" ];
+       fhir:Coding.display [ fhir:value "Lower body dressing - functional ability during 3D assessment period" ]
+     ];
+     fhir:CodeableConcept.text [ fhir:value "Lower body dressing" ]
+  ];
+  fhir:Observation.subject [
+     fhir:link <https://paciowg.github.io/functional-status-ig/Patient/patientBSJ1>;
+     fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
+  ];
+  fhir:Observation.effectiveDateTime [ fhir:value "2020-04-02T10:00:00-05:00"^^xsd:dateTime];
+  fhir:Observation.performer [
+     fhir:index 0;
+     fhir:link <https://paciowg.github.io/functional-status-ig/Practitioner/Practitioner-SallySmith>;
+     fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-SallySmith" ]
+  ], [
+     fhir:index 1;
+     fhir:link <https://paciowg.github.io/functional-status-ig/PractitionerRole/Role-PT>;
+     fhir:Reference.reference [ fhir:value "PractitionerRole/Role-PT" ]
+  ], [
+     fhir:index 2;
+     fhir:link <https://paciowg.github.io/functional-status-ig/Organization/Org-01>;
+     fhir:Reference.reference [ fhir:value "Organization/Org-01" ];
+     fhir:Reference.display [ fhir:value "Organization" ]
+  ];
+  fhir:Observation.valueCodeableConcept [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:LA26735-3;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "LA26735-3" ];
+       fhir:Coding.display [ fhir:value "Not Attempted" ]
+     ];
+     fhir:CodeableConcept.text [ fhir:value "Not Attempted" ]
+  ];
+  fhir:Observation.derivedFrom [
+     fhir:index 0;
+     fhir:link <https://paciowg.github.io/functional-status-ig/QuestionnaireResponse/QResponse-Hosp-Admission-SelfCare>;
+     fhir:Reference.reference [ fhir:value "QuestionnaireResponse/QResponse-Hosp-Admission-SelfCare" ]
+  ];
+  fhir:Observation.component [
+     fhir:index 0;
+     fhir:Observation.component.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         a loinc:83233-7;
+         fhir:Coding.system [ fhir:value "http://loinc.org" ];
+         fhir:Coding.code [ fhir:value "83233-7" ];
+         fhir:Coding.display [ fhir:value "Self-Care - Admission Performance" ]
+       ]
+     ];
+     fhir:Observation.component.valueCodeableConcept [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         a loinc:LA26735-3;
+         fhir:Coding.system [ fhir:value "http://loinc.org" ];
+         fhir:Coding.code [ fhir:value "LA26735-3" ]
+       ];
+       fhir:CodeableConcept.text [ fhir:value "Not Attempted" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Observation.component.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         a loinc:83254-3;
+         fhir:Coding.system [ fhir:value "http://loinc.org" ];
+         fhir:Coding.code [ fhir:value "83254-3" ];
+         fhir:Coding.display [ fhir:value "Self-Care - Discharge Performance" ]
+       ]
+     ];
+     fhir:Observation.component.valueCodeableConcept [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         a loinc:LA26735-3;
+         fhir:Coding.system [ fhir:value "http://loinc.org" ];
+         fhir:Coding.code [ fhir:value "LA26735-3" ]
+       ];
+       fhir:CodeableConcept.text [ fhir:value "Not Attempted" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://paciowg.github.io/functional-status-ig/Observation/Assessment-Hosp-Admission-SelfCare-Ob-31.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

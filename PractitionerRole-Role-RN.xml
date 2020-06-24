@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PractitionerRole xmlns="http://hl7.org/fhir">
+  <id value="Role-RN"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>id</b>: Role-RN</p><p><b>active</b>: true</p><p><b>code</b>: <span title="Codes: {http://snomed.info/sct 224535009}">Registered Nurse</span></p></div>
+  </text>
+  <active value="true"/>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="224535009"/>
+      <display value="Registered Nurse"/>
+    </coding>
+  </code>
+</PractitionerRole>

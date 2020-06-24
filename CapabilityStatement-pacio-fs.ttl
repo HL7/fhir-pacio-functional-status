@@ -1,0 +1,1292 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://paciowg.github.io/functional-status-ig/CapabilityStatement/pacio-fs> a fhir:CapabilityStatement;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "pacio-fs"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>PACIO-fs</h2><div><p>This Capability Statement defines the expected capabilities of a PACIO Functional Status FHIR server conforming to the PACIO Functional Status Implementation Guide.</p>\n</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td/></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td>y</td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title=\"GET a resource (read interaction)\">Read</b></th><th><b title=\"GET past versions of resources (vread interaction)\">V-Read</b></th><th><b title=\"GET all set of resources of the type (search interaction)\">Search</b></th><th><b title=\"PUT a new resource version (update interaction)\">Update</b></th><th><b title=\"POST a new resource (create interaction)\">Create</b></th><th><b title=\"GET changes to a resource (history interaction on instance)\">Updates</b></th><th><b title=\"GET changes for all resources of the type (history interaction on type)\">History</b></th></tr><tr><td>FunctionalStatus</td><td><a href=\"https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-fs.html\">https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-fs.html</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>BundledFunctionalStatus</td><td><a href=\"https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-bfs.html\">https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-bfs.html</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>PACIOQuestionaireResponse</td><td><a href=\"https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-qr.html\">https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-qr.html</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>UseOfDevice</td><td><a href=\"https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-dev.html\">https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-dev.html</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr></table></div>"
+  ];
+  fhir:CapabilityStatement.url [ fhir:value "https://paciowg.github.io/functional-status-ig"];
+  fhir:CapabilityStatement.version [ fhir:value "0.1.0"];
+  fhir:CapabilityStatement.name [ fhir:value "PACIO-fs"];
+  fhir:CapabilityStatement.title [ fhir:value "PACIO Functional Status Capability Statement"];
+  fhir:CapabilityStatement.status [ fhir:value "draft"];
+  fhir:CapabilityStatement.date [ fhir:value "2019-04-04T20:00:00-04:00"^^xsd:dateTime];
+  fhir:CapabilityStatement.publisher [ fhir:value "Sean Mahoney"];
+  fhir:CapabilityStatement.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Sean Mahoney" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "smahoney@mitre.org" ]
+     ]
+  ];
+  fhir:CapabilityStatement.description [ fhir:value "This Capability Statement defines the expected capabilities of a PACIO Functional Status FHIR server conforming to the PACIO Functional Status Implementation Guide."];
+  fhir:CapabilityStatement.kind [ fhir:value "requirements"];
+  fhir:CapabilityStatement.fhirVersion [ fhir:value "4.0.1"];
+  fhir:CapabilityStatement.format [
+     fhir:value "xml";
+     fhir:index 0
+  ], [
+     fhir:value "json";
+     fhir:index 1
+  ];
+  fhir:CapabilityStatement.implementationGuide [
+     fhir:value "https://paciowg.github.io/functional-status-ig";
+     fhir:index 0;
+     fhir:link <https://paciowg.github.io/functional-status-ig>
+  ];
+  fhir:CapabilityStatement.rest [
+     fhir:index 0;
+     fhir:CapabilityStatement.rest.mode [ fhir:value "server" ];
+     fhir:CapabilityStatement.rest.resource [
+       fhir:index 0;
+       fhir:CapabilityStatement.rest.resource.type [ fhir:value "FunctionalStatus" ];
+       fhir:CapabilityStatement.rest.resource.profile [
+         fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-fs.html";
+         fhir:link <https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-fs.html>
+       ];
+       fhir:CapabilityStatement.rest.resource.interaction [
+         fhir:index 0;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ];
+         fhir:CapabilityStatement.rest.resource.interaction.documentation [ fhir:value "Implemented per the specification (or Insert other doco here)" ]
+       ], [
+         fhir:index 1;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "vread" ];
+         fhir:CapabilityStatement.rest.resource.interaction.documentation [ fhir:value "Implemented per the specification (or Insert other doco here)" ]
+       ], [
+         fhir:index 2;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-instance" ];
+         fhir:CapabilityStatement.rest.resource.interaction.documentation [ fhir:value "Implemented per the specification (or Insert other doco here)" ]
+       ], [
+         fhir:index 3;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-type" ];
+         fhir:CapabilityStatement.rest.resource.interaction.documentation [ fhir:value "Implemented per the specification (or Insert other doco here)" ]
+       ], [
+         fhir:index 4;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "search-type" ];
+         fhir:CapabilityStatement.rest.resource.interaction.documentation [ fhir:value "Implemented per the specification (or Insert other doco here)" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.conditionalCreate [ fhir:value "true"^^xsd:boolean ];
+       fhir:CapabilityStatement.rest.resource.conditionalUpdate [ fhir:value "true"^^xsd:boolean ];
+       fhir:CapabilityStatement.rest.resource.conditionalDelete [ fhir:value "multiple" ];
+       fhir:CapabilityStatement.rest.resource.referencePolicy [
+         fhir:value "literal";
+         fhir:index 0
+       ], [
+         fhir:value "logical";
+         fhir:index 1
+       ];
+       fhir:CapabilityStatement.rest.resource.searchInclude [
+         fhir:value "Observation.subject";
+         fhir:index 0
+       ], [
+         fhir:value "Observation.based-on";
+         fhir:index 1
+       ], [
+         fhir:value "Observation.patient";
+         fhir:index 2
+       ], [
+         fhir:value "Observation.specimen";
+         fhir:index 3
+       ], [
+         fhir:value "Observation.context";
+         fhir:index 4
+       ], [
+         fhir:value "Observation.performer";
+         fhir:index 5
+       ], [
+         fhir:value "Observation.encounter";
+         fhir:index 6
+       ], [
+         fhir:value "Observation.related-target";
+         fhir:index 7
+       ], [
+         fhir:value "Observation.device";
+         fhir:index 8
+       ];
+       fhir:CapabilityStatement.rest.resource.searchRevInclude [
+         fhir:value "ChargeItem.service";
+         fhir:index 0
+       ], [
+         fhir:value "ClinicalImpression.finding-ref";
+         fhir:index 1
+       ], [
+         fhir:value "ClinicalImpression.investigation";
+         fhir:index 2
+       ], [
+         fhir:value "DiagnosticReport.result";
+         fhir:index 3
+       ], [
+         fhir:value "Immunization.reaction";
+         fhir:index 4
+       ], [
+         fhir:value "ImmunizationRecommendation.information";
+         fhir:index 5
+       ], [
+         fhir:value "MedicationStatement.part-of";
+         fhir:index 6
+       ], [
+         fhir:value "Observation.related-target";
+         fhir:index 7
+       ], [
+         fhir:value "Procedure.part-of";
+         fhir:index 8
+       ], [
+         fhir:value "QuestionnaireResponse.parent";
+         fhir:index 9
+       ];
+       fhir:CapabilityStatement.rest.resource.searchParam [
+         fhir:index 0;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "date" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/clinical-date";
+           fhir:link <http://hl7.org/fhir/SearchParameter/clinical-date>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "date" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Obtained date/time. If the obtained element is a period, a date that falls in the period" ]
+       ], [
+         fhir:index 1;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "combo-data-absent-reason" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-combo-data-absent-reason";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-combo-data-absent-reason>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The reason why the expected value in the element Observation.value[x] or Observation.component.value[x] is missing." ]
+       ], [
+         fhir:index 2;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "code" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/clinical-code";
+           fhir:link <http://hl7.org/fhir/SearchParameter/clinical-code>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The code of the observation type" ]
+       ], [
+         fhir:index 3;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "combo-code-value-quantity" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-combo-code-value-quantity";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-combo-code-value-quantity>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "composite" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Code and quantity value parameter pair, including in components" ]
+       ], [
+         fhir:index 4;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "subject" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-subject";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-subject>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The subject that the observation is about" ]
+       ], [
+         fhir:index 5;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "component-data-absent-reason" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-component-data-absent-reason";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-component-data-absent-reason>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The reason why the expected value in the element Observation.component.value[x] is missing." ]
+       ], [
+         fhir:index 6;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "value-concept" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-value-concept";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-value-concept>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The value of the observation, if the value is a CodeableConcept" ]
+       ], [
+         fhir:index 7;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "value-date" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-value-date";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-value-date>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "date" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The value of the observation, if the value is a date or period of time" ]
+       ], [
+         fhir:index 8;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "code-value-string" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-code-value-string";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-code-value-string>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "composite" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Code and string value parameter pair" ]
+       ], [
+         fhir:index 9;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "component-code-value-quantity" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-component-code-value-quantity";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-component-code-value-quantity>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "composite" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Component code and component quantity value parameter pair" ]
+       ], [
+         fhir:index 10;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "based-on" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-based-on";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-based-on>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Reference to the test or procedure request." ]
+       ], [
+         fhir:index 11;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "related" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-related";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-related>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "composite" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Related Observations - search on related-type and related-target together" ]
+       ], [
+         fhir:index 12;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "code-value-date" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-code-value-date";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-code-value-date>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "composite" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Code and date/time value parameter pair" ]
+       ], [
+         fhir:index 13;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "patient" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/clinical-patient";
+           fhir:link <http://hl7.org/fhir/SearchParameter/clinical-patient>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The subject that the observation is about (if patient)" ]
+       ], [
+         fhir:index 14;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "specimen" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-specimen";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-specimen>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Specimen used for this observation" ]
+       ], [
+         fhir:index 15;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "component-code" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-component-code";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-component-code>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The component code of the observation type" ]
+       ], [
+         fhir:index 16;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "code-value-quantity" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-code-value-quantity";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-code-value-quantity>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "composite" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Code and quantity value parameter pair" ]
+       ], [
+         fhir:index 17;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "context" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-context";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-context>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Healthcare event  (Episode-of-care or Encounter) related to the observation" ]
+       ], [
+         fhir:index 18;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "combo-code-value-concept" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-combo-code-value-concept";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-combo-code-value-concept>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "composite" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Code and coded value parameter pair, including in components" ]
+       ], [
+         fhir:index 19;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "value-string" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-value-string";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-value-string>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "string" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The value of the observation, if the value is a string, and also searches in CodeableConcept.text" ]
+       ], [
+         fhir:index 20;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "identifier" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/clinical-identifier";
+           fhir:link <http://hl7.org/fhir/SearchParameter/clinical-identifier>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The unique id for a particular observation" ]
+       ], [
+         fhir:index 21;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "performer" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-performer";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-performer>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Who performed the observation" ]
+       ], [
+         fhir:index 22;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "combo-code" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-combo-code";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-combo-code>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The code of the observation type or component type" ]
+       ], [
+         fhir:index 23;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "method" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-method";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-method>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The method used for the observation" ]
+       ], [
+         fhir:index 24;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "value-quantity" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-value-quantity";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-value-quantity>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "quantity" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The value of the observation, if the value is a Quantity, or a SampledData (just search on the bounds of the values in sampled data)" ]
+       ], [
+         fhir:index 25;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "component-value-quantity" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-component-value-quantity";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-component-value-quantity>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "quantity" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The value of the component observation, if the value is a Quantity, or a SampledData (just search on the bounds of the values in sampled data)" ]
+       ], [
+         fhir:index 26;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "data-absent-reason" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-data-absent-reason";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-data-absent-reason>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The reason why the expected value in the element Observation.value[x] is missing." ]
+       ], [
+         fhir:index 27;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "combo-value-quantity" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-combo-value-quantity";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-combo-value-quantity>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "quantity" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The value or component value of the observation, if the value is a Quantity, or a SampledData (just search on the bounds of the values in sampled data)" ]
+       ], [
+         fhir:index 28;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "encounter" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/clinical-encounter";
+           fhir:link <http://hl7.org/fhir/SearchParameter/clinical-encounter>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Encounter related to the observation" ]
+       ], [
+         fhir:index 29;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "related-type" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-related-type";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-related-type>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "has-member | derived-from | sequel-to | replaces | qualified-by | interfered-by" ]
+       ], [
+         fhir:index 30;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "related-target" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-related-target";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-related-target>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Resource that is related to this one" ]
+       ], [
+         fhir:index 31;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "code-value-concept" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-code-value-concept";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-code-value-concept>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "composite" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Code and coded value parameter pair" ]
+       ], [
+         fhir:index 32;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "component-code-value-concept" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-component-code-value-concept";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-component-code-value-concept>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "composite" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Component code and component coded value parameter pair" ]
+       ], [
+         fhir:index 33;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "component-value-concept" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-component-value-concept";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-component-value-concept>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The value of the component observation, if the value is a CodeableConcept" ]
+       ], [
+         fhir:index 34;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "category" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-category";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-category>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The classification of the type of observation" ]
+       ], [
+         fhir:index 35;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "device" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-device";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-device>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The Device that generated the observation data." ]
+       ], [
+         fhir:index 36;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "combo-value-concept" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-combo-value-concept";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-combo-value-concept>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The value or component value of the observation, if the value is a CodeableConcept" ]
+       ], [
+         fhir:index 37;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "status" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-status";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-status>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The status of the observation" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:CapabilityStatement.rest.resource.type [ fhir:value "BundledFunctionalStatus" ];
+       fhir:CapabilityStatement.rest.resource.profile [
+         fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-bfs.html";
+         fhir:link <https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-bfs.html>
+       ];
+       fhir:CapabilityStatement.rest.resource.interaction [
+         fhir:index 0;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ];
+         fhir:CapabilityStatement.rest.resource.interaction.documentation [ fhir:value "Implemented per the specification (or Insert other doco here)" ]
+       ], [
+         fhir:index 1;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "vread" ];
+         fhir:CapabilityStatement.rest.resource.interaction.documentation [ fhir:value "Implemented per the specification (or Insert other doco here)" ]
+       ], [
+         fhir:index 2;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-instance" ];
+         fhir:CapabilityStatement.rest.resource.interaction.documentation [ fhir:value "Implemented per the specification (or Insert other doco here)" ]
+       ], [
+         fhir:index 3;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-type" ];
+         fhir:CapabilityStatement.rest.resource.interaction.documentation [ fhir:value "Implemented per the specification (or Insert other doco here)" ]
+       ], [
+         fhir:index 4;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "search-type" ];
+         fhir:CapabilityStatement.rest.resource.interaction.documentation [ fhir:value "Implemented per the specification (or Insert other doco here)" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.conditionalCreate [ fhir:value "true"^^xsd:boolean ];
+       fhir:CapabilityStatement.rest.resource.conditionalUpdate [ fhir:value "true"^^xsd:boolean ];
+       fhir:CapabilityStatement.rest.resource.conditionalDelete [ fhir:value "multiple" ];
+       fhir:CapabilityStatement.rest.resource.referencePolicy [
+         fhir:value "literal";
+         fhir:index 0
+       ], [
+         fhir:value "logical";
+         fhir:index 1
+       ];
+       fhir:CapabilityStatement.rest.resource.searchInclude [
+         fhir:value "Observation.subject";
+         fhir:index 0
+       ], [
+         fhir:value "Observation.based-on";
+         fhir:index 1
+       ], [
+         fhir:value "Observation.patient";
+         fhir:index 2
+       ], [
+         fhir:value "Observation.specimen";
+         fhir:index 3
+       ], [
+         fhir:value "Observation.context";
+         fhir:index 4
+       ], [
+         fhir:value "Observation.performer";
+         fhir:index 5
+       ], [
+         fhir:value "Observation.encounter";
+         fhir:index 6
+       ], [
+         fhir:value "Observation.related-target";
+         fhir:index 7
+       ], [
+         fhir:value "Observation.device";
+         fhir:index 8
+       ];
+       fhir:CapabilityStatement.rest.resource.searchRevInclude [
+         fhir:value "ChargeItem.service";
+         fhir:index 0
+       ], [
+         fhir:value "ClinicalImpression.finding-ref";
+         fhir:index 1
+       ], [
+         fhir:value "ClinicalImpression.investigation";
+         fhir:index 2
+       ], [
+         fhir:value "DiagnosticReport.result";
+         fhir:index 3
+       ], [
+         fhir:value "Immunization.reaction";
+         fhir:index 4
+       ], [
+         fhir:value "ImmunizationRecommendation.information";
+         fhir:index 5
+       ], [
+         fhir:value "MedicationStatement.part-of";
+         fhir:index 6
+       ], [
+         fhir:value "Observation.related-target";
+         fhir:index 7
+       ], [
+         fhir:value "Procedure.part-of";
+         fhir:index 8
+       ], [
+         fhir:value "QuestionnaireResponse.parent";
+         fhir:index 9
+       ];
+       fhir:CapabilityStatement.rest.resource.searchParam [
+         fhir:index 0;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "date" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/clinical-date";
+           fhir:link <http://hl7.org/fhir/SearchParameter/clinical-date>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "date" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Obtained date/time. If the obtained element is a period, a date that falls in the period" ]
+       ], [
+         fhir:index 1;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "combo-data-absent-reason" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-combo-data-absent-reason";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-combo-data-absent-reason>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The reason why the expected value in the element Observation.value[x] or Observation.component.value[x] is missing." ]
+       ], [
+         fhir:index 2;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "code" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/clinical-code";
+           fhir:link <http://hl7.org/fhir/SearchParameter/clinical-code>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The code of the observation type" ]
+       ], [
+         fhir:index 3;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "combo-code-value-quantity" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-combo-code-value-quantity";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-combo-code-value-quantity>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "composite" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Code and quantity value parameter pair, including in components" ]
+       ], [
+         fhir:index 4;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "subject" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-subject";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-subject>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The subject that the observation is about" ]
+       ], [
+         fhir:index 5;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "component-data-absent-reason" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-component-data-absent-reason";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-component-data-absent-reason>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The reason why the expected value in the element Observation.component.value[x] is missing." ]
+       ], [
+         fhir:index 6;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "value-concept" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-value-concept";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-value-concept>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The value of the observation, if the value is a CodeableConcept" ]
+       ], [
+         fhir:index 7;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "value-date" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-value-date";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-value-date>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "date" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The value of the observation, if the value is a date or period of time" ]
+       ], [
+         fhir:index 8;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "code-value-string" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-code-value-string";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-code-value-string>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "composite" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Code and string value parameter pair" ]
+       ], [
+         fhir:index 9;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "component-code-value-quantity" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-component-code-value-quantity";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-component-code-value-quantity>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "composite" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Component code and component quantity value parameter pair" ]
+       ], [
+         fhir:index 10;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "based-on" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-based-on";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-based-on>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Reference to the test or procedure request." ]
+       ], [
+         fhir:index 11;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "related" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-related";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-related>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "composite" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Related Observations - search on related-type and related-target together" ]
+       ], [
+         fhir:index 12;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "code-value-date" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-code-value-date";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-code-value-date>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "composite" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Code and date/time value parameter pair" ]
+       ], [
+         fhir:index 13;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "patient" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/clinical-patient";
+           fhir:link <http://hl7.org/fhir/SearchParameter/clinical-patient>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The subject that the observation is about (if patient)" ]
+       ], [
+         fhir:index 14;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "specimen" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-specimen";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-specimen>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Specimen used for this observation" ]
+       ], [
+         fhir:index 15;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "component-code" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-component-code";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-component-code>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The component code of the observation type" ]
+       ], [
+         fhir:index 16;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "code-value-quantity" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-code-value-quantity";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-code-value-quantity>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "composite" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Code and quantity value parameter pair" ]
+       ], [
+         fhir:index 17;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "context" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-context";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-context>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Healthcare event  (Episode-of-care or Encounter) related to the observation" ]
+       ], [
+         fhir:index 18;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "combo-code-value-concept" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-combo-code-value-concept";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-combo-code-value-concept>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "composite" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Code and coded value parameter pair, including in components" ]
+       ], [
+         fhir:index 19;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "value-string" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-value-string";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-value-string>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "string" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The value of the observation, if the value is a string, and also searches in CodeableConcept.text" ]
+       ], [
+         fhir:index 20;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "identifier" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/clinical-identifier";
+           fhir:link <http://hl7.org/fhir/SearchParameter/clinical-identifier>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The unique id for a particular observation" ]
+       ], [
+         fhir:index 21;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "performer" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-performer";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-performer>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Who performed the observation" ]
+       ], [
+         fhir:index 22;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "combo-code" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-combo-code";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-combo-code>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The code of the observation type or component type" ]
+       ], [
+         fhir:index 23;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "method" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-method";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-method>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The method used for the observation" ]
+       ], [
+         fhir:index 24;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "value-quantity" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-value-quantity";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-value-quantity>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "quantity" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The value of the observation, if the value is a Quantity, or a SampledData (just search on the bounds of the values in sampled data)" ]
+       ], [
+         fhir:index 25;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "component-value-quantity" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-component-value-quantity";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-component-value-quantity>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "quantity" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The value of the component observation, if the value is a Quantity, or a SampledData (just search on the bounds of the values in sampled data)" ]
+       ], [
+         fhir:index 26;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "data-absent-reason" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-data-absent-reason";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-data-absent-reason>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The reason why the expected value in the element Observation.value[x] is missing." ]
+       ], [
+         fhir:index 27;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "combo-value-quantity" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-combo-value-quantity";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-combo-value-quantity>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "quantity" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The value or component value of the observation, if the value is a Quantity, or a SampledData (just search on the bounds of the values in sampled data)" ]
+       ], [
+         fhir:index 28;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "encounter" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/clinical-encounter";
+           fhir:link <http://hl7.org/fhir/SearchParameter/clinical-encounter>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Encounter related to the observation" ]
+       ], [
+         fhir:index 29;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "related-type" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-related-type";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-related-type>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "has-member | derived-from | sequel-to | replaces | qualified-by | interfered-by" ]
+       ], [
+         fhir:index 30;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "related-target" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-related-target";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-related-target>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Resource that is related to this one" ]
+       ], [
+         fhir:index 31;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "code-value-concept" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-code-value-concept";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-code-value-concept>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "composite" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Code and coded value parameter pair" ]
+       ], [
+         fhir:index 32;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "component-code-value-concept" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-component-code-value-concept";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-component-code-value-concept>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "composite" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Component code and component coded value parameter pair" ]
+       ], [
+         fhir:index 33;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "component-value-concept" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-component-value-concept";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-component-value-concept>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The value of the component observation, if the value is a CodeableConcept" ]
+       ], [
+         fhir:index 34;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "category" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-category";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-category>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The classification of the type of observation" ]
+       ], [
+         fhir:index 35;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "device" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-device";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-device>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The Device that generated the observation data." ]
+       ], [
+         fhir:index 36;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "combo-value-concept" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-combo-value-concept";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-combo-value-concept>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The value or component value of the observation, if the value is a CodeableConcept" ]
+       ], [
+         fhir:index 37;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "status" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/Observation-status";
+           fhir:link <http://hl7.org/fhir/SearchParameter/Observation-status>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The status of the observation" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:CapabilityStatement.rest.resource.type [ fhir:value "PACIOQuestionaireResponse" ];
+       fhir:CapabilityStatement.rest.resource.profile [
+         fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-qr.html";
+         fhir:link <https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-qr.html>
+       ];
+       fhir:CapabilityStatement.rest.resource.interaction [
+         fhir:index 0;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ];
+         fhir:CapabilityStatement.rest.resource.interaction.documentation [ fhir:value "Implemented per the specification (or Insert other doco here)" ]
+       ], [
+         fhir:index 1;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "vread" ];
+         fhir:CapabilityStatement.rest.resource.interaction.documentation [ fhir:value "Implemented per the specification (or Insert other doco here)" ]
+       ], [
+         fhir:index 2;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-instance" ];
+         fhir:CapabilityStatement.rest.resource.interaction.documentation [ fhir:value "Implemented per the specification (or Insert other doco here)" ]
+       ], [
+         fhir:index 3;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-type" ];
+         fhir:CapabilityStatement.rest.resource.interaction.documentation [ fhir:value "Implemented per the specification (or Insert other doco here)" ]
+       ], [
+         fhir:index 4;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "search-type" ];
+         fhir:CapabilityStatement.rest.resource.interaction.documentation [ fhir:value "Implemented per the specification (or Insert other doco here)" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.conditionalCreate [ fhir:value "true"^^xsd:boolean ];
+       fhir:CapabilityStatement.rest.resource.conditionalUpdate [ fhir:value "true"^^xsd:boolean ];
+       fhir:CapabilityStatement.rest.resource.conditionalDelete [ fhir:value "multiple" ];
+       fhir:CapabilityStatement.rest.resource.referencePolicy [
+         fhir:value "literal";
+         fhir:index 0
+       ], [
+         fhir:value "logical";
+         fhir:index 1
+       ];
+       fhir:CapabilityStatement.rest.resource.searchInclude [
+         fhir:value "PACIOfunctionalQuestionaireResponse.parent";
+         fhir:index 0
+       ], [
+         fhir:value "PACIOfunctionalQuestionaireResponse.questionnaire";
+         fhir:index 1
+       ], [
+         fhir:value "PACIOfunctionalQuestionaireResponse.based-on";
+         fhir:index 2
+       ], [
+         fhir:value "PACIOfunctionalQuestionaireResponse.subject";
+         fhir:index 3
+       ], [
+         fhir:value "PACIOfunctionalQuestionaireResponse.author";
+         fhir:index 4
+       ], [
+         fhir:value "PACIOfunctionalQuestionaireResponse.patient";
+         fhir:index 5
+       ], [
+         fhir:value "PACIOfunctionalQuestionaireResponse.context";
+         fhir:index 6
+       ], [
+         fhir:value "PACIOfunctionalQuestionaireResponse.source";
+         fhir:index 7
+       ];
+       fhir:CapabilityStatement.rest.resource.searchRevInclude [
+         fhir:value "ClinicalImpression.investigation";
+         fhir:index 0
+       ], [
+         fhir:value "Consent.source";
+         fhir:index 1
+       ], [
+         fhir:value "Observation.related-target";
+         fhir:index 2
+       ];
+       fhir:CapabilityStatement.rest.resource.searchParam [
+         fhir:index 0;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "authored" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/QuestionnaireResponse-authored";
+           fhir:link <http://hl7.org/fhir/SearchParameter/QuestionnaireResponse-authored>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "date" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "When the questionnaire response was last changed" ]
+       ], [
+         fhir:index 1;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "identifier" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/QuestionnaireResponse-identifier";
+           fhir:link <http://hl7.org/fhir/SearchParameter/QuestionnaireResponse-identifier>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The unique identifier for the questionnaire response" ]
+       ], [
+         fhir:index 2;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "parent" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/QuestionnaireResponse-parent";
+           fhir:link <http://hl7.org/fhir/SearchParameter/QuestionnaireResponse-parent>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Procedure or observation this questionnaire response was performed as a part of" ]
+       ], [
+         fhir:index 3;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "questionnaire" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/QuestionnaireResponse-questionnaire";
+           fhir:link <http://hl7.org/fhir/SearchParameter/QuestionnaireResponse-questionnaire>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The questionnaire the answers are provided for" ]
+       ], [
+         fhir:index 4;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "based-on" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/QuestionnaireResponse-based-on";
+           fhir:link <http://hl7.org/fhir/SearchParameter/QuestionnaireResponse-based-on>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Plan/proposal/order fulfilled by this questionnaire response" ]
+       ], [
+         fhir:index 5;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "subject" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/QuestionnaireResponse-subject";
+           fhir:link <http://hl7.org/fhir/SearchParameter/QuestionnaireResponse-subject>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The subject of the questionnaire response" ]
+       ], [
+         fhir:index 6;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "author" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/QuestionnaireResponse-author";
+           fhir:link <http://hl7.org/fhir/SearchParameter/QuestionnaireResponse-author>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The author of the questionnaire response" ]
+       ], [
+         fhir:index 7;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "patient" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/QuestionnaireResponse-patient";
+           fhir:link <http://hl7.org/fhir/SearchParameter/QuestionnaireResponse-patient>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The patient that is the subject of the questionnaire response" ]
+       ], [
+         fhir:index 8;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "context" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/QuestionnaireResponse-context";
+           fhir:link <http://hl7.org/fhir/SearchParameter/QuestionnaireResponse-context>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Encounter or episode associated with the questionnaire response" ]
+       ], [
+         fhir:index 9;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "source" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/QuestionnaireResponse-source";
+           fhir:link <http://hl7.org/fhir/SearchParameter/QuestionnaireResponse-source>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The individual providing the information reflected in the questionnaire respose" ]
+       ], [
+         fhir:index 10;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "status" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/QuestionnaireResponse-status";
+           fhir:link <http://hl7.org/fhir/SearchParameter/QuestionnaireResponse-status>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The status of the questionnaire response" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:CapabilityStatement.rest.resource.type [ fhir:value "UseOfDevice" ];
+       fhir:CapabilityStatement.rest.resource.profile [
+         fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-dev.html";
+         fhir:link <https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-dev.html>
+       ];
+       fhir:CapabilityStatement.rest.resource.interaction [
+         fhir:index 0;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ];
+         fhir:CapabilityStatement.rest.resource.interaction.documentation [ fhir:value "Implemented per the specification (or Insert other doco here)" ]
+       ], [
+         fhir:index 1;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "vread" ];
+         fhir:CapabilityStatement.rest.resource.interaction.documentation [ fhir:value "Implemented per the specification (or Insert other doco here)" ]
+       ], [
+         fhir:index 2;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-instance" ];
+         fhir:CapabilityStatement.rest.resource.interaction.documentation [ fhir:value "Implemented per the specification (or Insert other doco here)" ]
+       ], [
+         fhir:index 3;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-type" ];
+         fhir:CapabilityStatement.rest.resource.interaction.documentation [ fhir:value "Implemented per the specification (or Insert other doco here)" ]
+       ], [
+         fhir:index 4;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "search-type" ];
+         fhir:CapabilityStatement.rest.resource.interaction.documentation [ fhir:value "Implemented per the specification (or Insert other doco here)" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.conditionalCreate [ fhir:value "true"^^xsd:boolean ];
+       fhir:CapabilityStatement.rest.resource.conditionalUpdate [ fhir:value "true"^^xsd:boolean ];
+       fhir:CapabilityStatement.rest.resource.conditionalDelete [ fhir:value "multiple" ];
+       fhir:CapabilityStatement.rest.resource.referencePolicy [
+         fhir:value "literal";
+         fhir:index 0
+       ], [
+         fhir:value "logical";
+         fhir:index 1
+       ];
+       fhir:CapabilityStatement.rest.resource.searchInclude [
+         fhir:value "DeviceUseStatement.subject";
+         fhir:index 0
+       ], [
+         fhir:value "DeviceUseStatement.patient";
+         fhir:index 1
+       ], [
+         fhir:value "DeviceUseStatement.device";
+         fhir:index 2
+       ];
+       fhir:CapabilityStatement.rest.resource.searchParam [
+         fhir:index 0;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "identifier" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/DeviceUseStatement-identifier";
+           fhir:link <http://hl7.org/fhir/SearchParameter/DeviceUseStatement-identifier>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Search by identifier" ]
+       ], [
+         fhir:index 1;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "subject" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/DeviceUseStatement-subject";
+           fhir:link <http://hl7.org/fhir/SearchParameter/DeviceUseStatement-subject>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Search by subject" ]
+       ], [
+         fhir:index 2;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "patient" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/clinical-patient";
+           fhir:link <http://hl7.org/fhir/SearchParameter/clinical-patient>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Search by subject - a patient" ]
+       ], [
+         fhir:index 3;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "device" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.definition [
+           fhir:value "http://hl7.org/fhir/SearchParameter/DeviceUseStatement-device";
+           fhir:link <http://hl7.org/fhir/SearchParameter/DeviceUseStatement-device>
+         ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Search by device" ]
+       ]
+     ];
+     fhir:CapabilityStatement.rest.interaction [
+       fhir:index 0;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
+         fhir:Extension.valueCode [ fhir:value "MAY" ]
+       ];
+       fhir:CapabilityStatement.rest.interaction.code [ fhir:value "batch" ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
+         fhir:Extension.valueCode [ fhir:value "MAY" ]
+       ];
+       fhir:CapabilityStatement.rest.interaction.code [ fhir:value "search-system" ]
+     ];
+     fhir:CapabilityStatement.rest.searchParam [
+       fhir:index 0;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
+         fhir:Extension.valueCode [ fhir:value "MAY" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "_content" ];
+       fhir:CapabilityStatement.rest.resource.searchParam.definition [
+         fhir:value "http://hl7.org/fhir/SearchParameter/Resource-content";
+         fhir:link <http://hl7.org/fhir/SearchParameter/Resource-content>
+       ];
+       fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "string" ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
+         fhir:Extension.valueCode [ fhir:value "SHALL" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "_id" ];
+       fhir:CapabilityStatement.rest.resource.searchParam.definition [
+         fhir:value "http://hl7.org/fhir/SearchParameter/Resource-id";
+         fhir:link <http://hl7.org/fhir/SearchParameter/Resource-id>
+       ];
+       fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
+         fhir:Extension.valueCode [ fhir:value "SHALL" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "_lastUpdated" ];
+       fhir:CapabilityStatement.rest.resource.searchParam.definition [
+         fhir:value "http://hl7.org/fhir/SearchParameter/Resource-lastUpdated";
+         fhir:link <http://hl7.org/fhir/SearchParameter/Resource-lastUpdated>
+       ];
+       fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "date" ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
+         fhir:Extension.valueCode [ fhir:value "MAY" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "_security" ];
+       fhir:CapabilityStatement.rest.resource.searchParam.definition [
+         fhir:value "http://hl7.org/fhir/SearchParameter/Resource-security";
+         fhir:link <http://hl7.org/fhir/SearchParameter/Resource-security>
+       ];
+       fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ]
+     ], [
+       fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
+         fhir:Extension.valueCode [ fhir:value "MAY" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "_text" ];
+       fhir:CapabilityStatement.rest.resource.searchParam.definition [
+         fhir:value "http://hl7.org/fhir/SearchParameter/DomainResource-text";
+         fhir:link <http://hl7.org/fhir/SearchParameter/DomainResource-text>
+       ];
+       fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "string" ]
+     ], [
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
+         fhir:Extension.valueCode [ fhir:value "MAY" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "_query" ];
+       fhir:CapabilityStatement.rest.resource.searchParam.definition [
+         fhir:value "http://hl7.org/fhir/SearchParameter/Resource-query";
+         fhir:link <http://hl7.org/fhir/SearchParameter/Resource-query>
+       ];
+       fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://paciowg.github.io/functional-status-ig/CapabilityStatement/pacio-fs.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

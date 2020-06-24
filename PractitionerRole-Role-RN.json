@@ -1,0 +1,20 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "Role-RN",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>id</b>: Role-RN</p><p><b>active</b>: true</p><p><b>code</b>: <span title=\"Codes: {http://snomed.info/sct 224535009}\">Registered Nurse</span></p></div>"
+  },
+  "active": true,
+  "code": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "224535009",
+          "display": "Registered Nurse"
+        }
+      ]
+    }
+  ]
+}

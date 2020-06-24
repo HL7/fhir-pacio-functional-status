@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="Assessment-Hosp-Admission-SelfCare-Ob-19"/>
+  <meta>
+    <profile value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>id</b>: Assessment-Hosp-Admission-SelfCare-Ob-19</p><p><b>meta</b>: </p><p></p><p><b>code</b>: <span title="Codes: {http://loinc.org 83226-1}">Shower/bathe self</span></p><p><b>subject</b>: <a href="Patient-patientBSJ1.html">Generated Summary: id: patientBSJ1; Betsy Smith-Johnson </a></p><p><b>effective</b>: Apr 2, 2020, 11:00:00 AM</p><p><b>performer</b>: </p><ul><li><a href="Practitioner-Practitioner-SallySmith.html">Generated Summary: id: Practitioner-SallySmith; active; Sally Smith ; gender: female</a></li><li><a href="PractitionerRole-Role-PT.html">Generated Summary: id: Role-PT; active; <span title="Codes: {http://snomed.info/sct 36682004}">Physiotherapist</span></a></li><li><a href="Organization-Org-01.html">Organization. Generated Summary: id: Org-01; name: San Antonio General Hospital</a></li></ul><p><b>value</b>: <span title="Codes: {http://loinc.org LA27665-1}">Not Attempted</span></p><p><b>derivedFrom</b>: <a href="QuestionnaireResponse-QResponse-Hosp-Admission-SelfCare.html">Generated Summary: id: QResponse-Hosp-Admission-SelfCare; questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Apr 2, 2020, 11:00:00 AM</a></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 83233-7}">Self-Care - Admission Performance</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA27665-1}">Not Attempted</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 83254-3}">Self-Care - Discharge Performance</span></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA27665-1}">Not Attempted</span></p></blockquote></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/event-location">
+    <valueReference>
+      <reference value="Location/Org-Loc-01"/>
+    </valueReference>
+  </extension>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="83226-1"/>
+      <display value="Shower &amp;or bathe self - functional ability during 3D assessment period"/>
+    </coding>
+    <text value="Shower/bathe self"/>
+  </code>
+  <subject>
+    <reference value="Patient/patientBSJ1"/>
+  </subject>
+  <effectiveDateTime value="2020-04-02T10:00:00-05:00"/>
+  <performer>
+    <reference value="Practitioner/Practitioner-SallySmith"/>
+  </performer>
+  <performer>
+    <reference value="PractitionerRole/Role-PT"/>
+  </performer>
+  <performer>
+    <reference value="Organization/Org-01"/>
+    <display value="Organization"/>
+  </performer>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="LA27665-1"/>
+      <display value="Not Attempted"/>
+    </coding>
+    <text value="Not Attempted"/>
+  </valueCodeableConcept>
+  <derivedFrom>
+    <reference value="QuestionnaireResponse/QResponse-Hosp-Admission-SelfCare"/>
+  </derivedFrom>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="83233-7"/>
+        <display value="Self-Care - Admission Performance"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="LA27665-1"/>
+      </coding>
+      <text value="Not Attempted"/>
+    </valueCodeableConcept>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="83254-3"/>
+        <display value="Self-Care - Discharge Performance"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="LA27665-1"/>
+      </coding>
+      <text value="Not Attempted"/>
+    </valueCodeableConcept>
+  </component>
+</Observation>

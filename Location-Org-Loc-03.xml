@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Location xmlns="http://hl7.org/fhir">
+  <id value="Org-Loc-03"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>id</b>: Org-Loc-03</p><p><b>status</b>: active</p><p><b>name</b>: Sky Harbor Home Health Services</p><p><b>address</b>: 8810 Old Sky Harbor, San Antonio, TX 78242</p></div>
+  </text>
+  <status value="active"/>
+  <name value="Sky Harbor Home Health Services"/>
+  <address>
+    <text value="8810 Old Sky Harbor, San Antonio, TX 78242"/>
+  </address>
+</Location>

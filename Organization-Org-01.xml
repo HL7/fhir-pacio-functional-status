@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Organization xmlns="http://hl7.org/fhir">
+  <id value="Org-01"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>id</b>: Org-01</p><p><b>name</b>: San Antonio General Hospital</p></div>
+  </text>
+  <name value="San Antonio General Hospital"/>
+</Organization>

@@ -1,0 +1,34 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://paciowg.github.io/functional-status-ig/PractitionerRole/Role-PT> a fhir:PractitionerRole;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Role-PT"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>id</b>: Role-PT</p><p><b>active</b>: true</p><p><b>code</b>: <span title=\"Codes: {http://snomed.info/sct 36682004}\">Physiotherapist</span></p></div>"
+  ];
+  fhir:PractitionerRole.active [ fhir:value "true"^^xsd:boolean];
+  fhir:PractitionerRole.code [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a sct:36682004;
+       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:Coding.code [ fhir:value "36682004" ];
+       fhir:Coding.display [ fhir:value "Physiotherapist" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://paciowg.github.io/functional-status-ig/PractitionerRole/Role-PT.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

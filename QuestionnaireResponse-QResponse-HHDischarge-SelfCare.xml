@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<QuestionnaireResponse xmlns="http://hl7.org/fhir">
+  <id value="QResponse-HHDischarge-SelfCare"/>
+  <meta>
+    <profile value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>id</b>: QResponse-HHDischarge-SelfCare</p><p><b>meta</b>: </p><p><b>questionnaire</b>: <a href="https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17">https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href="Patient-patientBSJ1.html">Generated Summary: id: patientBSJ1; Betsy Smith-Johnson </a></p><p><b>authored</b>: May 1, 2020, 2:00:00 PM</p><blockquote><p><b>item</b></p><p><b>id</b>: 88483-3</p><p><b>linkId</b>: Section-37</p><p><b>text</b>: Functional Abilities and Goals - Discharge</p><h3>Items</h3><table class="grid"><tr><td>-</td><td><b>Id</b></td></tr><tr><td>*</td><td>83254-3</td></tr></table></blockquote></div>
+  </text>
+  <questionnaire value="https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17"/>
+  <status value="completed"/>
+  <subject>
+    <reference value="Patient/patientBSJ1"/>
+  </subject>
+  <authored value="2020-05-01T13:00:00-05:00"/>
+  <item id="88483-3">
+    <linkId value="Section-37"/>
+    <text value="Functional Abilities and Goals - Discharge"/>
+    <item id="83254-3">
+      <linkId value="Section-37/GG0130"/>
+      <text value="Self-Care - Discharge Performance"/>
+      <item id="83232-9">
+        <linkId value="Section-37/GG0130A3"/>
+        <text value="Eating - functional ability during 3D assessment period"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/Assessment-HHDischarge-SelfCare-Ob-6"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="83230-3">
+        <linkId value="Section-37/GG0130B3"/>
+        <text value="Oral hygiene - functional ability during 3D assessment period"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/Assessment-HHDischarge-SelfCare-Ob-12"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="83228-7">
+        <linkId value="Section-37/GG0130C3"/>
+        <text value="Toileting hygiene - functional ability during 3D assessment period"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/Assessment-HHDischarge-SelfCare-Ob-18"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="83226-1">
+        <linkId value="Section-37/GG0130E3"/>
+        <text value="Shower &amp;or bathe self - functional ability during 3D assessment period"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/Assessment-HHDischarge-SelfCare-Ob-24"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="83224-6">
+        <linkId value="Section-37/GG0130F3"/>
+        <text value="Upper body dressing - functional ability during 3D assessment period"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/Assessment-HHDischarge-SelfCare-Ob-30"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="83222-0">
+        <linkId value="Section-37/GG0130G3"/>
+        <text value="Lower body dressing - functional ability during 3D assessment period"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/Assessment-HHDischarge-SelfCare-Ob-36"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="83220-4">
+        <linkId value="Section-37/GG0130H3"/>
+        <text value="Putting on and taking off footwear - functional ability during 3D assessment period"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/Assessment-HHDischarge-SelfCare-Ob-42"/>
+          </valueReference>
+        </answer>
+      </item>
+    </item>
+  </item>
+</QuestionnaireResponse>

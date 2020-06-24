@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Location xmlns="http://hl7.org/fhir">
+  <id value="Org-Loc-01"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>id</b>: Org-Loc-01</p><p><b>status</b>: active</p><p><b>name</b>: San Antonio General Hospital</p><p><b>address</b>: 26022 Meadowlark Bay, San Antonio, TX 78260</p></div>
+  </text>
+  <status value="active"/>
+  <name value="San Antonio General Hospital"/>
+  <address>
+    <text value="26022 Meadowlark Bay, San Antonio, TX 78260"/>
+  </address>
+</Location>

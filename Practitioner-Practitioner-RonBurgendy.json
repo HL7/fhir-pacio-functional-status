@@ -1,0 +1,18 @@
+{
+  "resourceType": "Practitioner",
+  "id": "Practitioner-RonBurgendy",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>id</b>: Practitioner-RonBurgendy</p><p><b>active</b>: true</p><p><b>name</b>: Ron Burgendy </p><p><b>gender</b>: male</p></div>"
+  },
+  "active": true,
+  "name": [
+    {
+      "family": "Burgendy",
+      "given": [
+        "Ron"
+      ]
+    }
+  ],
+  "gender": "male"
+}

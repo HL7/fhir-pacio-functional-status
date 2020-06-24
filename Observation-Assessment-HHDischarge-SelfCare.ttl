@@ -1,0 +1,110 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://paciowg.github.io/functional-status-ig/Observation/Assessment-HHDischarge-SelfCare> a fhir:Observation;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Assessment-HHDischarge-SelfCare"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs";
+       fhir:index 0;
+       fhir:link <https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>id</b>: Assessment-HHDischarge-SelfCare</p><p><b>meta</b>: </p><p></p><p><b>category</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 83254-3}\">Self-Care - Discharge Performance</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: id: patientBSJ1; Betsy Smith-Johnson </a></p><p><b>effective</b>: May 1, 2020, 2:00:00 PM</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Practitioner-ScottDumble.html\">Generated Summary: id: Practitioner-ScottDumble; active; Scott Dumble ; gender: male</a></li><li><a href=\"PractitionerRole-Role-RN.html\">Generated Summary: id: Role-RN; active; <span title=\"Codes: {http://snomed.info/sct 224535009}\">Registered Nurse</span></a></li><li><a href=\"Organization-Org-03.html\">Organization. Generated Summary: id: Org-03; name: Sky Harbor Home Health Services</a></li></ul><p><b>hasMember</b>: </p><ul><li><a href=\"Observation-Assessment-HHDischarge-SelfCare-Ob-6.html\">Generated Summary: id: Assessment-HHDischarge-SelfCare-Ob-6; <span title=\"Codes: {http://loinc.org 83232-9}\">Eating</span>; effective: May 1, 2020, 2:00:00 PM; <span title=\"Codes: {http://loinc.org LA9983-3}\">Independent</span></a></li><li><a href=\"Observation-Assessment-HHDischarge-SelfCare-Ob-12.html\">Generated Summary: id: Assessment-HHDischarge-SelfCare-Ob-12; <span title=\"Codes: {http://loinc.org 83230-3}\">Oral hygiene</span>; effective: May 1, 2020, 2:00:00 PM; <span title=\"Codes: {http://loinc.org LA9983-3}\">Independent</span></a></li><li><a href=\"Observation-Assessment-HHDischarge-SelfCare-Ob-18.html\">Generated Summary: id: Assessment-HHDischarge-SelfCare-Ob-18; <span title=\"Codes: {http://loinc.org 83228-7}\">Toileting hygiene</span>; effective: May 1, 2020, 2:00:00 PM; <span title=\"Codes: {http://loinc.org LA9983-3}\">Independent</span></a></li><li><a href=\"Observation-Assessment-HHDischarge-SelfCare-Ob-24.html\">Generated Summary: id: Assessment-HHDischarge-SelfCare-Ob-24; <span title=\"Codes: {http://loinc.org 83226-1}\">Shower/bathe self</span>; effective: May 1, 2020, 2:00:00 PM; <span title=\"Codes: {http://loinc.org LA9983-3}\">Independent</span></a></li><li><a href=\"Observation-Assessment-HHDischarge-SelfCare-Ob-30.html\">Generated Summary: id: Assessment-HHDischarge-SelfCare-Ob-30; <span title=\"Codes: {http://loinc.org 83224-6}\">Upper body dressing</span>; effective: May 1, 2020, 2:00:00 PM; <span title=\"Codes: {http://loinc.org LA9983-3}\">Independent</span></a></li><li><a href=\"Observation-Assessment-HHDischarge-SelfCare-Ob-36.html\">Generated Summary: id: Assessment-HHDischarge-SelfCare-Ob-36; <span title=\"Codes: {http://loinc.org 83222-0}\">Lower body dressing</span>; effective: May 1, 2020, 2:00:00 PM; <span title=\"Codes: {http://loinc.org LA9983-3}\">Independent</span></a></li><li><a href=\"Observation-Assessment-HHDischarge-SelfCare-Ob-42.html\">Generated Summary: id: Assessment-HHDischarge-SelfCare-Ob-42; <span title=\"Codes: {http://loinc.org 83220-4}\">Putting on/taking off footwear</span>; effective: May 1, 2020, 2:00:00 PM; <span title=\"Codes: {http://loinc.org LA9983-3}\">Independent</span></a></li></ul><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse-QResponse-HHDischarge-SelfCare.html\">Questionnaire Response. Generated Summary: id: QResponse-HHDischarge-SelfCare; questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: May 1, 2020, 2:00:00 PM</a></p></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/event-location" ];
+     fhir:Extension.valueReference [
+       fhir:link <https://paciowg.github.io/functional-status-ig/Location/Org-Loc-03>;
+       fhir:Reference.reference [ fhir:value "Location/Org-Loc-03" ]
+     ]
+  ];
+  fhir:Observation.status [ fhir:value "final"];
+  fhir:Observation.category [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/observation-category" ];
+       fhir:Coding.code [ fhir:value "survey" ]
+     ]
+  ];
+  fhir:Observation.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:83254-3;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "83254-3" ];
+       fhir:Coding.display [ fhir:value "Self-Care - Discharge Performance" ]
+     ]
+  ];
+  fhir:Observation.subject [
+     fhir:link <https://paciowg.github.io/functional-status-ig/Patient/patientBSJ1>;
+     fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
+  ];
+  fhir:Observation.effectiveDateTime [ fhir:value "2020-05-01T13:00:00-05:00"^^xsd:dateTime];
+  fhir:Observation.performer [
+     fhir:index 0;
+     fhir:link <https://paciowg.github.io/functional-status-ig/Practitioner/Practitioner-ScottDumble>;
+     fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-ScottDumble" ]
+  ], [
+     fhir:index 1;
+     fhir:link <https://paciowg.github.io/functional-status-ig/PractitionerRole/Role-RN>;
+     fhir:Reference.reference [ fhir:value "PractitionerRole/Role-RN" ]
+  ], [
+     fhir:index 2;
+     fhir:link <https://paciowg.github.io/functional-status-ig/Organization/Org-03>;
+     fhir:Reference.reference [ fhir:value "Organization/Org-03" ];
+     fhir:Reference.display [ fhir:value "Organization" ]
+  ];
+  fhir:Observation.hasMember [
+     fhir:index 0;
+     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/Assessment-HHDischarge-SelfCare-Ob-6>;
+     fhir:Reference.reference [ fhir:value "Observation/Assessment-HHDischarge-SelfCare-Ob-6" ]
+  ], [
+     fhir:index 1;
+     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/Assessment-HHDischarge-SelfCare-Ob-12>;
+     fhir:Reference.reference [ fhir:value "Observation/Assessment-HHDischarge-SelfCare-Ob-12" ]
+  ], [
+     fhir:index 2;
+     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/Assessment-HHDischarge-SelfCare-Ob-18>;
+     fhir:Reference.reference [ fhir:value "Observation/Assessment-HHDischarge-SelfCare-Ob-18" ]
+  ], [
+     fhir:index 3;
+     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/Assessment-HHDischarge-SelfCare-Ob-24>;
+     fhir:Reference.reference [ fhir:value "Observation/Assessment-HHDischarge-SelfCare-Ob-24" ]
+  ], [
+     fhir:index 4;
+     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/Assessment-HHDischarge-SelfCare-Ob-30>;
+     fhir:Reference.reference [ fhir:value "Observation/Assessment-HHDischarge-SelfCare-Ob-30" ]
+  ], [
+     fhir:index 5;
+     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/Assessment-HHDischarge-SelfCare-Ob-36>;
+     fhir:Reference.reference [ fhir:value "Observation/Assessment-HHDischarge-SelfCare-Ob-36" ]
+  ], [
+     fhir:index 6;
+     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/Assessment-HHDischarge-SelfCare-Ob-42>;
+     fhir:Reference.reference [ fhir:value "Observation/Assessment-HHDischarge-SelfCare-Ob-42" ]
+  ];
+  fhir:Observation.derivedFrom [
+     fhir:index 0;
+     fhir:link <https://paciowg.github.io/functional-status-ig/QuestionnaireResponse/QResponse-HHDischarge-SelfCare>;
+     fhir:Reference.reference [ fhir:value "QuestionnaireResponse/QResponse-HHDischarge-SelfCare" ];
+     fhir:Reference.display [ fhir:value "Questionnaire Response" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://paciowg.github.io/functional-status-ig/Observation/Assessment-HHDischarge-SelfCare.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,1415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="pacio"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>FunctionalStatusImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>https://paciowg.github.io/functional-status-ig/ImplementationGuide/pacio</pre><div><p>TO advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders</p>
+</div></div>
+  </text>
+  <url value="https://paciowg.github.io/functional-status-ig/ImplementationGuide/pacio"/>
+  <version value="0.1.0"/>
+  <name value="FunctionalStatusImplementationGuide"/>
+  <title value="Functional Status Implementation Guide"/>
+  <status value="active"/>
+  <date value="2020-06-24T15:46:43-04:00"/>
+  <publisher value="Sean Mahoney"/>
+  <contact>
+    <name value="Sean Mahoney"/>
+    <telecom>
+      <system value="email"/>
+      <value value="smahoney@mitre.org"/>
+    </telecom>
+  </contact>
+  <description value="TO advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders"/>
+  <packageId value="pacio"/>
+  <license value="CC0-1.0"/>
+  <fhirVersion value="4.0.1"/>
+  <dependsOn>
+    <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core"/>
+    <packageId value="hl7.fhir.us.core"/>
+    <version value="3.1.0"/>
+  </dependsOn>
+  <definition>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="copyrightyear"/>
+      </extension>
+      <extension url="value">
+        <valueString value="2020+"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="releaselabel"/>
+      </extension>
+      <extension url="value">
+        <valueString value="CI Build"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="show-inherited-invariants"/>
+      </extension>
+      <extension url="value">
+        <valueString value="false"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-qa"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/qa"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-temp"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/pages"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-output"/>
+      </extension>
+      <extension url="value">
+        <valueString value="output"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-suppressed-warnings"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/ignoreWarnings.txt"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="template-html"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="template-md"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page-md.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-contact"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-context"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-copyright"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-jurisdiction"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-license"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-publisher"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-version"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="active-tables"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-pacio-bfs.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/pacio-bfs"/>
+      </reference>
+      <name value="Bundled Functional Status"/>
+      <description value="An point in time bundle of functional status observations for a patient."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-pacio-fs.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/pacio-fs"/>
+      </reference>
+      <name value="Functional Status"/>
+      <description value="An exchange of functional status data for a patient."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-pacio-functional-qr.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/pacio-functional-qr"/>
+      </reference>
+      <name value="PACIO Questionaire Response"/>
+      <description value="A completed, or sections of a completed, CMS PAC assessment."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-pacio-plf.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/pacio-plf"/>
+      </reference>
+      <name value="Prior Level Of Function"/>
+      <description value="An exchange of prior level of function data for a patient."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-pacio-dev.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/pacio-dev"/>
+      </reference>
+      <name value="UseOfDevice"/>
+      <description value="A device used by a Patient during a functional status assessment."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-assistance-required.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/assistance-required"/>
+      </reference>
+      <name value="AssistanceRequired"/>
+      <description value="Associated functional status used for display purposes."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-device-patient-used.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/device-patient-used"/>
+      </reference>
+      <name value="DevicePatientUsed"/>
+      <description value="A device used by a patient during a functional status assessment."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-HHDischarge-SelfCare.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-HHDischarge-SelfCare"/>
+      </reference>
+      <name value="Assessment-HHDischarge-SelfCare"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-HHDischarge-SelfCare-Ob-12.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-HHDischarge-SelfCare-Ob-12"/>
+      </reference>
+      <name value="Assessment-HHDischarge-SelfCare-Ob-12"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-HHDischarge-SelfCare-Ob-18.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-HHDischarge-SelfCare-Ob-18"/>
+      </reference>
+      <name value="Assessment-HHDischarge-SelfCare-Ob-18"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-HHDischarge-SelfCare-Ob-24.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-HHDischarge-SelfCare-Ob-24"/>
+      </reference>
+      <name value="Assessment-HHDischarge-SelfCare-Ob-24"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-HHDischarge-SelfCare-Ob-30.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-HHDischarge-SelfCare-Ob-30"/>
+      </reference>
+      <name value="Assessment-HHDischarge-SelfCare-Ob-30"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-HHDischarge-SelfCare-Ob-36.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-HHDischarge-SelfCare-Ob-36"/>
+      </reference>
+      <name value="Assessment-HHDischarge-SelfCare-Ob-36"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-HHDischarge-SelfCare-Ob-42.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-HHDischarge-SelfCare-Ob-42"/>
+      </reference>
+      <name value="Assessment-HHDischarge-SelfCare-Ob-42"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-HHDischarge-SelfCare-Ob-6.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-HHDischarge-SelfCare-Ob-6"/>
+      </reference>
+      <name value="Assessment-HHDischarge-SelfCare-Ob-6"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-HHStart-SelfCare.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-HHStart-SelfCare"/>
+      </reference>
+      <name value="Assessment-HHStart-SelfCare"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-HHStart-SelfCare-Ob-11.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-HHStart-SelfCare-Ob-11"/>
+      </reference>
+      <name value="Assessment-HHStart-SelfCare-Ob-11"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-HHStart-SelfCare-Ob-17.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-HHStart-SelfCare-Ob-17"/>
+      </reference>
+      <name value="Assessment-HHStart-SelfCare-Ob-17"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-HHStart-SelfCare-Ob-23.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-HHStart-SelfCare-Ob-23"/>
+      </reference>
+      <name value="Assessment-HHStart-SelfCare-Ob-23"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-HHStart-SelfCare-Ob-29.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-HHStart-SelfCare-Ob-29"/>
+      </reference>
+      <name value="Assessment-HHStart-SelfCare-Ob-29"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-HHStart-SelfCare-Ob-35.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-HHStart-SelfCare-Ob-35"/>
+      </reference>
+      <name value="Assessment-HHStart-SelfCare-Ob-35"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-HHStart-SelfCare-Ob-41.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-HHStart-SelfCare-Ob-41"/>
+      </reference>
+      <name value="Assessment-HHStart-SelfCare-Ob-41"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-HHStart-SelfCare-Ob-5.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-HHStart-SelfCare-Ob-5"/>
+      </reference>
+      <name value="Assessment-HHStart-SelfCare-Ob-5"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-Hosp-Admission-SelfCare.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-Hosp-Admission-SelfCare"/>
+      </reference>
+      <name value="Assessment-Hosp-Admission-SelfCare"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-Hosp-Admission-SelfCare-Ob-1.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-Hosp-Admission-SelfCare-Ob-1"/>
+      </reference>
+      <name value="Assessment-Hosp-Admission-SelfCare-Ob-1"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-Hosp-Admission-SelfCare-Ob-13.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-Hosp-Admission-SelfCare-Ob-13"/>
+      </reference>
+      <name value="Assessment-Hosp-Admission-SelfCare-Ob-13"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-Hosp-Admission-SelfCare-Ob-19.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-Hosp-Admission-SelfCare-Ob-19"/>
+      </reference>
+      <name value="Assessment-Hosp-Admission-SelfCare-Ob-19"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-Hosp-Admission-SelfCare-Ob-25.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-Hosp-Admission-SelfCare-Ob-25"/>
+      </reference>
+      <name value="Assessment-Hosp-Admission-SelfCare-Ob-25"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-Hosp-Admission-SelfCare-Ob-31.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-Hosp-Admission-SelfCare-Ob-31"/>
+      </reference>
+      <name value="Assessment-Hosp-Admission-SelfCare-Ob-31"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-Hosp-Admission-SelfCare-Ob-37.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-Hosp-Admission-SelfCare-Ob-37"/>
+      </reference>
+      <name value="Assessment-Hosp-Admission-SelfCare-Ob-37"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-Hosp-Admission-SelfCare-Ob-7.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-Hosp-Admission-SelfCare-Ob-7"/>
+      </reference>
+      <name value="Assessment-Hosp-Admission-SelfCare-Ob-7"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-Hosp-DischargeGoal-SelfCare.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-Hosp-DischargeGoal-SelfCare"/>
+      </reference>
+      <name value="Assessment-Hosp-DischargeGoal-SelfCare"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-Hosp-DischargeGoal-SelfCare-Ob-43.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-Hosp-DischargeGoal-SelfCare-Ob-43"/>
+      </reference>
+      <name value="Assessment-Hosp-DischargeGoal-SelfCare-Ob-43"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-Hosp-DischargeGoal-SelfCare-Ob-44.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-Hosp-DischargeGoal-SelfCare-Ob-44"/>
+      </reference>
+      <name value="Assessment-Hosp-DischargeGoal-SelfCare-Ob-44"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-Hosp-DischargeGoal-SelfCare-Ob-45.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-Hosp-DischargeGoal-SelfCare-Ob-45"/>
+      </reference>
+      <name value="Assessment-Hosp-DischargeGoal-SelfCare-Ob-45"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-Hosp-DischargeGoal-SelfCare-Ob-46.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-Hosp-DischargeGoal-SelfCare-Ob-46"/>
+      </reference>
+      <name value="Assessment-Hosp-DischargeGoal-SelfCare-Ob-46"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-Hosp-DischargeGoal-SelfCare-Ob-47.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-Hosp-DischargeGoal-SelfCare-Ob-47"/>
+      </reference>
+      <name value="Assessment-Hosp-DischargeGoal-SelfCare-Ob-47"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-Hosp-DischargeGoal-SelfCare-Ob-48.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-Hosp-DischargeGoal-SelfCare-Ob-48"/>
+      </reference>
+      <name value="Assessment-Hosp-DischargeGoal-SelfCare-Ob-48"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-Hosp-DischargeGoal-SelfCare-Ob-49.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-Hosp-DischargeGoal-SelfCare-Ob-49"/>
+      </reference>
+      <name value="Assessment-Hosp-DischargeGoal-SelfCare-Ob-49"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-Hosp-Last3DStay-SelfCare.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-Hosp-Last3DStay-SelfCare"/>
+      </reference>
+      <name value="Assessment-Hosp-Last3DStay-SelfCare"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-Hosp-Last3DStay-SelfCare-Ob-14.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-Hosp-Last3DStay-SelfCare-Ob-14"/>
+      </reference>
+      <name value="Assessment-Hosp-Last3DStay-SelfCare-Ob-14"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-Hosp-Last3DStay-SelfCare-Ob-2.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-Hosp-Last3DStay-SelfCare-Ob-2"/>
+      </reference>
+      <name value="Assessment-Hosp-Last3DStay-SelfCare-Ob-2"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-Hosp-Last3DStay-SelfCare-Ob-20.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-Hosp-Last3DStay-SelfCare-Ob-20"/>
+      </reference>
+      <name value="Assessment-Hosp-Last3DStay-SelfCare-Ob-20"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-Hosp-Last3DStay-SelfCare-Ob-26.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-Hosp-Last3DStay-SelfCare-Ob-26"/>
+      </reference>
+      <name value="Assessment-Hosp-Last3DStay-SelfCare-Ob-26"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-Hosp-Last3DStay-SelfCare-Ob-32.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-Hosp-Last3DStay-SelfCare-Ob-32"/>
+      </reference>
+      <name value="Assessment-Hosp-Last3DStay-SelfCare-Ob-32"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-Hosp-Last3DStay-SelfCare-Ob-38.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-Hosp-Last3DStay-SelfCare-Ob-38"/>
+      </reference>
+      <name value="Assessment-Hosp-Last3DStay-SelfCare-Ob-38"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-Hosp-Last3DStay-SelfCare-Ob-8.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-Hosp-Last3DStay-SelfCare-Ob-8"/>
+      </reference>
+      <name value="Assessment-Hosp-Last3DStay-SelfCare-Ob-8"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-SNF-Admission-SelfCare.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-SNF-Admission-SelfCare"/>
+      </reference>
+      <name value="Assessment-SNF-Admission-SelfCare"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-SNF-Admission-SelfCare-Ob-15.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-SNF-Admission-SelfCare-Ob-15"/>
+      </reference>
+      <name value="Assessment-SNF-Admission-SelfCare-Ob-15"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-SNF-Admission-SelfCare-Ob-21.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-SNF-Admission-SelfCare-Ob-21"/>
+      </reference>
+      <name value="Assessment-SNF-Admission-SelfCare-Ob-21"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-SNF-Admission-SelfCare-Ob-27.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-SNF-Admission-SelfCare-Ob-27"/>
+      </reference>
+      <name value="Assessment-SNF-Admission-SelfCare-Ob-27"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-SNF-Admission-SelfCare-Ob-3.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-SNF-Admission-SelfCare-Ob-3"/>
+      </reference>
+      <name value="Assessment-SNF-Admission-SelfCare-Ob-3"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-SNF-Admission-SelfCare-Ob-33.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-SNF-Admission-SelfCare-Ob-33"/>
+      </reference>
+      <name value="Assessment-SNF-Admission-SelfCare-Ob-33"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-SNF-Admission-SelfCare-Ob-39.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-SNF-Admission-SelfCare-Ob-39"/>
+      </reference>
+      <name value="Assessment-SNF-Admission-SelfCare-Ob-39"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-SNF-Admission-SelfCare-Ob-9.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-SNF-Admission-SelfCare-Ob-9"/>
+      </reference>
+      <name value="Assessment-SNF-Admission-SelfCare-Ob-9"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-SNF-Last3DStay-SelfCare.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-SNF-Last3DStay-SelfCare"/>
+      </reference>
+      <name value="Assessment-SNF-Last3DStay-SelfCare"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-SNF-Last3DStay-SelfCare-Ob-10.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-SNF-Last3DStay-SelfCare-Ob-10"/>
+      </reference>
+      <name value="Assessment-SNF-Last3DStay-SelfCare-Ob-10"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-SNF-Last3DStay-SelfCare-Ob-16.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-SNF-Last3DStay-SelfCare-Ob-16"/>
+      </reference>
+      <name value="Assessment-SNF-Last3DStay-SelfCare-Ob-16"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-SNF-Last3DStay-SelfCare-Ob-22.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-SNF-Last3DStay-SelfCare-Ob-22"/>
+      </reference>
+      <name value="Assessment-SNF-Last3DStay-SelfCare-Ob-22"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-SNF-Last3DStay-SelfCare-Ob-28.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-SNF-Last3DStay-SelfCare-Ob-28"/>
+      </reference>
+      <name value="Assessment-SNF-Last3DStay-SelfCare-Ob-28"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-SNF-Last3DStay-SelfCare-Ob-34.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-SNF-Last3DStay-SelfCare-Ob-34"/>
+      </reference>
+      <name value="Assessment-SNF-Last3DStay-SelfCare-Ob-34"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-SNF-Last3DStay-SelfCare-Ob-4.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-SNF-Last3DStay-SelfCare-Ob-4"/>
+      </reference>
+      <name value="Assessment-SNF-Last3DStay-SelfCare-Ob-4"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Assessment-SNF-Last3DStay-SelfCare-Ob-40.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Assessment-SNF-Last3DStay-SelfCare-Ob-40"/>
+      </reference>
+      <name value="Assessment-SNF-Last3DStay-SelfCare-Ob-40"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Organization-Org-01.html"/>
+      </extension>
+      <reference>
+        <reference value="Organization/Org-01"/>
+      </reference>
+      <name value="Org-01"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Organization-Org-02.html"/>
+      </extension>
+      <reference>
+        <reference value="Organization/Org-02"/>
+      </reference>
+      <name value="Org-02"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Organization-Org-03.html"/>
+      </extension>
+      <reference>
+        <reference value="Organization/Org-03"/>
+      </reference>
+      <name value="Org-03"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Location-Org-Loc-01.html"/>
+      </extension>
+      <reference>
+        <reference value="Location/Org-Loc-01"/>
+      </reference>
+      <name value="Org-Loc-01"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Location-Org-Loc-02.html"/>
+      </extension>
+      <reference>
+        <reference value="Location/Org-Loc-02"/>
+      </reference>
+      <name value="Org-Loc-02"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Location-Org-Loc-03.html"/>
+      </extension>
+      <reference>
+        <reference value="Location/Org-Loc-03"/>
+      </reference>
+      <name value="Org-Loc-03"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Practitioner-Practitioner-DanielGranger.html"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-DanielGranger"/>
+      </reference>
+      <name value="Practitioner-DanielGranger"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Practitioner-Practitioner-HoneyJones.html"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-HoneyJones"/>
+      </reference>
+      <name value="Practitioner-HoneyJones"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Practitioner-Practitioner-JenCadbury.html"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-JenCadbury"/>
+      </reference>
+      <name value="Practitioner-JenCadbury"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Practitioner-Practitioner-JennyGlass.html"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-JennyGlass"/>
+      </reference>
+      <name value="Practitioner-JennyGlass"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Practitioner-Practitioner-LunaBaskins.html"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-LunaBaskins"/>
+      </reference>
+      <name value="Practitioner-LunaBaskins"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Practitioner-Practitioner-RonBurgendy.html"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-RonBurgendy"/>
+      </reference>
+      <name value="Practitioner-RonBurgendy"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Practitioner-Practitioner-RonMarble.html"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-RonMarble"/>
+      </reference>
+      <name value="Practitioner-RonMarble"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Practitioner-Practitioner-SallySmith.html"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-SallySmith"/>
+      </reference>
+      <name value="Practitioner-SallySmith"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Practitioner-Practitioner-ScottDumble.html"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-ScottDumble"/>
+      </reference>
+      <name value="Practitioner-ScottDumble"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="QuestionnaireResponse"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="QuestionnaireResponse-QResponse-HHDischarge-SelfCare.html"/>
+      </extension>
+      <reference>
+        <reference value="QuestionnaireResponse/QResponse-HHDischarge-SelfCare"/>
+      </reference>
+      <name value="QResponse-HHDischarge-SelfCare"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="QuestionnaireResponse"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="QuestionnaireResponse-QResponse-HHStart-SelfCare.html"/>
+      </extension>
+      <reference>
+        <reference value="QuestionnaireResponse/QResponse-HHStart-SelfCare"/>
+      </reference>
+      <name value="QResponse-HHStart-SelfCare"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="QuestionnaireResponse"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="QuestionnaireResponse-QResponse-Hosp-Admission-SelfCare.html"/>
+      </extension>
+      <reference>
+        <reference value="QuestionnaireResponse/QResponse-Hosp-Admission-SelfCare"/>
+      </reference>
+      <name value="QResponse-Hosp-Admission-SelfCare"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="QuestionnaireResponse"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="QuestionnaireResponse-QResponse-Hosp-DischargeGoal-SelfCare.html"/>
+      </extension>
+      <reference>
+        <reference value="QuestionnaireResponse/QResponse-Hosp-DischargeGoal-SelfCare"/>
+      </reference>
+      <name value="QResponse-Hosp-DischargeGoal-SelfCare"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="QuestionnaireResponse"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="QuestionnaireResponse-QResponse-Hosp-Last3DStay-SelfCare.html"/>
+      </extension>
+      <reference>
+        <reference value="QuestionnaireResponse/QResponse-Hosp-Last3DStay-SelfCare"/>
+      </reference>
+      <name value="QResponse-Hosp-Last3DStay-SelfCare"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="QuestionnaireResponse"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="QuestionnaireResponse-QResponse-SNF-Admission-SelfCare.html"/>
+      </extension>
+      <reference>
+        <reference value="QuestionnaireResponse/QResponse-SNF-Admission-SelfCare"/>
+      </reference>
+      <name value="QResponse-SNF-Admission-SelfCare"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="QuestionnaireResponse"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="QuestionnaireResponse-QResponse-SNF-Last3DStay-SelfCare.html"/>
+      </extension>
+      <reference>
+        <reference value="QuestionnaireResponse/QResponse-SNF-Last3DStay-SelfCare"/>
+      </reference>
+      <name value="QResponse-SNF-Last3DStay-SelfCare"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="PractitionerRole-Role-PT.html"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/Role-PT"/>
+      </reference>
+      <name value="Role-PT"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="PractitionerRole-Role-RN.html"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/Role-RN"/>
+      </reference>
+      <name value="Role-RN"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Device"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Device-cms-device-01.html"/>
+      </extension>
+      <reference>
+        <reference value="Device/cms-device-01"/>
+      </reference>
+      <name value="cms-device-01"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DeviceUseStatement"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="DeviceUseStatement-cms-deviceUse-01.html"/>
+      </extension>
+      <reference>
+        <reference value="DeviceUseStatement/cms-deviceUse-01"/>
+      </reference>
+      <name value="cms-deviceUse-01"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Patient-patientBSJ1.html"/>
+      </extension>
+      <reference>
+        <reference value="Patient/patientBSJ1"/>
+      </reference>
+      <name value="patientBSJ1"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CapabilityStatement"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CapabilityStatement-pacio-fs.html"/>
+      </extension>
+      <reference>
+        <reference value="CapabilityStatement/pacio-fs"/>
+      </reference>
+      <name value="PACIO Functional Status Capability Statement"/>
+      <description value="This Capability Statement defines the expected capabilities of a PACIO Functional Status FHIR server conforming to the PACIO Functional Status Implementation Guide."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <page>
+      <nameUrl value="toc.html"/>
+      <title value="Table of Contents"/>
+      <generation value="html"/>
+      <page>
+        <nameUrl value="index.html"/>
+        <title value="Home"/>
+        <generation value="markdown"/>
+      </page>
+    </page>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/capabilities"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/examples"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/extensions"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/models"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/operations"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/profiles"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/resources"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/vocabulary"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="template/config"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="input/images"/>
+    </parameter>
+    <parameter>
+      <code value="path-tx-cache"/>
+      <value value="input-cache/txcache"/>
+    </parameter>
+  </definition>
+</ImplementationGuide>

@@ -1,0 +1,63 @@
+{
+  "resourceType": "Observation",
+  "id": "Assessment-HHDischarge-SelfCare-Ob-18",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>id</b>: Assessment-HHDischarge-SelfCare-Ob-18</p><p><b>meta</b>: </p><p></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 83228-7}\">Toileting hygiene</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: id: patientBSJ1; Betsy Smith-Johnson </a></p><p><b>effective</b>: May 1, 2020, 2:00:00 PM</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Practitioner-ScottDumble.html\">Generated Summary: id: Practitioner-ScottDumble; active; Scott Dumble ; gender: male</a></li><li><a href=\"PractitionerRole-Role-RN.html\">Generated Summary: id: Role-RN; active; <span title=\"Codes: {http://snomed.info/sct 224535009}\">Registered Nurse</span></a></li><li><a href=\"Organization-Org-03.html\">Organization. Generated Summary: id: Org-03; name: Sky Harbor Home Health Services</a></li></ul><p><b>value</b>: <span title=\"Codes: {http://loinc.org LA9983-3}\">Independent</span></p><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse-QResponse-HHDischarge-SelfCare.html\">Generated Summary: id: QResponse-HHDischarge-SelfCare; questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: May 1, 2020, 2:00:00 PM</a></p></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-03"
+      }
+    }
+  ],
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "83228-7",
+        "display": "Toileting hygiene - functional ability during 3D assessment period"
+      }
+    ],
+    "text": "Toileting hygiene"
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "effectiveDateTime": "2020-05-01T13:00:00-05:00",
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-ScottDumble"
+    },
+    {
+      "reference": "PractitionerRole/Role-RN"
+    },
+    {
+      "reference": "Organization/Org-03",
+      "display": "Organization"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "LA9983-3",
+        "display": "Independent"
+      }
+    ],
+    "text": "Independent"
+  },
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-HHDischarge-SelfCare"
+    }
+  ]
+}

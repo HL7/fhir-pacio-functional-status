@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="Practitioner-LunaBaskins"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>id</b>: Practitioner-LunaBaskins</p><p><b>active</b>: true</p><p><b>name</b>: Luna Baskins </p><p><b>gender</b>: female</p></div>
+  </text>
+  <active value="true"/>
+  <name>
+    <family value="Baskins"/>
+    <given value="Luna"/>
+  </name>
+  <gender value="female"/>
+</Practitioner>

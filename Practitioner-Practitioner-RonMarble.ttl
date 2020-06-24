@@ -1,0 +1,32 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://paciowg.github.io/functional-status-ig/Practitioner/Practitioner-RonMarble> a fhir:Practitioner;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Practitioner-RonMarble"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>id</b>: Practitioner-RonMarble</p><p><b>active</b>: true</p><p><b>name</b>: Ron Marble </p><p><b>gender</b>: male</p></div>"
+  ];
+  fhir:Practitioner.active [ fhir:value "true"^^xsd:boolean];
+  fhir:Practitioner.name [
+     fhir:index 0;
+     fhir:HumanName.family [ fhir:value "Marble" ];
+     fhir:HumanName.given [
+       fhir:value "Ron";
+       fhir:index 0
+     ]
+  ];
+  fhir:Practitioner.gender [ fhir:value "male"] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://paciowg.github.io/functional-status-ig/Practitioner/Practitioner-RonMarble.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

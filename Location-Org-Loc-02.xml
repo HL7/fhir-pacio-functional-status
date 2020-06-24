@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Location xmlns="http://hl7.org/fhir">
+  <id value="Org-Loc-02"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>id</b>: Org-Loc-02</p><p><b>status</b>: active</p><p><b>name</b>: Happy Nursing Facility</p><p><b>address</b>: 8100 Pinebrook Dr, San Antonio, TX, 78230</p></div>
+  </text>
+  <status value="active"/>
+  <name value="Happy Nursing Facility"/>
+  <address>
+    <text value="8100 Pinebrook Dr, San Antonio, TX, 78230"/>
+  </address>
+</Location>

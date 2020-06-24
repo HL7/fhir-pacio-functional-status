@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Organization xmlns="http://hl7.org/fhir">
+  <id value="Org-03"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>id</b>: Org-03</p><p><b>name</b>: Sky Harbor Home Health Services</p></div>
+  </text>
+  <name value="Sky Harbor Home Health Services"/>
+</Organization>

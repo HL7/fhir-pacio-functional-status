@@ -1,0 +1,136 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://paciowg.github.io/functional-status-ig/QuestionnaireResponse/QResponse-Hosp-Last3DStay-SelfCare> a fhir:QuestionnaireResponse;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "QResponse-Hosp-Last3DStay-SelfCare"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr";
+       fhir:index 0;
+       fhir:link <https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>id</b>: QResponse-Hosp-Last3DStay-SelfCare</p><p><b>meta</b>: </p><p><b>questionnaire</b>: <a href=\"https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17\">https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: id: patientBSJ1; Betsy Smith-Johnson </a></p><p><b>authored</b>: Apr 9, 2020, 3:00:00 PM</p><blockquote><p><b>item</b></p><p><b>id</b>: 88483-3</p><p><b>linkId</b>: Section-37</p><p><b>text</b>: Functional Abilities and Goals - Discharge</p><h3>Items</h3><table class=\"grid\"><tr><td>-</td><td><b>Id</b></td></tr><tr><td>*</td><td>83254-3</td></tr></table></blockquote></div>"
+  ];
+  fhir:QuestionnaireResponse.questionnaire [
+     fhir:value "https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17";
+     fhir:link <https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17>
+  ];
+  fhir:QuestionnaireResponse.status [ fhir:value "completed"];
+  fhir:QuestionnaireResponse.subject [
+     fhir:link <https://paciowg.github.io/functional-status-ig/Patient/patientBSJ1>;
+     fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
+  ];
+  fhir:QuestionnaireResponse.authored [ fhir:value "2020-04-09T14:00:00-05:00"^^xsd:dateTime];
+  fhir:QuestionnaireResponse.item [
+     fhir:index 0;
+     fhir:Element.id [ fhir:value "88483-3" ];
+     fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37" ];
+     fhir:QuestionnaireResponse.item.text [ fhir:value "Functional Abilities and Goals - Discharge" ];
+     fhir:QuestionnaireResponse.item.item [
+       fhir:index 0;
+       fhir:Element.id [ fhir:value "83254-3" ];
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0130" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Self-Care - Discharge Performance" ];
+       fhir:QuestionnaireResponse.item.item [
+         fhir:index 0;
+         fhir:Element.id [ fhir:value "83232-9" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0130A3" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Eating - functional ability during 3D assessment period" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/Assessment-Hosp-Last3DStay-SelfCare-Ob-2>;
+             fhir:Reference.reference [ fhir:value "Observation/Assessment-Hosp-Last3DStay-SelfCare-Ob-2" ]
+           ]
+         ]
+       ], [
+         fhir:index 1;
+         fhir:Element.id [ fhir:value "83230-3" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0130B3" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Oral hygiene - functional ability during 3D assessment period" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/Assessment-Hosp-Last3DStay-SelfCare-Ob-8>;
+             fhir:Reference.reference [ fhir:value "Observation/Assessment-Hosp-Last3DStay-SelfCare-Ob-8" ]
+           ]
+         ]
+       ], [
+         fhir:index 2;
+         fhir:Element.id [ fhir:value "83228-7" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0130C3" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Toileting hygiene - functional ability during 3D assessment period" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/Assessment-Hosp-Last3DStay-SelfCare-Ob-14>;
+             fhir:Reference.reference [ fhir:value "Observation/Assessment-Hosp-Last3DStay-SelfCare-Ob-14" ]
+           ]
+         ]
+       ], [
+         fhir:index 3;
+         fhir:Element.id [ fhir:value "83226-1" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0130E3" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Shower &or bathe self - functional ability during 3D assessment period" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/Assessment-Hosp-Last3DStay-SelfCare-Ob-20>;
+             fhir:Reference.reference [ fhir:value "Observation/Assessment-Hosp-Last3DStay-SelfCare-Ob-20" ]
+           ]
+         ]
+       ], [
+         fhir:index 4;
+         fhir:Element.id [ fhir:value "83224-6" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0130F3" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Upper body dressing - functional ability during 3D assessment period" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/Assessment-Hosp-Last3DStay-SelfCare-Ob-26>;
+             fhir:Reference.reference [ fhir:value "Observation/Assessment-Hosp-Last3DStay-SelfCare-Ob-26" ]
+           ]
+         ]
+       ], [
+         fhir:index 5;
+         fhir:Element.id [ fhir:value "83222-0" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0130G3" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Lower body dressing - functional ability during 3D assessment period" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/Assessment-Hosp-Last3DStay-SelfCare-Ob-32>;
+             fhir:Reference.reference [ fhir:value "Observation/Assessment-Hosp-Last3DStay-SelfCare-Ob-32" ]
+           ]
+         ]
+       ], [
+         fhir:index 6;
+         fhir:Element.id [ fhir:value "83220-4" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0130H3" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Putting on and taking off footwear - functional ability during 3D assessment period" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/Assessment-Hosp-Last3DStay-SelfCare-Ob-38>;
+             fhir:Reference.reference [ fhir:value "Observation/Assessment-Hosp-Last3DStay-SelfCare-Ob-38" ]
+           ]
+         ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://paciowg.github.io/functional-status-ig/QuestionnaireResponse/QResponse-Hosp-Last3DStay-SelfCare.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+
