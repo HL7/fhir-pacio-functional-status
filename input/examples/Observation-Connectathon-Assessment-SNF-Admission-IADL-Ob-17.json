@@ -1,0 +1,59 @@
+{
+  "resourceType": "Observation",
+  "id": "Connectathon-Assessment-SNF-Admission-IADL-Ob-17",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Connectathon-Org-Loc-02"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-04-09T15:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "tbd-code-12",
+        "system": "http://loinc.org",
+        "display": "Medication management-inhalant/mist medications"
+      }
+    ],
+    "text": "Medication management-inhalant/mist medications"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA-tbd-02",
+        "system": "http://loinc.org",
+        "display": "Not Applicable"
+      }
+    ],
+    "text": "Not Applicable"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Connectathon-Practitioner-JenCadbury"
+    },
+    {
+      "reference": "PractitionerRole/Connectathon-Role-PT"
+    },
+    {
+      "reference": "Organization/Connectathon-Org-02",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/Connectathon-QuestResponse-SNF-Admission-IADL"
+    }
+  ]
+}

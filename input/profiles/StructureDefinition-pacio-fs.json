@@ -1,0 +1,232 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "pacio-fs",
+  "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs",
+  "version": "0.1.0",
+  "name": "FunctionalStatus",
+  "title": "Functional Status",
+  "status": "active",
+  "description": "An exchange of functional status data for a patient.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "sct-concept",
+      "uri": "http://snomed.info/conceptdomain",
+      "name": "SNOMED CT Concept Domain Binding"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "sct-attr",
+      "uri": "http://snomed.org/attributebinding",
+      "name": "SNOMED CT Attribute Binding"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation.extension",
+        "path": "Observation.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Observation.extension:event-location",
+        "path": "Observation.extension",
+        "sliceName": "event-location",
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/event-location"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.extension:device-use",
+        "path": "Observation.extension",
+        "sliceName": "device-use",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.basedOn",
+        "path": "Observation.basedOn",
+        "short": "Currently not used in FunctionalStatus."
+      },
+      {
+        "id": "Observation.partOf",
+        "path": "Observation.partOf",
+        "short": "Currently not used in FunctionalStatus."
+      },
+      {
+        "id": "Observation.status",
+        "path": "Observation.status",
+        "short": "Value should be final as FunctionalStatus Observation should be completed before transfer between facilities."
+      },
+      {
+        "id": "Observation.category",
+        "path": "Observation.category",
+        "short": "If this is from a Post-Acute Care Assessment, category should be survey."
+      },
+      {
+        "id": "Observation.code",
+        "path": "Observation.code",
+        "short": "If this is from a Post-Acute Care Assessment, code should be a LOINC code and text for the question.",
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://loinc.org"
+        }
+      },
+      {
+        "id": "Observation.subject",
+        "path": "Observation.subject",
+        "short": "Subject should only be Patient for functional status",
+        "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Observation.focus",
+        "path": "Observation.focus",
+        "short": "Currently not used in FunctionalStatus."
+      },
+      {
+        "id": "Observation.effective[x]",
+        "path": "Observation.effective[x]",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "Observation.issued",
+        "path": "Observation.issued",
+        "short": "Currently not used in FunctionalStatus."
+      },
+      {
+        "id": "Observation.performer",
+        "path": "Observation.performer",
+        "short": "The person who performed the assessment. Also provide the role and organizationif available. ",
+        "min": 1
+      },
+      {
+        "id": "Observation.value[x]",
+        "path": "Observation.value[x]",
+        "short": "This should only be used if the functional status observations values in the component field results in a score or roll up value."
+      },
+      {
+        "id": "Observation.dataAbsentReason",
+        "path": "Observation.dataAbsentReason",
+        "short": "Currently not used in FunctionalStatus."
+      },
+      {
+        "id": "Observation.interpretation",
+        "path": "Observation.interpretation",
+        "short": "Currently not used in FunctionalStatus."
+      },
+      {
+        "id": "Observation.bodySite",
+        "path": "Observation.bodySite",
+        "short": "Currently not used in FunctionalStatus."
+      },
+      {
+        "id": "Observation.method",
+        "path": "Observation.method",
+        "short": "Currently not used in FunctionalStatus."
+      },
+      {
+        "id": "Observation.specimen",
+        "path": "Observation.specimen",
+        "short": "Currently not used in FunctionalStatus."
+      },
+      {
+        "id": "Observation.device",
+        "path": "Observation.device",
+        "short": "Currently not used in FunctionalStatus."
+      },
+      {
+        "id": "Observation.referenceRange",
+        "path": "Observation.referenceRange",
+        "short": "Currently not used in FunctionalStatus."
+      },
+      {
+        "id": "Observation.hasMember",
+        "path": "Observation.hasMember",
+        "short": "Currently not used in FunctionalStatus."
+      },
+      {
+        "id": "Observation.derivedFrom",
+        "path": "Observation.derivedFrom",
+        "short": "Currently not used in FunctionalStatus."
+      },
+      {
+        "id": "Observation.component",
+        "path": "Observation.component",
+        "short": "The answer(s) for the functional status questions. If a single question results in multiple answers, then multiple component values should be used. (eg. performance at admission, discharge goals)"
+      },
+      {
+        "id": "Observation.component.code",
+        "path": "Observation.component.code",
+        "short": "The code and text for the column that this functional status value belongs to. Only used if there are multiple component values."
+      },
+      {
+        "id": "Observation.component.value[x]",
+        "path": "Observation.component.value[x]",
+        "short": "The code and text for the answer to the functional status response. ",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://loinc.org"
+        }
+      }
+    ]
+  }
+}

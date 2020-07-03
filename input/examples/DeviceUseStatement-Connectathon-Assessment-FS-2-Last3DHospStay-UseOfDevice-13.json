@@ -1,0 +1,25 @@
+{
+  "resourceType": "DeviceUseStatement",
+  "id": "Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-13",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "derivedFrom": [
+    {
+      "reference": "Observation/Connectathon-Assessment-FS-2-Last3DHospStay"
+    }
+  ],
+  "recordedOn": "2020-04-09T14:00:00-05:00",
+  "source": {
+    "reference": "Practitioner/Connectathon-Practitioner-RonMarble"
+  },
+  "device": {
+    "reference": "Device/CMS-Device-7"
+  },
+  "status": "active"
+}

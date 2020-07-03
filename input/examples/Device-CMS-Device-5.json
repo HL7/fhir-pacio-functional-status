@@ -1,0 +1,18 @@
+{
+  "resourceType": "Device",
+  "id": "CMS-Device-5",
+  "deviceName": [
+    {
+      "name": "Raised toilet seat",
+      "type": "user-friendly-name"
+    }
+  ],
+  "type": {
+    "coding": [
+      {
+        "code": "705593007",
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  }
+}

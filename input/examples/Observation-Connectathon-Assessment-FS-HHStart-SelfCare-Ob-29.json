@@ -1,0 +1,59 @@
+{
+  "resourceType": "Observation",
+  "id": "Connectathon-Assessment-FS-HHStart-SelfCare-Ob-29",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Connectathon-Org-Loc-03"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-04-24T14:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "83224-6",
+        "system": "http://loinc.org",
+        "display": "Upper body dressing - functional ability during 3D assessment period"
+      }
+    ],
+    "text": "Upper body dressing"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA10073-7",
+        "system": "http://loinc.org",
+        "display": "Setup or clean-up assistance"
+      }
+    ],
+    "text": "Setup or clean-up assistance"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Connectathon-Practitioner-LunaBaskins"
+    },
+    {
+      "reference": "PractitionerRole/Connectathon-Role-RN"
+    },
+    {
+      "reference": "Organization/Connectathon-Org-03",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-HHStart-SelfCare"
+    }
+  ]
+}

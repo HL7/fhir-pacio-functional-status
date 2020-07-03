@@ -1,0 +1,82 @@
+{
+  "resourceType": "Observation",
+  "id": "Connectathon-Assessment-FS-SNF-Admission-SelfCare",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Connectathon-Org-Loc-02"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-04-09T15:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "83233-7",
+        "system": "http://loinc.org",
+        "display": "Self-Care - Admission Performance"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "survey",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      ]
+    }
+  ],
+  "performer": [
+    {
+      "reference": "Practitioner/Connectathon-Practitioner-JenCadbury"
+    },
+    {
+      "reference": "PractitionerRole/Connectathon-Role-PT"
+    },
+    {
+      "reference": "Organization/Connectathon-Org-02",
+      "display": "Organization"
+    }
+  ],
+  "hasMember": [
+    {
+      "reference": "Observation/Connectathon-Assessment-FS-SNF-Admission-SelfCare-Ob-3"
+    },
+    {
+      "reference": "Observation/Connectathon-Assessment-FS-SNF-Admission-SelfCare-Ob-9"
+    },
+    {
+      "reference": "Observation/Connectathon-Assessment-FS-SNF-Admission-SelfCare-Ob-15"
+    },
+    {
+      "reference": "Observation/Connectathon-Assessment-FS-SNF-Admission-SelfCare-Ob-21"
+    },
+    {
+      "reference": "Observation/Connectathon-Assessment-FS-SNF-Admission-SelfCare-Ob-27"
+    },
+    {
+      "reference": "Observation/Connectathon-Assessment-FS-SNF-Admission-SelfCare-Ob-33"
+    },
+    {
+      "reference": "Observation/Connectathon-Assessment-FS-SNF-Admission-SelfCare-Ob-39"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-SNF-Admission-SelfCare",
+      "display": "Questionnaire Response"
+    }
+  ]
+}

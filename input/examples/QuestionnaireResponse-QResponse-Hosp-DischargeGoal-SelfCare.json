@@ -1,0 +1,115 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "QResponse-Hosp-DischargeGoal-SelfCare",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "completed",
+  "questionnaire": "https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17",
+  "authored": "2020-04-02T10:00:00-05:00",
+  "item": [
+    {
+      "linkId": "Section-37",
+      "text": "Functional Abilities and Goals - Admission",
+      "id": "88482-5",
+      "item": [
+        {
+          "linkId": "Section-37/GG0130",
+          "text": "Self-Care - Discharge Goal",
+          "id": "85054-5",
+          "item": [
+            {
+              "linkId": "Section-37/GG0130A2",
+              "text": "Eating - functional ability during 3D assessment period",
+              "id": "83231-1",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-Hosp-DischargeGoal-SelfCare-Ob-43"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0130B2",
+              "text": "Oral hygiene - functional ability during 3D assessment period",
+              "id": "83229-5",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-Hosp-DischargeGoal-SelfCare-Ob-44"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0130C2",
+              "text": "Toileting hygiene - functional ability during 3D assessment period",
+              "id": "83227-9",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-Hosp-DischargeGoal-SelfCare-Ob-45"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0130E2",
+              "text": "Shower &or bathe self - functional ability during 3D assessment period",
+              "id": "83225-3",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-Hosp-DischargeGoal-SelfCare-Ob-46"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0130F2",
+              "text": "Upper body dressing - functional ability during 3D assessment period",
+              "id": "83223-8",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-Hosp-DischargeGoal-SelfCare-Ob-47"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0130G2",
+              "text": "Lower body dressing - functional ability during 3D assessment period",
+              "id": "83221-2",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-Hosp-DischargeGoal-SelfCare-Ob-48"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0130H2",
+              "text": "Putting on and taking off footwear - functional ability during 3D assessment period",
+              "id": "83219-6",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-Hosp-DischargeGoal-SelfCare-Ob-49"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

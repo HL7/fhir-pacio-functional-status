@@ -1,0 +1,18 @@
+{
+  "resourceType": "Device",
+  "id": "CMS-Device-1",
+  "deviceName": [
+    {
+      "name": "Bed rail",
+      "type": "user-friendly-name"
+    }
+  ],
+  "type": {
+    "coding": [
+      {
+        "code": "37953008",
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  }
+}

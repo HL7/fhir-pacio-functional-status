@@ -1,0 +1,59 @@
+{
+  "resourceType": "Observation",
+  "id": "Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-101",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Connectathon-Org-Loc-03"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-04-24T14:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "83235-2",
+        "system": "http://loinc.org",
+        "display": "What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 150 feet in a corridor or similar space?"
+      }
+    ],
+    "text": "Wheel 150 feet"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA26735-3",
+        "system": "http://loinc.org",
+        "display": "Not attempted due to medical condition or safety concerns"
+      }
+    ],
+    "text": "Not attempted due to medical condition or safety concerns"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Connectathon-Practitioner-LunaBaskins"
+    },
+    {
+      "reference": "PractitionerRole/Connectathon-Role-RN"
+    },
+    {
+      "reference": "Organization/Connectathon-Org-03",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-5-HHStartOfCarePerf"
+    }
+  ]
+}

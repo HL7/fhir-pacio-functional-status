@@ -1,0 +1,59 @@
+{
+  "resourceType": "Observation",
+  "id": "Connectathon-Assessment-SNF-Admission-IADL-Ob-9",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Connectathon-Org-Loc-02"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-04-09T15:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "tbd-code-8",
+        "system": "http://loinc.org",
+        "display": "Light shopping"
+      }
+    ],
+    "text": "Light shopping"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA-tbd-01",
+        "system": "http://loinc.org",
+        "display": "Independant"
+      }
+    ],
+    "text": "Independant"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Connectathon-Practitioner-JenCadbury"
+    },
+    {
+      "reference": "PractitionerRole/Connectathon-Role-PT"
+    },
+    {
+      "reference": "Organization/Connectathon-Org-02",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/Connectathon-QuestResponse-SNF-Admission-IADL"
+    }
+  ]
+}

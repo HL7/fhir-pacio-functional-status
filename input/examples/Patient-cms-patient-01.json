@@ -1,0 +1,14 @@
+{
+  "resourceType": "Patient",
+  "id": "cms-patient-01",
+  "name": [
+    {
+      "given": [
+        "Betsy"
+      ],
+      "family": "Smith"
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1959-06-14"
+}

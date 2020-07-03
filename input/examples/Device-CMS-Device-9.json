@@ -1,0 +1,18 @@
+{
+  "resourceType": "Device",
+  "id": "CMS-Device-9",
+  "deviceName": [
+    {
+      "name": "Reacher",
+      "type": "user-friendly-name"
+    }
+  ],
+  "type": {
+    "coding": [
+      {
+        "code": "TEMP_LOINC_Reacher",
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  }
+}

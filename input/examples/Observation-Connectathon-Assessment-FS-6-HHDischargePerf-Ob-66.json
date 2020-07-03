@@ -1,0 +1,59 @@
+{
+  "resourceType": "Observation",
+  "id": "Connectathon-Assessment-FS-6-HHDischargePerf-Ob-66",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Connectathon-Org-Loc-03"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-05-01T13:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "83198-2",
+        "system": "http://loinc.org",
+        "display": "What was the patient's usual performance related to their ability to walk 10 feet on uneven or sloping surfaces (indoor or outdoor), such as turf or gravel?"
+      }
+    ],
+    "text": "Walking 10 feet on uneven surfaces"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA28225-3",
+        "system": "http://loinc.org",
+        "display": "Supervision or touching assistance"
+      }
+    ],
+    "text": "Supervision or touching assistance"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Connectathon-Practitioner-ScottDumble"
+    },
+    {
+      "reference": "PractitionerRole/Connectathon-Role-RN"
+    },
+    {
+      "reference": "Organization/Connectathon-Org-03",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-6-HHDischargePerf"
+    }
+  ]
+}

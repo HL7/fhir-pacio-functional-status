@@ -1,0 +1,232 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "pacio-bfs",
+  "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs",
+  "version": "0.1.0",
+  "name": "BundledFunctionalStatus",
+  "title": "Bundled Functional Status",
+  "status": "active",
+  "description": "An point in time bundle of functional status observations for a patient.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "sct-concept",
+      "uri": "http://snomed.info/conceptdomain",
+      "name": "SNOMED CT Concept Domain Binding"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "sct-attr",
+      "uri": "http://snomed.org/attributebinding",
+      "name": "SNOMED CT Attribute Binding"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation.extension",
+        "path": "Observation.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Observation.extension:event-location",
+        "path": "Observation.extension",
+        "sliceName": "event-location",
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/event-location"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.extension:device-use",
+        "path": "Observation.extension",
+        "sliceName": "device-use",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.basedOn",
+        "path": "Observation.basedOn",
+        "short": "Currently not used in BundledFunctionalStatus."
+      },
+      {
+        "id": "Observation.partOf",
+        "path": "Observation.partOf",
+        "short": "Currently not used in BundledFunctionalStatus."
+      },
+      {
+        "id": "Observation.status",
+        "path": "Observation.status",
+        "short": "Value should be final."
+      },
+      {
+        "id": "Observation.category",
+        "path": "Observation.category",
+        "short": "If this is from a Post-Acute Care Assessment, category should be survey.",
+        "min": 1,
+        "max": "1",
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      },
+      {
+        "id": "Observation.code",
+        "path": "Observation.code",
+        "short": "LOINC code and text for the question, if this is from a Post-Acute Care Assessment.",
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://loinc.org"
+        }
+      },
+      {
+        "id": "Observation.subject",
+        "path": "Observation.subject",
+        "short": "Subject should only be Patient for BundledFunctionalStatus.",
+        "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Observation.focus",
+        "path": "Observation.focus",
+        "short": "Currently not used in BundledFunctionalStatus."
+      },
+      {
+        "id": "Observation.effective[x]",
+        "path": "Observation.effective[x]",
+        "type": [
+          {
+            "code": "dateTime"
+          },
+          {
+            "code": "Period"
+          }
+        ]
+      },
+      {
+        "id": "Observation.issued",
+        "path": "Observation.issued",
+        "short": "Currently not used in BundledFunctionalStatus."
+      },
+      {
+        "id": "Observation.performer",
+        "path": "Observation.performer",
+        "short": "The person who performed the assessment. Also provide the role and organizationif available. ",
+        "min": 1
+      },
+      {
+        "id": "Observation.value[x]",
+        "path": "Observation.value[x]",
+        "short": "Should only be used if the functional status observations values in the hasMember field results in a score or roll up value.",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Observation.dataAbsentReason",
+        "path": "Observation.dataAbsentReason",
+        "short": "Currently not used in BundledFunctionalStatus."
+      },
+      {
+        "id": "Observation.interpretation",
+        "path": "Observation.interpretation",
+        "short": "Currently not used in BundledFunctionalStatus."
+      },
+      {
+        "id": "Observation.bodySite",
+        "path": "Observation.bodySite",
+        "short": "Currently not used in BundledFunctionalStatus."
+      },
+      {
+        "id": "Observation.method",
+        "path": "Observation.method",
+        "short": "Currently not used in BundledFunctionalStatus."
+      },
+      {
+        "id": "Observation.specimen",
+        "path": "Observation.specimen",
+        "short": "Currently not used in BundledFunctionalStatus."
+      },
+      {
+        "id": "Observation.device",
+        "path": "Observation.device",
+        "short": "Currently not used in BundledFunctionalStatus."
+      },
+      {
+        "id": "Observation.referenceRange",
+        "path": "Observation.referenceRange",
+        "short": "Currently not used in BundledFunctionalStatus."
+      },
+      {
+        "id": "Observation.hasMember",
+        "path": "Observation.hasMember",
+        "short": "Each functional status observation in the bundle."
+      },
+      {
+        "id": "Observation.derivedFrom",
+        "path": "Observation.derivedFrom",
+        "short": "Currently not used in BundledFunctionalStatus."
+      },
+      {
+        "id": "Observation.component",
+        "path": "Observation.component",
+        "short": "Currently not used in BundledFunctionalStatus."
+      }
+    ]
+  }
+}

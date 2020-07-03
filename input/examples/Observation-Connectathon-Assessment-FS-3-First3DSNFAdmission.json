@@ -1,0 +1,148 @@
+{
+  "resourceType": "Observation",
+  "id": "Connectathon-Assessment-FS-3-First3DSNFAdmission",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Connectathon-Org-Loc-02"
+      }
+    },
+    {
+      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "DeviceUseStatement/Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-17"
+      }
+    },
+    {
+      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "DeviceUseStatement/Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-18"
+      }
+    },
+    {
+      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "DeviceUseStatement/Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-19"
+      }
+    },
+    {
+      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "DeviceUseStatement/Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-20"
+      }
+    },
+    {
+      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "DeviceUseStatement/Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-21"
+      }
+    },
+    {
+      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "DeviceUseStatement/Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-22"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-04-09T15:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "88330-6",
+        "system": "http://loinc.org",
+        "display": "Mobility - Admission Performance"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "survey",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      ]
+    }
+  ],
+  "performer": [
+    {
+      "reference": "Practitioner/Connectathon-Practitioner-JenCadbury"
+    },
+    {
+      "reference": "PractitionerRole/Connectathon-Role-PT"
+    },
+    {
+      "reference": "Organization/Connectathon-Org-02",
+      "display": "Organization"
+    }
+  ],
+  "hasMember": [
+    {
+      "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-3"
+    },
+    {
+      "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-9"
+    },
+    {
+      "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-15"
+    },
+    {
+      "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-21"
+    },
+    {
+      "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-27"
+    },
+    {
+      "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-33"
+    },
+    {
+      "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-39"
+    },
+    {
+      "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-45"
+    },
+    {
+      "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-51"
+    },
+    {
+      "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-57"
+    },
+    {
+      "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-63"
+    },
+    {
+      "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-69"
+    },
+    {
+      "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-75"
+    },
+    {
+      "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-81"
+    },
+    {
+      "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-87"
+    },
+    {
+      "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-93"
+    },
+    {
+      "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-99"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-3-First3DSNFAdmission",
+      "display": "Questionnaire Response"
+    }
+  ]
+}

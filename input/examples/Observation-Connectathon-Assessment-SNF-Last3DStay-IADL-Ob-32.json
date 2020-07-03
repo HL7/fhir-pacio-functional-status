@@ -1,0 +1,59 @@
+{
+  "resourceType": "Observation",
+  "id": "Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-32",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Connectathon-Org-Loc-02"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-04-23T13:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "tbd-code-19",
+        "system": "http://loinc.org",
+        "display": "Heavier periodic housework"
+      }
+    ],
+    "text": "Heavier periodic housework"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA-tbd-01",
+        "system": "http://loinc.org",
+        "display": "Independant"
+      }
+    ],
+    "text": "Independant"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Connectathon-Practitioner-DanielGranger"
+    },
+    {
+      "reference": "PractitionerRole/Connectathon-Role-RN"
+    },
+    {
+      "reference": "Organization/Connectathon-Org-02",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/Connectathon-QuestResponse-SNF-Last3DStay-IADL"
+    }
+  ]
+}

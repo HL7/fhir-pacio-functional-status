@@ -1,0 +1,59 @@
+{
+  "resourceType": "Observation",
+  "id": "Assessment-HHDischarge-SelfCare-Ob-6",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-03"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-05-01T13:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "83232-9",
+        "system": "http://loinc.org",
+        "display": "Eating - functional ability during 3D assessment period"
+      }
+    ],
+    "text": "Eating"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA9983-3",
+        "system": "http://loinc.org",
+        "display": "Independent"
+      }
+    ],
+    "text": "Independent"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-ScottDumble"
+    },
+    {
+      "reference": "PractitionerRole/Role-RN"
+    },
+    {
+      "reference": "Organization/Org-03",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-HHDischarge-SelfCare"
+    }
+  ]
+}

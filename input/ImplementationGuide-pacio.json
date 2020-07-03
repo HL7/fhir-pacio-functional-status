@@ -1,0 +1,729 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "pacio",
+  "url": "https://paciowg.github.io/functional-status-ig/ImplementationGuide/pacio",
+  "version": "0.1.0",
+  "name": "FunctionalStatusImplementationGuide",
+  "title": "Functional Status Implementation Guide",
+  "status": "active",
+  "publisher": "PACIO Project",
+  "contact": [
+    {
+      "name": "PACIO project",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "info@pacioproject.org"
+        }
+      ]
+    }
+  ],
+  "description": "TO advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders",
+  "packageId": "pacio",
+  "license": "CC0-1.0",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "uri": "http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core",
+      "packageId": "hl7.fhir.us.core",
+      "version": "3.1.0"
+    }
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition/pacio-bfs"
+        },
+        "name": "Bundled Functional Status",
+        "description": "An point in time bundle of functional status observations for a patient.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/pacio-fs"
+        },
+        "name": "Functional Status",
+        "description": "An exchange of functional status data for a patient.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/pacio-functional-qr"
+        },
+        "name": "PACIO Questionaire Response",
+        "description": "A completed, or sections of a completed, CMS PAC assessment.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/pacio-plf"
+        },
+        "name": "Prior Level Of Function",
+        "description": "An exchange of prior level of function data for a patient.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/pacio-dev"
+        },
+        "name": "UseOfDevice",
+        "description": "A device used by a Patient during a functional status assessment.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/assistance-required"
+        },
+        "name": "AssistanceRequired",
+        "description": "Associated functional status used for display purposes.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/device-patient-used"
+        },
+        "name": "DevicePatientUsed",
+        "description": "A device used by a patient during a functional status assessment.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HHDischarge-SelfCare"
+        },
+        "name": "Assessment-HHDischarge-SelfCare",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HHDischarge-SelfCare-Ob-12"
+        },
+        "name": "Assessment-HHDischarge-SelfCare-Ob-12",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HHDischarge-SelfCare-Ob-18"
+        },
+        "name": "Assessment-HHDischarge-SelfCare-Ob-18",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HHDischarge-SelfCare-Ob-24"
+        },
+        "name": "Assessment-HHDischarge-SelfCare-Ob-24",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HHDischarge-SelfCare-Ob-30"
+        },
+        "name": "Assessment-HHDischarge-SelfCare-Ob-30",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HHDischarge-SelfCare-Ob-36"
+        },
+        "name": "Assessment-HHDischarge-SelfCare-Ob-36",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HHDischarge-SelfCare-Ob-42"
+        },
+        "name": "Assessment-HHDischarge-SelfCare-Ob-42",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HHDischarge-SelfCare-Ob-6"
+        },
+        "name": "Assessment-HHDischarge-SelfCare-Ob-6",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HHStart-SelfCare"
+        },
+        "name": "Assessment-HHStart-SelfCare",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HHStart-SelfCare-Ob-11"
+        },
+        "name": "Assessment-HHStart-SelfCare-Ob-11",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HHStart-SelfCare-Ob-17"
+        },
+        "name": "Assessment-HHStart-SelfCare-Ob-17",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HHStart-SelfCare-Ob-23"
+        },
+        "name": "Assessment-HHStart-SelfCare-Ob-23",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HHStart-SelfCare-Ob-29"
+        },
+        "name": "Assessment-HHStart-SelfCare-Ob-29",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HHStart-SelfCare-Ob-35"
+        },
+        "name": "Assessment-HHStart-SelfCare-Ob-35",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HHStart-SelfCare-Ob-41"
+        },
+        "name": "Assessment-HHStart-SelfCare-Ob-41",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HHStart-SelfCare-Ob-5"
+        },
+        "name": "Assessment-HHStart-SelfCare-Ob-5",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hosp-Admission-SelfCare"
+        },
+        "name": "Assessment-Hosp-Admission-SelfCare",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hosp-Admission-SelfCare-Ob-1"
+        },
+        "name": "Assessment-Hosp-Admission-SelfCare-Ob-1",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hosp-Admission-SelfCare-Ob-13"
+        },
+        "name": "Assessment-Hosp-Admission-SelfCare-Ob-13",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hosp-Admission-SelfCare-Ob-19"
+        },
+        "name": "Assessment-Hosp-Admission-SelfCare-Ob-19",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hosp-Admission-SelfCare-Ob-25"
+        },
+        "name": "Assessment-Hosp-Admission-SelfCare-Ob-25",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hosp-Admission-SelfCare-Ob-31"
+        },
+        "name": "Assessment-Hosp-Admission-SelfCare-Ob-31",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hosp-Admission-SelfCare-Ob-37"
+        },
+        "name": "Assessment-Hosp-Admission-SelfCare-Ob-37",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hosp-Admission-SelfCare-Ob-7"
+        },
+        "name": "Assessment-Hosp-Admission-SelfCare-Ob-7",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hosp-DischargeGoal-SelfCare"
+        },
+        "name": "Assessment-Hosp-DischargeGoal-SelfCare",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hosp-DischargeGoal-SelfCare-Ob-43"
+        },
+        "name": "Assessment-Hosp-DischargeGoal-SelfCare-Ob-43",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hosp-DischargeGoal-SelfCare-Ob-44"
+        },
+        "name": "Assessment-Hosp-DischargeGoal-SelfCare-Ob-44",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hosp-DischargeGoal-SelfCare-Ob-45"
+        },
+        "name": "Assessment-Hosp-DischargeGoal-SelfCare-Ob-45",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hosp-DischargeGoal-SelfCare-Ob-46"
+        },
+        "name": "Assessment-Hosp-DischargeGoal-SelfCare-Ob-46",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hosp-DischargeGoal-SelfCare-Ob-47"
+        },
+        "name": "Assessment-Hosp-DischargeGoal-SelfCare-Ob-47",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hosp-DischargeGoal-SelfCare-Ob-48"
+        },
+        "name": "Assessment-Hosp-DischargeGoal-SelfCare-Ob-48",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hosp-DischargeGoal-SelfCare-Ob-49"
+        },
+        "name": "Assessment-Hosp-DischargeGoal-SelfCare-Ob-49",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hosp-Last3DStay-SelfCare"
+        },
+        "name": "Assessment-Hosp-Last3DStay-SelfCare",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hosp-Last3DStay-SelfCare-Ob-14"
+        },
+        "name": "Assessment-Hosp-Last3DStay-SelfCare-Ob-14",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hosp-Last3DStay-SelfCare-Ob-2"
+        },
+        "name": "Assessment-Hosp-Last3DStay-SelfCare-Ob-2",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hosp-Last3DStay-SelfCare-Ob-20"
+        },
+        "name": "Assessment-Hosp-Last3DStay-SelfCare-Ob-20",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hosp-Last3DStay-SelfCare-Ob-26"
+        },
+        "name": "Assessment-Hosp-Last3DStay-SelfCare-Ob-26",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hosp-Last3DStay-SelfCare-Ob-32"
+        },
+        "name": "Assessment-Hosp-Last3DStay-SelfCare-Ob-32",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hosp-Last3DStay-SelfCare-Ob-38"
+        },
+        "name": "Assessment-Hosp-Last3DStay-SelfCare-Ob-38",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hosp-Last3DStay-SelfCare-Ob-8"
+        },
+        "name": "Assessment-Hosp-Last3DStay-SelfCare-Ob-8",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Admission-SelfCare"
+        },
+        "name": "Assessment-SNF-Admission-SelfCare",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Admission-SelfCare-Ob-15"
+        },
+        "name": "Assessment-SNF-Admission-SelfCare-Ob-15",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Admission-SelfCare-Ob-21"
+        },
+        "name": "Assessment-SNF-Admission-SelfCare-Ob-21",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Admission-SelfCare-Ob-27"
+        },
+        "name": "Assessment-SNF-Admission-SelfCare-Ob-27",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Admission-SelfCare-Ob-3"
+        },
+        "name": "Assessment-SNF-Admission-SelfCare-Ob-3",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Admission-SelfCare-Ob-33"
+        },
+        "name": "Assessment-SNF-Admission-SelfCare-Ob-33",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Admission-SelfCare-Ob-39"
+        },
+        "name": "Assessment-SNF-Admission-SelfCare-Ob-39",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Admission-SelfCare-Ob-9"
+        },
+        "name": "Assessment-SNF-Admission-SelfCare-Ob-9",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Last3DStay-SelfCare"
+        },
+        "name": "Assessment-SNF-Last3DStay-SelfCare",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Last3DStay-SelfCare-Ob-10"
+        },
+        "name": "Assessment-SNF-Last3DStay-SelfCare-Ob-10",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Last3DStay-SelfCare-Ob-16"
+        },
+        "name": "Assessment-SNF-Last3DStay-SelfCare-Ob-16",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Last3DStay-SelfCare-Ob-22"
+        },
+        "name": "Assessment-SNF-Last3DStay-SelfCare-Ob-22",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Last3DStay-SelfCare-Ob-28"
+        },
+        "name": "Assessment-SNF-Last3DStay-SelfCare-Ob-28",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Last3DStay-SelfCare-Ob-34"
+        },
+        "name": "Assessment-SNF-Last3DStay-SelfCare-Ob-34",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Last3DStay-SelfCare-Ob-4"
+        },
+        "name": "Assessment-SNF-Last3DStay-SelfCare-Ob-4",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Last3DStay-SelfCare-Ob-40"
+        },
+        "name": "Assessment-SNF-Last3DStay-SelfCare-Ob-40",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Organization/Org-01"
+        },
+        "name": "Org-01",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/Org-02"
+        },
+        "name": "Org-02",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/Org-03"
+        },
+        "name": "Org-03",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/Org-Loc-01"
+        },
+        "name": "Org-Loc-01",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/Org-Loc-02"
+        },
+        "name": "Org-Loc-02",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/Org-Loc-03"
+        },
+        "name": "Org-Loc-03",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/Practitioner-DanielGranger"
+        },
+        "name": "Practitioner-DanielGranger",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/Practitioner-HoneyJones"
+        },
+        "name": "Practitioner-HoneyJones",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/Practitioner-JenCadbury"
+        },
+        "name": "Practitioner-JenCadbury",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/Practitioner-JennyGlass"
+        },
+        "name": "Practitioner-JennyGlass",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/Practitioner-LunaBaskins"
+        },
+        "name": "Practitioner-LunaBaskins",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/Practitioner-RonBurgendy"
+        },
+        "name": "Practitioner-RonBurgendy",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/Practitioner-RonMarble"
+        },
+        "name": "Practitioner-RonMarble",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/Practitioner-SallySmith"
+        },
+        "name": "Practitioner-SallySmith",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/Practitioner-ScottDumble"
+        },
+        "name": "Practitioner-ScottDumble",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/QResponse-HHDischarge-SelfCare"
+        },
+        "name": "QResponse-HHDischarge-SelfCare",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/QResponse-HHStart-SelfCare"
+        },
+        "name": "QResponse-HHStart-SelfCare",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/QResponse-Hosp-Admission-SelfCare"
+        },
+        "name": "QResponse-Hosp-Admission-SelfCare",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/QResponse-Hosp-DischargeGoal-SelfCare"
+        },
+        "name": "QResponse-Hosp-DischargeGoal-SelfCare",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/QResponse-Hosp-Last3DStay-SelfCare"
+        },
+        "name": "QResponse-Hosp-Last3DStay-SelfCare",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/QResponse-SNF-Admission-SelfCare"
+        },
+        "name": "QResponse-SNF-Admission-SelfCare",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/QResponse-SNF-Last3DStay-SelfCare"
+        },
+        "name": "QResponse-SNF-Last3DStay-SelfCare",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/Role-PT"
+        },
+        "name": "Role-PT",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/Role-RN"
+        },
+        "name": "Role-RN",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Device/cms-device-01"
+        },
+        "name": "cms-device-01",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "DeviceUseStatement/cms-deviceUse-01"
+        },
+        "name": "cms-deviceUse-01",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "reference": {
+          "reference": "Patient/patientBSJ1"
+        },
+        "name": "patientBSJ1",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "CapabilityStatement/pacio-cs"
+        },
+        "name": "PACIO functional Status Capability Statement",
+        "description": "This Capability Statement defines the expected capabilities of a PACIO functional Status FHIR server conforming to the PACIO functional Status Implementation Guide.",
+        "exampleBoolean": false
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "functional_status_use_case.html",
+          "title": "Functional Status Use Case",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "profile_highlights_and_guidance.html",
+          "title": "Profile Highlights and Guidance",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "security_and_data_sharing.html",
+          "title": "Security and Data Sharing",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "underlying_technologies.html",
+          "title": "Underlying Technologies",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2020+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "CI Build"
+      },
+      {
+        "code": "show-inherited-invariants",
+        "value": "false"
+      }
+    ]
+  }
+}

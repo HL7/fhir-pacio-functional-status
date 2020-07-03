@@ -1,0 +1,14 @@
+{
+  "resourceType": "Practitioner",
+  "id": "cms-practitioner-01",
+  "name": [
+    {
+      "given": [
+        "John"
+      ],
+      "family": "Carlson"
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1970-10-27"
+}

@@ -1,0 +1,59 @@
+{
+  "resourceType": "Observation",
+  "id": "Assessment-SNF-Last3DStay-SelfCare-Ob-22",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-02"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-04-23T13:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "83226-1",
+        "system": "http://loinc.org",
+        "display": "Shower &or bathe self - functional ability during 3D assessment period"
+      }
+    ],
+    "text": "Shower/bathe self"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA10073-7",
+        "system": "http://loinc.org",
+        "display": "Setup or clean-up assistance"
+      }
+    ],
+    "text": "Setup or clean-up assistance"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-DanielGranger"
+    },
+    {
+      "reference": "PractitionerRole/Role-RN"
+    },
+    {
+      "reference": "Organization/Org-02",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-SNF-Last3DStay-SelfCare"
+    }
+  ]
+}

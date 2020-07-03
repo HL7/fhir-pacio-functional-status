@@ -1,0 +1,18 @@
+{
+  "resourceType": "Device",
+  "id": "CMS-Device-6",
+  "deviceName": [
+    {
+      "name": "Hand rail on both sides",
+      "type": "user-friendly-name"
+    }
+  ],
+  "type": {
+    "coding": [
+      {
+        "code": "360303004",
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "resourceType": "Observation",
+  "id": "Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-13",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Connectathon-Org-Loc-01"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-04-02T10:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "83214-7",
+        "system": "http://loinc.org",
+        "display": "What was the patient's usual performance related to their ability to move from lying on the back to sitting on the side of the bed with feet flat on the floor, and with no back support?"
+      }
+    ],
+    "text": "Lying to sitting on side of bed"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA11759-0",
+        "system": "http://loinc.org",
+        "display": "Substantial/maximal Assist"
+      }
+    ],
+    "text": "Substantial/maximal Assist"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Connectathon-Practitioner-SallySmith"
+    },
+    {
+      "reference": "PractitionerRole/Connectathon-Role-PT"
+    },
+    {
+      "reference": "Organization/Connectathon-Org-01",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-1-First3DHospAdmission"
+    }
+  ]
+}

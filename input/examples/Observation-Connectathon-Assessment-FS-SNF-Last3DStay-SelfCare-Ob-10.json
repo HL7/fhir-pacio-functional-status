@@ -1,0 +1,59 @@
+{
+  "resourceType": "Observation",
+  "id": "Connectathon-Assessment-FS-SNF-Last3DStay-SelfCare-Ob-10",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Connectathon-Org-Loc-02"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-04-23T13:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "83230-3",
+        "system": "http://loinc.org",
+        "display": "Oral hygiene - functional ability during 3D assessment period"
+      }
+    ],
+    "text": "Oral hygiene"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA9983-3",
+        "system": "http://loinc.org",
+        "display": "Independent"
+      }
+    ],
+    "text": "Independent"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Connectathon-Practitioner-DanielGranger"
+    },
+    {
+      "reference": "PractitionerRole/Connectathon-Role-RN"
+    },
+    {
+      "reference": "Organization/Connectathon-Org-02",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-SNF-Last3DStay-SelfCare"
+    }
+  ]
+}

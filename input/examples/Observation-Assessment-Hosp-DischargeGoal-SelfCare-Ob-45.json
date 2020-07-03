@@ -1,0 +1,59 @@
+{
+  "resourceType": "Observation",
+  "id": "Assessment-Hosp-DischargeGoal-SelfCare-Ob-45",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-01"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-04-02T10:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "83227-9",
+        "system": "http://loinc.org",
+        "display": "Toileting hygiene - functional ability during 3D assessment period"
+      }
+    ],
+    "text": "Toileting hygiene"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA27665-1",
+        "system": "http://loinc.org",
+        "display": "Dependent"
+      }
+    ],
+    "text": "Dependent"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-SallySmith"
+    },
+    {
+      "reference": "PractitionerRole/Role-PT"
+    },
+    {
+      "reference": "Organization/Org-01",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-Hosp-DischargeGoal-SelfCare"
+    }
+  ]
+}

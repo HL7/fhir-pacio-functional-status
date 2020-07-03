@@ -1,0 +1,59 @@
+{
+  "resourceType": "Observation",
+  "id": "Assessment-Hosp-Last3DStay-SelfCare-Ob-26",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-01"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-04-09T14:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "83224-6",
+        "system": "http://loinc.org",
+        "display": "Upper body dressing - functional ability during 3D assessment period"
+      }
+    ],
+    "text": "Upper body dressing"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA10055-4",
+        "system": "http://loinc.org",
+        "display": "Partial/moderate Assist"
+      }
+    ],
+    "text": "Partial/moderate Assist"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-RonMarble"
+    },
+    {
+      "reference": "PractitionerRole/Role-PT"
+    },
+    {
+      "reference": "Organization/Org-01",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-Hosp-Last3DStay-SelfCare"
+    }
+  ]
+}

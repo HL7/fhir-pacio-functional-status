@@ -1,0 +1,59 @@
+{
+  "resourceType": "Observation",
+  "id": "Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-67",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Connectathon-Org-Loc-01"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-04-02T10:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "83196-6",
+        "system": "http://loinc.org",
+        "display": "What was the patient's usual performance related to their ability to go up and down a curb and/or up and down one step?"
+      }
+    ],
+    "text": "1 step (curb)"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA26735-3",
+        "system": "http://loinc.org",
+        "display": "Not attempted due to medical condition or safety concerns"
+      }
+    ],
+    "text": "Not attempted due to medical condition or safety concerns"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Connectathon-Practitioner-SallySmith"
+    },
+    {
+      "reference": "PractitionerRole/Connectathon-Role-PT"
+    },
+    {
+      "reference": "Organization/Connectathon-Org-01",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-1-First3DHospAdmission"
+    }
+  ]
+}

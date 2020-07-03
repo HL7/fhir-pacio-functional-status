@@ -1,0 +1,18 @@
+{
+  "resourceType": "Device",
+  "id": "CMS-Device-3",
+  "deviceName": [
+    {
+      "name": "Rolling walker",
+      "type": "user-friendly-name"
+    }
+  ],
+  "type": {
+    "coding": [
+      {
+        "code": "404946006",
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  }
+}

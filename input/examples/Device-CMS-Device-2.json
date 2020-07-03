@@ -1,0 +1,18 @@
+{
+  "resourceType": "Device",
+  "id": "CMS-Device-2",
+  "deviceName": [
+    {
+      "name": "Walker",
+      "type": "user-friendly-name"
+    }
+  ],
+  "type": {
+    "coding": [
+      {
+        "code": "466317003",
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "resourceType": "Practitioner",
+  "id": "CMS-Practitioner-02",
+  "name": [
+    {
+      "given": [
+        "Steve"
+      ],
+      "family": "Davidson"
+    }
+  ],
+  "active": true,
+  "gender": "male"
+}

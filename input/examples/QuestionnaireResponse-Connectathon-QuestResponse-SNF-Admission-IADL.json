@@ -1,0 +1,326 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "Connectathon-QuestResponse-SNF-Admission-IADL",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "completed",
+  "questionnaire": "https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17",
+  "authored": "2020-04-09T15:00:00-05:00",
+  "item": [
+    {
+      "linkId": "Section GG",
+      "text": "Functional Abilities and Goals - IADL",
+      "id": "tbd-code-1",
+      "item": [
+        {
+          "linkId": "Section GG/GG0185/7",
+          "text": "Instrumental Activities of Daily Living - Usual",
+          "id": " tbd-code-2",
+          "item": [
+            {
+              "linkId": "Section GG/GG0185/7/GG0185A7",
+              "text": "Makes a light cold meal",
+              "id": "tbd-code-4",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-1"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section GG/GG0185/7/GG0185B7",
+              "text": "Makes a hot meal",
+              "id": "tbd-code-5",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-3"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section GG/GG0185/7/GG0185C7",
+              "text": "Light daily housework",
+              "id": "tbd-code-6",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-5"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section GG/GG0185/7/GG0185D7",
+              "text": "Heavier periodic housework",
+              "id": "tbd-code-7",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-7"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section GG/GG0185/7/GG0185E7",
+              "text": "Light shopping",
+              "id": "tbd-code-8",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-9"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section GG/GG0185/7/GG0185F7",
+              "text": "Telephone-answering call",
+              "id": "tbd-code-9",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-11"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section GG/GG0185/7/GG0185G7",
+              "text": "Telephone-placing call",
+              "id": "tbd-code-10",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-13"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section GG/GG0185/7/GG0185H7",
+              "text": "Medication management-oral medications",
+              "id": "tbd-code-11",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-15"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section GG/GG0185/7/GG0185I7",
+              "text": "Medication management-inhalant/mist medications",
+              "id": "tbd-code-12",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-17"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section GG/GG0185/7/GG0185J7",
+              "text": "Medication management-injectable medications",
+              "id": "tbd-code-13",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-19"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section GG/GG0185/7/GG0185K7",
+              "text": "Simple financial management",
+              "id": "tbd-code-14",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-21"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section GG/GG0185/7/GG0185L7",
+              "text": "Complex financial management",
+              "id": "tbd-code-15",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-23"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "Section GG/GG0185/8",
+          "text": "Instrumental Activities of Daily Living - Most Dependent",
+          "id": " tbd-code-3",
+          "item": [
+            {
+              "linkId": "Section GG/GG0185/8/GG0185A8",
+              "text": "Makes a light cold meal",
+              "id": "tbd-code-16",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-25"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section GG/GG0185/8/GG0185B8",
+              "text": "Makes a hot meal",
+              "id": "tbd-code-17",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-27"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section GG/GG0185/8/GG0185C8",
+              "text": "Light daily housework",
+              "id": "tbd-code-18",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-29"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section GG/GG0185/8/GG0185D8",
+              "text": "Heavier periodic housework",
+              "id": "tbd-code-19",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-31"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section GG/GG0185/8/GG0185E8",
+              "text": "Light shopping",
+              "id": "tbd-code-20",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-33"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section GG/GG0185/8/GG0185F8",
+              "text": "Telephone-answering call",
+              "id": "tbd-code-21",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-35"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section GG/GG0185/8/GG0185G8",
+              "text": "Telephone-placing call",
+              "id": "tbd-code-22",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-37"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section GG/GG0185/8/GG0185H8",
+              "text": "Medication management-oral medications",
+              "id": "tbd-code-23",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-39"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section GG/GG0185/8/GG0185I8",
+              "text": "Medication management-inhalant/mist medications",
+              "id": "tbd-code-24",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-41"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section GG/GG0185/8/GG0185J8",
+              "text": "Medication management-injectable medications",
+              "id": "tbd-code-25",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-43"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section GG/GG0185/7/GG0185K8",
+              "text": "Simple financial management",
+              "id": "tbd-code-26",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-45"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section GG/GG0185/7/GG0185L8",
+              "text": "Complex financial management",
+              "id": "tbd-code-27",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-47"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "resourceType": "Device",
+  "id": "CMS-Device-7",
+  "deviceName": [
+    {
+      "name": "Manual Wheelchair",
+      "type": "user-friendly-name"
+    }
+  ],
+  "type": {
+    "coding": [
+      {
+        "code": "58938008",
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  }
+}

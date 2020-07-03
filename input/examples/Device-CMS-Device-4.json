@@ -1,0 +1,18 @@
+{
+  "resourceType": "Device",
+  "id": "CMS-Device-4",
+  "deviceName": [
+    {
+      "name": "Handle bars",
+      "type": "user-friendly-name"
+    }
+  ],
+  "type": {
+    "coding": [
+      {
+        "code": "465550005",
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  }
+}

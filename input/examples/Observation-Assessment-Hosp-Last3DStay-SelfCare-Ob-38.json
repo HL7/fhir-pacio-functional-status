@@ -1,0 +1,59 @@
+{
+  "resourceType": "Observation",
+  "id": "Assessment-Hosp-Last3DStay-SelfCare-Ob-38",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-01"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-04-09T14:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "83220-4",
+        "system": "http://loinc.org",
+        "display": "Putting on and taking off footwear - functional ability during 3D assessment period"
+      }
+    ],
+    "text": "Putting on/taking off footwear"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA10055-4",
+        "system": "http://loinc.org",
+        "display": "Substantial/maximal assistanc"
+      }
+    ],
+    "text": "Substantial/maximal assistanc"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-RonMarble"
+    },
+    {
+      "reference": "PractitionerRole/Role-PT"
+    },
+    {
+      "reference": "Organization/Org-01",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-Hosp-Last3DStay-SelfCare"
+    }
+  ]
+}
