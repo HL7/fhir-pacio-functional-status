@@ -19,12 +19,13 @@ Figure 1: Example Post-acute Care Patient Healthcare Journey
 
 ### Assessment Data Exchange
 
-In Figure 2, the patient is admitted to Healthcare Setting A due to the result of an adverse event, such as a stroke.  Healthcare setting A performs a set of Confusion Assessment Method (CAM) cognitive assessments, first by a registered nurse (e.g. at admission) and later, by a physical therapist (e.g. at discharge).  The results of the CAM cognitive assessments are captured in the electronic health record (EHR) system of Healthcare Setting A.
+In Figure 2, the patient is admitted to Healthcare Setting A due to the result of an adverse event, such as a fall.  Healthcare setting A performs a set of mobility functional assessments, first by a registered nurse (e.g. at admission) and later, by a physical therapist (e.g. at discharge).  The results of the mobility assessments are captured in the electronic health record (EHR) system of Healthcare Setting A.
 
-Upon discharge, Healthcare Setting A refers the patient to Healthcare Setting B.  When the patient arrives at Healthcare Setting B, their clinicians can retrieve the cognitive assessments performed on the patient at Healthcare Setting A, as part of the transfer summary, using the profiles for exchanging cognitive status data defined in this Implementation Guide.
+Upon discharge, Healthcare Setting A refers the patient to Healthcare Setting B.  When the patient arrives at Healthcare Setting B, their clinicians can retrieve the functional assessments performed on the patient at Healthcare Setting A, as part of the transfer summary, using the profiles for exchanging functional status data defined in this Implementation Guide.
 
 The patient and their family can also access the assessments from Healthcare Setting A at any time through a mobile/web application, so that they are informed about the patient’s care, can track progress, and can be more engaged in their healthcare decisions.
 
-![Cognitive Status Use Case](Cognitive_Status_Use_Case.png){:style="float: none;"}
 
-Figure 2: Cognitive Status Use Case
+![Functional Status Use Case](Functional_Status_Use_Case.png){:style="float: none;"}
+
+Figure 2: Functional Status Use Case
