@@ -91,6 +91,258 @@
       },
       {
         "reference": {
+          "reference": "Observation/Assessment-HH-Discharge-FS-7"
+        },
+        "name": "Assessment-HH-Discharge-FS-7",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-102"
+        },
+        "name": "Assessment-HH-Discharge-FS-7-Ob-102",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-12"
+        },
+        "name": "Assessment-HH-Discharge-FS-7-Ob-12",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-18"
+        },
+        "name": "Assessment-HH-Discharge-FS-7-Ob-18",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-24"
+        },
+        "name": "Assessment-HH-Discharge-FS-7-Ob-24",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-30"
+        },
+        "name": "Assessment-HH-Discharge-FS-7-Ob-30",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-36"
+        },
+        "name": "Assessment-HH-Discharge-FS-7-Ob-36",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-42"
+        },
+        "name": "Assessment-HH-Discharge-FS-7-Ob-42",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-48"
+        },
+        "name": "Assessment-HH-Discharge-FS-7-Ob-48",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-54"
+        },
+        "name": "Assessment-HH-Discharge-FS-7-Ob-54",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-6"
+        },
+        "name": "Assessment-HH-Discharge-FS-7-Ob-6",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-60"
+        },
+        "name": "Assessment-HH-Discharge-FS-7-Ob-60",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-66"
+        },
+        "name": "Assessment-HH-Discharge-FS-7-Ob-66",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-72"
+        },
+        "name": "Assessment-HH-Discharge-FS-7-Ob-72",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-78"
+        },
+        "name": "Assessment-HH-Discharge-FS-7-Ob-78",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-84"
+        },
+        "name": "Assessment-HH-Discharge-FS-7-Ob-84",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-90"
+        },
+        "name": "Assessment-HH-Discharge-FS-7-Ob-90",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-96"
+        },
+        "name": "Assessment-HH-Discharge-FS-7-Ob-96",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-StartOfCare-FS-6"
+        },
+        "name": "Assessment-HH-StartOfCare-FS-6",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-StartOfCare-FS-6-Ob-101"
+        },
+        "name": "Assessment-HH-StartOfCare-FS-6-Ob-101",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-StartOfCare-FS-6-Ob-11"
+        },
+        "name": "Assessment-HH-StartOfCare-FS-6-Ob-11",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-StartOfCare-FS-6-Ob-17"
+        },
+        "name": "Assessment-HH-StartOfCare-FS-6-Ob-17",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-StartOfCare-FS-6-Ob-23"
+        },
+        "name": "Assessment-HH-StartOfCare-FS-6-Ob-23",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-StartOfCare-FS-6-Ob-29"
+        },
+        "name": "Assessment-HH-StartOfCare-FS-6-Ob-29",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-StartOfCare-FS-6-Ob-35"
+        },
+        "name": "Assessment-HH-StartOfCare-FS-6-Ob-35",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-StartOfCare-FS-6-Ob-41"
+        },
+        "name": "Assessment-HH-StartOfCare-FS-6-Ob-41",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-StartOfCare-FS-6-Ob-47"
+        },
+        "name": "Assessment-HH-StartOfCare-FS-6-Ob-47",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-StartOfCare-FS-6-Ob-5"
+        },
+        "name": "Assessment-HH-StartOfCare-FS-6-Ob-5",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-StartOfCare-FS-6-Ob-53"
+        },
+        "name": "Assessment-HH-StartOfCare-FS-6-Ob-53",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-StartOfCare-FS-6-Ob-59"
+        },
+        "name": "Assessment-HH-StartOfCare-FS-6-Ob-59",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-StartOfCare-FS-6-Ob-65"
+        },
+        "name": "Assessment-HH-StartOfCare-FS-6-Ob-65",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-StartOfCare-FS-6-Ob-71"
+        },
+        "name": "Assessment-HH-StartOfCare-FS-6-Ob-71",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-StartOfCare-FS-6-Ob-77"
+        },
+        "name": "Assessment-HH-StartOfCare-FS-6-Ob-77",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-StartOfCare-FS-6-Ob-83"
+        },
+        "name": "Assessment-HH-StartOfCare-FS-6-Ob-83",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-StartOfCare-FS-6-Ob-89"
+        },
+        "name": "Assessment-HH-StartOfCare-FS-6-Ob-89",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-StartOfCare-FS-6-Ob-95"
+        },
+        "name": "Assessment-HH-StartOfCare-FS-6-Ob-95",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
           "reference": "Observation/Assessment-HHDischarge-SelfCare"
         },
         "name": "Assessment-HHDischarge-SelfCare",
@@ -371,6 +623,489 @@
       },
       {
         "reference": {
+          "reference": "Observation/Assessment-Hospital-Admission-FS-1"
+        },
+        "name": "Assessment-Hospital-Admission-FS-1",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Admission-FS-1-Ob-1"
+        },
+        "name": "Assessment-Hospital-Admission-FS-1-Ob-1",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Admission-FS-1-Ob-13"
+        },
+        "name": "Assessment-Hospital-Admission-FS-1-Ob-13",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Admission-FS-1-Ob-19"
+        },
+        "name": "Assessment-Hospital-Admission-FS-1-Ob-19",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Admission-FS-1-Ob-25"
+        },
+        "name": "Assessment-Hospital-Admission-FS-1-Ob-25",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Admission-FS-1-Ob-31"
+        },
+        "name": "Assessment-Hospital-Admission-FS-1-Ob-31",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Admission-FS-1-Ob-37"
+        },
+        "name": "Assessment-Hospital-Admission-FS-1-Ob-37",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Admission-FS-1-Ob-43"
+        },
+        "name": "Assessment-Hospital-Admission-FS-1-Ob-43",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Admission-FS-1-Ob-49"
+        },
+        "name": "Assessment-Hospital-Admission-FS-1-Ob-49",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Admission-FS-1-Ob-55"
+        },
+        "name": "Assessment-Hospital-Admission-FS-1-Ob-55",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Admission-FS-1-Ob-61"
+        },
+        "name": "Assessment-Hospital-Admission-FS-1-Ob-61",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Admission-FS-1-Ob-67"
+        },
+        "name": "Assessment-Hospital-Admission-FS-1-Ob-67",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Admission-FS-1-Ob-7"
+        },
+        "name": "Assessment-Hospital-Admission-FS-1-Ob-7",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Admission-FS-1-Ob-73"
+        },
+        "name": "Assessment-Hospital-Admission-FS-1-Ob-73",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Admission-FS-1-Ob-79"
+        },
+        "name": "Assessment-Hospital-Admission-FS-1-Ob-79",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Admission-FS-1-Ob-85"
+        },
+        "name": "Assessment-Hospital-Admission-FS-1-Ob-85",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Admission-FS-1-Ob-91"
+        },
+        "name": "Assessment-Hospital-Admission-FS-1-Ob-91",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Admission-FS-1-Ob-97"
+        },
+        "name": "Assessment-Hospital-Admission-FS-1-Ob-97",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "DeviceUseStatement/Assessment-Hospital-Admission-FS-1-UseOfDevice-1"
+        },
+        "name": "Assessment-Hospital-Admission-FS-1-UseOfDevice-1",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "reference": {
+          "reference": "DeviceUseStatement/Assessment-Hospital-Admission-FS-1-UseOfDevice-2"
+        },
+        "name": "Assessment-Hospital-Admission-FS-1-UseOfDevice-2",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "reference": {
+          "reference": "DeviceUseStatement/Assessment-Hospital-Admission-FS-1-UseOfDevice-3"
+        },
+        "name": "Assessment-Hospital-Admission-FS-1-UseOfDevice-3",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Discharge-FS-2"
+        },
+        "name": "Assessment-Hospital-Discharge-FS-2",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Discharge-FS-2-Ob-14"
+        },
+        "name": "Assessment-Hospital-Discharge-FS-2-Ob-14",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Discharge-FS-2-Ob-2"
+        },
+        "name": "Assessment-Hospital-Discharge-FS-2-Ob-2",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Discharge-FS-2-Ob-20"
+        },
+        "name": "Assessment-Hospital-Discharge-FS-2-Ob-20",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Discharge-FS-2-Ob-26"
+        },
+        "name": "Assessment-Hospital-Discharge-FS-2-Ob-26",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Discharge-FS-2-Ob-32"
+        },
+        "name": "Assessment-Hospital-Discharge-FS-2-Ob-32",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Discharge-FS-2-Ob-38"
+        },
+        "name": "Assessment-Hospital-Discharge-FS-2-Ob-38",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Discharge-FS-2-Ob-44"
+        },
+        "name": "Assessment-Hospital-Discharge-FS-2-Ob-44",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Discharge-FS-2-Ob-50"
+        },
+        "name": "Assessment-Hospital-Discharge-FS-2-Ob-50",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Discharge-FS-2-Ob-56"
+        },
+        "name": "Assessment-Hospital-Discharge-FS-2-Ob-56",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Discharge-FS-2-Ob-62"
+        },
+        "name": "Assessment-Hospital-Discharge-FS-2-Ob-62",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Discharge-FS-2-Ob-68"
+        },
+        "name": "Assessment-Hospital-Discharge-FS-2-Ob-68",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Discharge-FS-2-Ob-74"
+        },
+        "name": "Assessment-Hospital-Discharge-FS-2-Ob-74",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Discharge-FS-2-Ob-8"
+        },
+        "name": "Assessment-Hospital-Discharge-FS-2-Ob-8",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Discharge-FS-2-Ob-80"
+        },
+        "name": "Assessment-Hospital-Discharge-FS-2-Ob-80",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Discharge-FS-2-Ob-86"
+        },
+        "name": "Assessment-Hospital-Discharge-FS-2-Ob-86",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Discharge-FS-2-Ob-92"
+        },
+        "name": "Assessment-Hospital-Discharge-FS-2-Ob-92",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Discharge-FS-2-Ob-98"
+        },
+        "name": "Assessment-Hospital-Discharge-FS-2-Ob-98",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "DeviceUseStatement/Assessment-Hospital-Discharge-FS-2-UseOfDevice-11"
+        },
+        "name": "Assessment-Hospital-Discharge-FS-2-UseOfDevice-11",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "reference": {
+          "reference": "DeviceUseStatement/Assessment-Hospital-Discharge-FS-2-UseOfDevice-12"
+        },
+        "name": "Assessment-Hospital-Discharge-FS-2-UseOfDevice-12",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "reference": {
+          "reference": "DeviceUseStatement/Assessment-Hospital-Discharge-FS-2-UseOfDevice-13"
+        },
+        "name": "Assessment-Hospital-Discharge-FS-2-UseOfDevice-13",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "reference": {
+          "reference": "DeviceUseStatement/Assessment-Hospital-Discharge-FS-2-UseOfDevice-14"
+        },
+        "name": "Assessment-Hospital-Discharge-FS-2-UseOfDevice-14",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "reference": {
+          "reference": "DeviceUseStatement/Assessment-Hospital-Discharge-FS-2-UseOfDevice-15"
+        },
+        "name": "Assessment-Hospital-Discharge-FS-2-UseOfDevice-15",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "reference": {
+          "reference": "DeviceUseStatement/Assessment-Hospital-Discharge-FS-2-UseOfDevice-16"
+        },
+        "name": "Assessment-Hospital-Discharge-FS-2-UseOfDevice-16",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Admission-FS-3"
+        },
+        "name": "Assessment-SNF-Admission-FS-3",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-15"
+        },
+        "name": "Assessment-SNF-Admission-FS-3-Ob-15",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-21"
+        },
+        "name": "Assessment-SNF-Admission-FS-3-Ob-21",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-27"
+        },
+        "name": "Assessment-SNF-Admission-FS-3-Ob-27",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-3"
+        },
+        "name": "Assessment-SNF-Admission-FS-3-Ob-3",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-33"
+        },
+        "name": "Assessment-SNF-Admission-FS-3-Ob-33",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-39"
+        },
+        "name": "Assessment-SNF-Admission-FS-3-Ob-39",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-45"
+        },
+        "name": "Assessment-SNF-Admission-FS-3-Ob-45",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-51"
+        },
+        "name": "Assessment-SNF-Admission-FS-3-Ob-51",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-57"
+        },
+        "name": "Assessment-SNF-Admission-FS-3-Ob-57",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-63"
+        },
+        "name": "Assessment-SNF-Admission-FS-3-Ob-63",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-69"
+        },
+        "name": "Assessment-SNF-Admission-FS-3-Ob-69",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-75"
+        },
+        "name": "Assessment-SNF-Admission-FS-3-Ob-75",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-81"
+        },
+        "name": "Assessment-SNF-Admission-FS-3-Ob-81",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-87"
+        },
+        "name": "Assessment-SNF-Admission-FS-3-Ob-87",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-9"
+        },
+        "name": "Assessment-SNF-Admission-FS-3-Ob-9",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-93"
+        },
+        "name": "Assessment-SNF-Admission-FS-3-Ob-93",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-99"
+        },
+        "name": "Assessment-SNF-Admission-FS-3-Ob-99",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "DeviceUseStatement/Assessment-SNF-Admission-FS-3-UseOfDevice-17"
+        },
+        "name": "Assessment-SNF-Admission-FS-3-UseOfDevice-17",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "reference": {
+          "reference": "DeviceUseStatement/Assessment-SNF-Admission-FS-3-UseOfDevice-18"
+        },
+        "name": "Assessment-SNF-Admission-FS-3-UseOfDevice-18",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "reference": {
+          "reference": "DeviceUseStatement/Assessment-SNF-Admission-FS-3-UseOfDevice-19"
+        },
+        "name": "Assessment-SNF-Admission-FS-3-UseOfDevice-19",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "reference": {
+          "reference": "DeviceUseStatement/Assessment-SNF-Admission-FS-3-UseOfDevice-20"
+        },
+        "name": "Assessment-SNF-Admission-FS-3-UseOfDevice-20",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "reference": {
+          "reference": "DeviceUseStatement/Assessment-SNF-Admission-FS-3-UseOfDevice-21"
+        },
+        "name": "Assessment-SNF-Admission-FS-3-UseOfDevice-21",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "reference": {
+          "reference": "DeviceUseStatement/Assessment-SNF-Admission-FS-3-UseOfDevice-22"
+        },
+        "name": "Assessment-SNF-Admission-FS-3-UseOfDevice-22",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "reference": {
           "reference": "Observation/Assessment-SNF-Admission-SelfCare"
         },
         "name": "Assessment-SNF-Admission-SelfCare",
@@ -423,6 +1158,307 @@
           "reference": "Observation/Assessment-SNF-Admission-SelfCare-Ob-9"
         },
         "name": "Assessment-SNF-Admission-SelfCare-Ob-9",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "DeviceUseStatement/Assessment-SNF-Discharge-FS-4-UseOfDevice-10"
+        },
+        "name": "Assessment-SNF-Discharge-FS-4-UseOfDevice-10",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "reference": {
+          "reference": "DeviceUseStatement/Assessment-SNF-Discharge-FS-4-UseOfDevice-4"
+        },
+        "name": "Assessment-SNF-Discharge-FS-4-UseOfDevice-4",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "reference": {
+          "reference": "DeviceUseStatement/Assessment-SNF-Discharge-FS-4-UseOfDevice-5"
+        },
+        "name": "Assessment-SNF-Discharge-FS-4-UseOfDevice-5",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "reference": {
+          "reference": "DeviceUseStatement/Assessment-SNF-Discharge-FS-4-UseOfDevice-6"
+        },
+        "name": "Assessment-SNF-Discharge-FS-4-UseOfDevice-6",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "reference": {
+          "reference": "DeviceUseStatement/Assessment-SNF-Discharge-FS-4-UseOfDevice-7"
+        },
+        "name": "Assessment-SNF-Discharge-FS-4-UseOfDevice-7",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "reference": {
+          "reference": "DeviceUseStatement/Assessment-SNF-Discharge-FS-4-UseOfDevice-8"
+        },
+        "name": "Assessment-SNF-Discharge-FS-4-UseOfDevice-8",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "reference": {
+          "reference": "DeviceUseStatement/Assessment-SNF-Discharge-FS-4-UseOfDevice-9"
+        },
+        "name": "Assessment-SNF-Discharge-FS-4-UseOfDevice-9",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Discharge-FS-5"
+        },
+        "name": "Assessment-SNF-Discharge-FS-5",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-10"
+        },
+        "name": "Assessment-SNF-Discharge-FS-5-Ob-10",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-100"
+        },
+        "name": "Assessment-SNF-Discharge-FS-5-Ob-100",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-16"
+        },
+        "name": "Assessment-SNF-Discharge-FS-5-Ob-16",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-22"
+        },
+        "name": "Assessment-SNF-Discharge-FS-5-Ob-22",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-28"
+        },
+        "name": "Assessment-SNF-Discharge-FS-5-Ob-28",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-34"
+        },
+        "name": "Assessment-SNF-Discharge-FS-5-Ob-34",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-4"
+        },
+        "name": "Assessment-SNF-Discharge-FS-5-Ob-4",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-40"
+        },
+        "name": "Assessment-SNF-Discharge-FS-5-Ob-40",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-46"
+        },
+        "name": "Assessment-SNF-Discharge-FS-5-Ob-46",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-52"
+        },
+        "name": "Assessment-SNF-Discharge-FS-5-Ob-52",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-58"
+        },
+        "name": "Assessment-SNF-Discharge-FS-5-Ob-58",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-64"
+        },
+        "name": "Assessment-SNF-Discharge-FS-5-Ob-64",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-70"
+        },
+        "name": "Assessment-SNF-Discharge-FS-5-Ob-70",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-76"
+        },
+        "name": "Assessment-SNF-Discharge-FS-5-Ob-76",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-82"
+        },
+        "name": "Assessment-SNF-Discharge-FS-5-Ob-82",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-88"
+        },
+        "name": "Assessment-SNF-Discharge-FS-5-Ob-88",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-94"
+        },
+        "name": "Assessment-SNF-Discharge-FS-5-Ob-94",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4"
+        },
+        "name": "Assessment-SNF-DischargeGoal-FS-4",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-103"
+        },
+        "name": "Assessment-SNF-DischargeGoal-FS-4-Ob-103",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-104"
+        },
+        "name": "Assessment-SNF-DischargeGoal-FS-4-Ob-104",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-105"
+        },
+        "name": "Assessment-SNF-DischargeGoal-FS-4-Ob-105",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-106"
+        },
+        "name": "Assessment-SNF-DischargeGoal-FS-4-Ob-106",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-107"
+        },
+        "name": "Assessment-SNF-DischargeGoal-FS-4-Ob-107",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-108"
+        },
+        "name": "Assessment-SNF-DischargeGoal-FS-4-Ob-108",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-109"
+        },
+        "name": "Assessment-SNF-DischargeGoal-FS-4-Ob-109",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-110"
+        },
+        "name": "Assessment-SNF-DischargeGoal-FS-4-Ob-110",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-111"
+        },
+        "name": "Assessment-SNF-DischargeGoal-FS-4-Ob-111",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-112"
+        },
+        "name": "Assessment-SNF-DischargeGoal-FS-4-Ob-112",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-113"
+        },
+        "name": "Assessment-SNF-DischargeGoal-FS-4-Ob-113",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-114"
+        },
+        "name": "Assessment-SNF-DischargeGoal-FS-4-Ob-114",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-115"
+        },
+        "name": "Assessment-SNF-DischargeGoal-FS-4-Ob-115",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-116"
+        },
+        "name": "Assessment-SNF-DischargeGoal-FS-4-Ob-116",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-117"
+        },
+        "name": "Assessment-SNF-DischargeGoal-FS-4-Ob-117",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-118"
+        },
+        "name": "Assessment-SNF-DischargeGoal-FS-4-Ob-118",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-119"
+        },
+        "name": "Assessment-SNF-DischargeGoal-FS-4-Ob-119",
         "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
       },
       {
@@ -480,6 +1516,69 @@
         },
         "name": "Assessment-SNF-Last3DStay-SelfCare-Ob-40",
         "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Device/CMS-Device-1"
+        },
+        "name": "CMS-Device-1",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Device/CMS-Device-2"
+        },
+        "name": "CMS-Device-2",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Device/CMS-Device-3"
+        },
+        "name": "CMS-Device-3",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Device/CMS-Device-4"
+        },
+        "name": "CMS-Device-4",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Device/CMS-Device-5"
+        },
+        "name": "CMS-Device-5",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Device/CMS-Device-6"
+        },
+        "name": "CMS-Device-6",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Device/CMS-Device-7"
+        },
+        "name": "CMS-Device-7",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Device/CMS-Device-8"
+        },
+        "name": "CMS-Device-8",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Device/CMS-Device-9"
+        },
+        "name": "CMS-Device-9",
+        "exampleBoolean": true
       },
       {
         "reference": {
@@ -588,6 +1687,20 @@
       },
       {
         "reference": {
+          "reference": "QuestionnaireResponse/QResponse-HH-Discharge-FS-7"
+        },
+        "name": "QResponse-HH-Discharge-FS-7",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/QResponse-HH-StartOfCare-FS-6"
+        },
+        "name": "QResponse-HH-StartOfCare-FS-6",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
+      },
+      {
+        "reference": {
           "reference": "QuestionnaireResponse/QResponse-HHDischarge-SelfCare"
         },
         "name": "QResponse-HHDischarge-SelfCare",
@@ -623,9 +1736,44 @@
       },
       {
         "reference": {
+          "reference": "QuestionnaireResponse/QResponse-Hospital-Admission-FS-1"
+        },
+        "name": "QResponse-Hospital-Admission-FS-1",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/QResponse-Hospital-Discharge-FS-2"
+        },
+        "name": "QResponse-Hospital-Discharge-FS-2",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/QResponse-SNF-Admission-FS-3"
+        },
+        "name": "QResponse-SNF-Admission-FS-3",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
+      },
+      {
+        "reference": {
           "reference": "QuestionnaireResponse/QResponse-SNF-Admission-SelfCare"
         },
         "name": "QResponse-SNF-Admission-SelfCare",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/QResponse-SNF-Discharge-FS-5"
+        },
+        "name": "QResponse-SNF-Discharge-FS-5",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/QResponse-SNF-DischargeGoal-FS-4"
+        },
+        "name": "QResponse-SNF-DischargeGoal-FS-4",
         "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
       },
       {

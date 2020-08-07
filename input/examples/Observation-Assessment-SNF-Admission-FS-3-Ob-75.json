@@ -1,0 +1,101 @@
+{
+  "resourceType": "Observation",
+  "id": "Assessment-SNF-Admission-FS-3-Ob-75",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-02"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-04-09T15:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "83194-1",
+        "system": "http://loinc.org",
+        "display": "What was the patient's usual performance related to their ability to go up and down four steps with or without a rail?"
+      }
+    ],
+    "text": "4 steps"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA26735-3",
+        "system": "http://loinc.org",
+        "display": "Not attempted due to medical condition or safety concerns"
+      }
+    ],
+    "text": "Not attempted due to medical condition or safety concerns"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-JenCadbury"
+    },
+    {
+      "reference": "PractitionerRole/Role-PT"
+    },
+    {
+      "reference": "Organization/Org-02",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-SNF-Admission-FS-3"
+    }
+  ],
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "88330-6",
+            "system": "http://loinc.org",
+            "display": "Mobility - Admission Performance"
+          }
+        ]
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "LA26735-3",
+            "system": "http://loinc.org"
+          }
+        ],
+        "text": "Not attempted due to medical condition or safety concerns"
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "85056-0",
+            "system": "http://loinc.org",
+            "display": "Mobility - Discharge Goal"
+          }
+        ]
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "LA11759-0",
+            "system": "http://loinc.org"
+          }
+        ],
+        "text": "Substantial/maximal Assist"
+      }
+    }
+  ]
+}

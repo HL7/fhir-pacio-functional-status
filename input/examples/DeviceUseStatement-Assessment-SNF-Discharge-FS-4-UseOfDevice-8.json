@@ -1,0 +1,25 @@
+{
+  "resourceType": "DeviceUseStatement",
+  "id": "Assessment-SNF-Discharge-FS-4-UseOfDevice-8",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "derivedFrom": [
+    {
+      "reference": "Assessment-SNF-Discharge-FS-4"
+    }
+  ],
+  "recordedOn": "2020-04-23T13:00:00-05:00",
+  "source": {
+    "reference": "Practitioner/Practitioner-DanielGranger"
+  },
+  "device": {
+    "reference": "Device/CMS-Device-4"
+  },
+  "status": "active"
+}

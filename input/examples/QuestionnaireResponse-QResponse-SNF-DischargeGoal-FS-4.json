@@ -1,0 +1,235 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "QResponse-SNF-DischargeGoal-FS-4",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "completed",
+  "questionnaire": "https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17",
+  "authored": "2020-04-09T15:00:00-05:00",
+  "item": [
+    {
+      "linkId": "Section-37",
+      "text": "Functional Abilities and Goals - Admission",
+      "id": "88482-5",
+      "item": [
+        {
+          "linkId": "Section-37/GG0170",
+          "text": "Mobility - Discharge Goal",
+          "id": "85056-0",
+          "item": [
+            {
+              "linkId": "Section-37/GG0170A2",
+              "text": "What was the patient's usual performance related to their ability to roll from lying on back to left and right side, and return to lying on back on the bed?",
+              "id": "83217-0",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-103"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0170B2",
+              "text": "What was the patient's usual performance related to their ability to move from sitting on side of bed to lying flat on the bed?",
+              "id": "83215-4",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-104"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0170C2",
+              "text": "What was the patient's usual performance related to their ability to move from lying on the back to sitting on the side of the bed with feet flat on the floor, and with no back support?",
+              "id": "83213-9",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-105"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0170D2",
+              "text": "What was the patient's usual performance related to their ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the bed?",
+              "id": "83211-3",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-106"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0170E2",
+              "text": "What was the patient's usual performance related to their ability to transfer to and from a bed to a chair (or wheelchair)?",
+              "id": "83209-7",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-107"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0170F2",
+              "text": "What was the patient's usual performance related to their ability to get on and off a toilet or commode?",
+              "id": "83207-1",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-108"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0170G2",
+              "text": "What was the patient's usual performance related to their ability to transfer in and out of a car or van on the passenger side?  Does not include the ability to open/close door or fasten seat belt.",
+              "id": "83205-5",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-109"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0170I2",
+              "text": "What was the patient's usual performance related to their ability to once standing, walk at least 10 feet in a room, corridor, or similar space?",
+              "id": "83203-0",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-110"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0170J2",
+              "text": "What was the patient's usual performance related to their ability to once standing, walk at least 50 feet and make two turns?",
+              "id": "83201-4",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-111"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0170K2",
+              "text": "What was the patient's usual performance related to their ability once standing, to walk at least 150 feet in a corridor or similar space?",
+              "id": "83199-0",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-112"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0170L2",
+              "text": "What was the patient's usual performance related to their ability to walk 10 feet on uneven or sloping surfaces (indoor or outdoor), such as turf or gravel?",
+              "id": "83197-4",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-113"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0170M2",
+              "text": "What was the patient's usual performance related to their ability to go up and down a curb and/or up and down one step?",
+              "id": "83195-8",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-114"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0170N2",
+              "text": "What was the patient's usual performance related to their ability to go up and down four steps with or without a rail?",
+              "id": "83193-3",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-115"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0170O2",
+              "text": "What was the patient's usual performance related to their ability to go up and down 12 steps with or without a rail?",
+              "id": "83191-7",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-116"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0170P2",
+              "text": "What was the patients's usual performance related to their ability to bend/stoop from a standing position to pick up a small object, such as a spoon, from the floor?",
+              "id": "83189-1",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-117"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0170R2",
+              "text": "What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 50 feet and make two turns?",
+              "id": "83187-5",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-118"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0170S2",
+              "text": "What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 150 feet in a corridor or similar space?",
+              "id": "83236-0",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-119"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

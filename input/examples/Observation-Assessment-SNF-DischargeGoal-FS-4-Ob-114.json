@@ -1,0 +1,59 @@
+{
+  "resourceType": "Observation",
+  "id": "Assessment-SNF-DischargeGoal-FS-4-Ob-114",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-02"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-04-09T15:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "83195-8",
+        "system": "http://loinc.org",
+        "display": "What was the patient's usual performance related to their ability to go up and down a curb and/or up and down one step?"
+      }
+    ],
+    "text": "1 step (curb)"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA11759-0",
+        "system": "http://loinc.org",
+        "display": "Substantial/maximal Assist"
+      }
+    ],
+    "text": "Substantial/maximal Assist"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-JenCadbury"
+    },
+    {
+      "reference": "PractitionerRole/Role-PT"
+    },
+    {
+      "reference": "Organization/Org-02",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-SNF-DischargeGoal-FS-4"
+    }
+  ]
+}

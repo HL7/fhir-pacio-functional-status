@@ -1,0 +1,112 @@
+{
+  "resourceType": "Observation",
+  "id": "Assessment-HH-Discharge-FS-7",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-03"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-05-01T13:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "88331-4",
+        "system": "http://loinc.org",
+        "display": "Mobility - Discharge Performance"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "survey",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      ]
+    }
+  ],
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-ScottDumble"
+    },
+    {
+      "reference": "PractitionerRole/Role-RN"
+    },
+    {
+      "reference": "Organization/Org-03",
+      "display": "Organization"
+    }
+  ],
+  "hasMember": [
+    {
+      "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-6"
+    },
+    {
+      "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-12"
+    },
+    {
+      "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-18"
+    },
+    {
+      "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-24"
+    },
+    {
+      "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-30"
+    },
+    {
+      "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-36"
+    },
+    {
+      "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-42"
+    },
+    {
+      "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-48"
+    },
+    {
+      "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-54"
+    },
+    {
+      "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-60"
+    },
+    {
+      "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-66"
+    },
+    {
+      "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-72"
+    },
+    {
+      "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-78"
+    },
+    {
+      "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-84"
+    },
+    {
+      "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-90"
+    },
+    {
+      "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-96"
+    },
+    {
+      "reference": "Observation/Assessment-HH-Discharge-FS-7-Ob-102"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-HH-Discharge-FS-7",
+      "display": "Questionnaire Response"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "resourceType": "Observation",
+  "id": "Assessment-Hospital-Admission-FS-1-Ob-49",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-01"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-04-02T10:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "83202-2",
+        "system": "http://loinc.org",
+        "display": "What was the patient's usual performance related to their ability to once standing, walk at least 50 feet and make two turns?"
+      }
+    ],
+    "text": "Walk 50 feet with two turns"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA26735-3",
+        "system": "http://loinc.org",
+        "display": "Not attempted due to medical condition or safety concerns"
+      }
+    ],
+    "text": "Not attempted due to medical condition or safety concerns"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-SallySmith"
+    },
+    {
+      "reference": "PractitionerRole/Role-PT"
+    },
+    {
+      "reference": "Organization/Org-01",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-Hospital-Admission-FS-1"
+    }
+  ]
+}

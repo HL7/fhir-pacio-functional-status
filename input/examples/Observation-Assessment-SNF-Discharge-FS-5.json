@@ -1,0 +1,154 @@
+{
+  "resourceType": "Observation",
+  "id": "Assessment-SNF-Discharge-FS-5",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-02"
+      }
+    },
+    {
+      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "Assessment-SNF-Discharge-FS-5-UseOfDevice-4"
+      }
+    },
+    {
+      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "Assessment-SNF-Discharge-FS-5-UseOfDevice-5"
+      }
+    },
+    {
+      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "Assessment-SNF-Discharge-FS-5-UseOfDevice-6"
+      }
+    },
+    {
+      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "Assessment-SNF-Discharge-FS-5-UseOfDevice-7"
+      }
+    },
+    {
+      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "Assessment-SNF-Discharge-FS-5-UseOfDevice-8"
+      }
+    },
+    {
+      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "Assessment-SNF-Discharge-FS-5-UseOfDevice-9"
+      }
+    },
+    {
+      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "Assessment-SNF-Discharge-FS-5-UseOfDevice-10"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-04-23T13:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "88331-4",
+        "system": "http://loinc.org",
+        "display": "Mobility - Discharge Performance"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "survey",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      ]
+    }
+  ],
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-DanielGranger"
+    },
+    {
+      "reference": "PractitionerRole/Role-RN"
+    },
+    {
+      "reference": "Organization/Org-02",
+      "display": "Organization"
+    }
+  ],
+  "hasMember": [
+    {
+      "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-4"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-10"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-16"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-22"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-28"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-34"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-40"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-46"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-52"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-58"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-64"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-70"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-76"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-82"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-88"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-94"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-Discharge-FS-5-Ob-100"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-SNF-Discharge-FS-5",
+      "display": "Questionnaire Response"
+    }
+  ]
+}

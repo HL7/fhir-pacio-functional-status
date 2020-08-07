@@ -1,0 +1,25 @@
+{
+  "resourceType": "DeviceUseStatement",
+  "id": "Assessment-Hospital-Admission-FS-1-UseOfDevice-3",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "derivedFrom": [
+    {
+      "reference": "Observation/Assessment-Hospital-Admission-FS-1"
+    }
+  ],
+  "recordedOn": "2020-04-02T10:00:00-05:00",
+  "source": {
+    "reference": "Practitioner/Practitioner-SallySmith"
+  },
+  "device": {
+    "reference": "Device/CMS-Device-2"
+  },
+  "status": "active"
+}

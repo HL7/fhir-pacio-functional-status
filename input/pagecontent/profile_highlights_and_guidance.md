@@ -11,11 +11,11 @@
 This implementation guide provides a set of resource profiles to define how information should be packaged and retrieved in the exchange of PAC assessment data. In the following sections the highlights of the key fields of each profile are presented and guidance for building profile instances is provided.
 
 A note on the use of "Must Support" in the Implementation Guide:
-For profiles defined in other IGs, the meaning of "Must Support" is established in the defining IG. For profiles defined in this IG, Must Support will conform with US Core definition.
+For profiles defined in other IGs, the meaning of "Must Support" is established in the defining IG. For profiles defined in this IG, "Must Support" will conform with US Core definition.
 
-### Resource Profile: CognitionQuestionnaireResponse
+### Resource Profile: PACIOfunctionalQuestionaireResponse
 
-This resource profile is intended to be used for data exchange of a completed, or sections of a completed, post-acute care (PAC) assessment. The CognitionQuestionnaireResponse resource also preserves the structure of the PAC assessment questionnaire to provide context for the PACIO observation-based information and is derived from the FHIR resource QuestionnaireResponse.
+This resource profile is intended to be used for data exchange of a completed, or sections of a completed, post-acute care (PAC) assessment. The PACIOfunctionalQuestionaireResponse resource also preserves the structure of the PAC assessment questionnaire to provide context for the PACIO observation-based information and is derived from the FHIR resource QuestionnaireResponse.
 
 <table class="grid">
   <thead>
@@ -71,11 +71,11 @@ This resource profile is intended to be used for data exchange of a point in tim
   </tr>
   <tr>
     <td>category</td>
-    <td>A required field with the preferred binding to the code system https://terminology.hl7.org/1.0.0/ValueSet-observation-category.html. This field should contain the value ‘survey’ for PAC assessment.</td>
+    <td>A required field with 'extensible' binding to the code system https://terminology.hl7.org/1.0.0/ValueSet-observation-category.html. This field should contain the value ‘survey’ for PAC assessment.</td>
   </tr>
   <tr>
     <td>code</td>
-    <td>A required field with ‘preferred’ binding to the LOINC code system http://loinc.org/.</td>
+    <td>A required field with ‘extensible’ binding to the LOINC code system http://loinc.org/.</td>
   </tr>
   <tr>
     <td>subject</td>
@@ -120,7 +120,7 @@ This resource profile is intended to be used for data exchange of a single funct
   </tr>
   <tr>
     <td>code</td>
-    <td>A required field with ‘preferred’ binding to the LOINC code system http://loinc.org/.</td>
+    <td>A required field with ‘extensible’ binding to the LOINC code system http://loinc.org/.</td>
   </tr>
   <tr>
     <td>subject</td>
@@ -152,9 +152,9 @@ This resource profile is intended to be used for data exchange of a single funct
   </tr>
 </table>
 
-### Resource Profile: PriorLevelOfFunctionFunction
+### Resource Profile: PriorLevelOfFunction
 
-This resource profile is intended to be used for the exchange of prior level of function function data when formal functional assessments are not available. It is derived from the FHIR resource Observation.
+This resource profile is intended to be used for the exchange of prior level of function data when formal functional assessments are not available. It is derived from the FHIR resource Observation.
 
 <table class="grid">
   <thead>
@@ -173,7 +173,7 @@ This resource profile is intended to be used for the exchange of prior level of 
   </tr>
   <tr>
     <td>code</td>
-    <td>A required field with ‘preferred’ binding to the LOINC code system http://loinc.org/.</td>
+    <td>A required field with binding to the LOINC code system http://loinc.org/.</td>
   </tr>
   <tr>
     <td>subject</td>
@@ -220,46 +220,54 @@ The PACIO data model as expressed in the resource profiles is designed to be fle
 
 In the following set of examples, we provide guidance for using specific codes and conventions for constructing profile instances for data exchange. Although we reference a number of particular PAC patient/resident assessment instruments and provide examples to show how those particular types of assessment data can be exchanged, we do not endorse any of those assessment instruments over other assessment instruments that we have not mentioned. Our intention is to demonstrate the flexibility and adequacy of the PACIO data model, rather than to suggest the best types of functional assessment data for clinicians to use.
 
-### FunctionalQuestionnaireResponse – CAM Example *Note: These examples use the Cognitive Status profile (https://paciowg.github.io/cognitive-status-ig), but are modeled similar to Functional Status profiles 
+### PACIOfunctionalQuestionaireResponse – Mobility Example
 
-![QResponse CAM Example](QResponse_CAM_Example.png){:style="float: none;"}
+![QResponse Mobility Example](QResponse_Mobility_Example.png){:style="float: none;"}
 
 **Guidance and Notes:**
 1. The ‘questionnaire’ field is the URL pointing to the file of the questionnaire that defines and organizes the questions for which answers are being provided.
-2. Use ‘id’ field to indicate the code of a section title or an observation question. For example, the LONIC code ‘86585-7.’
+2. Use ‘id’ field to indicate the code of a section title or an observation question. For example, the LOINC code ‘88482-5.’
 3. Each ‘linkId’ field should match the ‘linkId’ of the corresponding section title or question from the questionnaire.
 4. The nesting structure of the ‘item’ fields should correspond to the nesting structure as showed in the questionnaire.
 
-### BundledfunctionalStatus – CAM Example 
+### BundledFunctionalStatus – Mobility Admission Example
 
-![BCS CAM Example](BCS_CAM_Example.png){:style="float: none;"}
+![BFS Admission Example](BFS_Mobility_Admission_Example.png){:style="float: none;"}
 
 **Guidance and Notes:**
-1. Here is how the ‘event-location’ extension is used to point to a FHIR Location resource.
-2. Use the right LOINC code to indicate the particular kind of functional assessment. In this case the LOINC code ‘86585-7’ is used to indicate ‘Signs and Symptoms of Delirium (from CAM©)’.
+1. Here is how the ‘event-location’ extension is used to point to a FHIR Location resource where the observation event occurred.
+2. Use the right LOINC code to indicate the particular kind of functional assessment. In this case the LOINC code ‘88330-6’ is used to indicate ‘Mobility - Admission Performance’.
 3. The ‘category’ field should contain the value ‘survey’ for a PAC assessment.
 
-### BundledfunctionalStatus – BIMS Example
+### BundledFunctionalStatus – Mobility Discharge Goal Example
 
-![BCS BIMS Example](BCS_BIMS_Example.png){:style="float: none;"}
+![BFS Mobility DischargeGoal Example](BFS_Mobility_DischargeGoal_Example.png){:style="float: none;"}
 
 **Guidance and Notes:**
-1. Use the right LOINC code to indicate the particular kind of functional assessment. In this case the LOINC code ‘52491-8’ is used to indicate ‘Brief Interview for Mental Status (BIMS)’.
+1. Use the right LOINC code to indicate the particular kind of functional assessment. In this case the LOINC code ‘85056-0’ is used to indicate ‘Mobility - Discharge Goal’.
 2. Use multiple ‘performer’ fields to provide references to FHIR Practitioner, PractitionerRole, and Organization resource instances.
 
-### BundledfunctionalStatus – MoCA Example
+### BundledFunctionalStatus – Mobility Discharge and Device Used Example
 
-![BCS MOCA Example](BCS_MOCA_Example.png){:style="float: none;"}
-
-**Guidance and Notes:**
-1. Use the right LOINC code to indicate the particular kind of functional assessment. In this case the LOINC code ‘52491-8’ is used to indicate ‘Montreal functional Assessment [MoCA]’.
-2. Use the ‘value’ field of type CodeableConcept to store the total score of the MoCA assessment.
-
-### BundledfunctionalStatus – PHQ-9 Two-Column Example
-
-![BCS PHQ9 Example](BCS_PHQ9_Example.png){:style="float: none;"}
+![BFS Mobility Discharge and DeviceUsed Example](BFS_Mobility_Discharge_and_DeviceUsed_Example.png){:style="float: none;"}
 
 **Guidance and Notes:**
-1. Use the right LOINC code to indicate the particular kind of functional assessment. In this case the LOINC code ‘54635-8’ is used to indicate ‘Resident Mood Interview (PHQ-9)’.
+1. Here is how the ‘device-patient-used’ extension is used to point to a UseOfDevice resource to specify a device used by the patient during assessment.
+2. Use the right LOINC code to indicate the particular kind of functional assessment. In this case the LOINC code ‘88331-4’ is used to indicate ‘Mobility - Discharge Performance’.
+
+### BundledFunctionalStatus – Self-Care Admission Example
+
+![BFS SelfCare Admission Example](BFS_SelfCare_Admission_Example.png){:style="float: none;"}
+
+**Guidance and Notes:**
+1. Use the right LOINC code to indicate the particular kind of cognitive assessment. In this case the LOINC code ‘83233-7’ is used to indicate ‘Self-Care - Admission Performance’.
 2. An assessment with more than one observation questions would have a number of ‘hasMember’ elements, each of which would point to an observation in the assessment.
-3. The observation questions of the PHQ-9 assessments are grouped under two headings. One way to determine which ‘hasMember’ elements (i.e. observation questions) should be grouped together and under which heading is to examine the QuestionnaireResponse resource which has the nesting structure to show how the questions were organized.
+3. The 'derivedFrom' points back to the PACIOfunctionalQuestionaireResponse resource which provides context and structure for the observation-based information.
+
+### FunctionalStatus – Mobility Admission Two-Column Example
+
+![FS Mobility Admission TwoColumn Example](FS_Mobility_Admission_TwoColumn_Example.png){:style="float: none;"}
+
+**Guidance and Notes:**
+1. The observation questions of the 'Mobility - Admission Performance' and 'Mobility - Discharge Goal' assessments are identical and hence the answer code boxes for the questions are grouped as columns under two headings. Use the 'component.code' to specify column headings to provide support for two-column display.
+2. Use the 'component.value' to specify the answers to the observation questions to provide support for two-column display.

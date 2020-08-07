@@ -1,0 +1,112 @@
+{
+  "resourceType": "Observation",
+  "id": "Assessment-SNF-DischargeGoal-FS-4",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-02"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-04-09T15:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "85056-0",
+        "system": "http://loinc.org",
+        "display": "Mobility - Discharge Goal"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "survey",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      ]
+    }
+  ],
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-JenCadbury"
+    },
+    {
+      "reference": "PractitionerRole/Role-PT"
+    },
+    {
+      "reference": "Organization/Org-02",
+      "display": "Organization"
+    }
+  ],
+  "hasMember": [
+    {
+      "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-103"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-104"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-105"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-106"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-107"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-108"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-109"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-110"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-111"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-112"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-113"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-114"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-115"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-116"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-117"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-118"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-119"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-SNF-DischargeGoal-FS-4",
+      "display": "Questionnaire Response"
+    }
+  ]
+}
