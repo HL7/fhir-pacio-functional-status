@@ -1,0 +1,25 @@
+{
+  "resourceType": "DeviceUseStatement",
+  "id": "BFS-Hospital-Discharge-Mobility-1-UseOfDevice-3",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "derivedFrom": [
+    {
+      "reference": "Observation/BFS-Hospital-Discharge-Mobility-1"
+    }
+  ],
+  "recordedOn": "2020-07-10T14:34:00-05:00",
+  "source": {
+    "reference": "Practitioner/Practitioner-RonMarble"
+  },
+  "device": {
+    "reference": "Device/CMS-Device-5"
+  },
+  "status": "active"
+}

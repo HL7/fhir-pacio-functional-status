@@ -23,7 +23,7 @@
       "resource": [
         {
           "type": "functionalStatus",
-          "profile": "https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-cs.html",
+          "profile": "https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-fs.html",
           "interaction": [
             {
               "code":"read",
@@ -308,7 +308,7 @@
         },
         {
           "type": "BundledfunctionalStatus",
-          "profile": "https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-bcs.html",
+          "profile": "https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-bfs.html",
           "interaction": [
             {
               "code":"read",
@@ -592,8 +592,8 @@
                     ]
         },
         {
-          "type": "CognitionQuestionnaireResponse",
-          "profile": "https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-cognition-qr.html",
+          "type": "PACIOfunctionalQuestionaireResponse",
+          "profile": "https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-functional-qr.html",
           "interaction": [
             {
               "code":"read",
@@ -707,8 +707,8 @@
                     ]
         },
         {
-          "type": "PriorLevelOffunctionalFunction",
-          "profile": "https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-plcf.html",
+          "type": "PriorLevelOfFunction",
+          "profile": "https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-plf.html",
           "interaction": [
             {
               "code":"read",
@@ -993,7 +993,7 @@
         },
         {
           "type" : "UseOfDevice",
-          "profile" : "https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-cs-dev.html",
+          "profile" : "https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-dev.html",
           "interaction" : [{
             "code" : "read",
             "documentation" : "Implemented per the specification (or Insert other doco here)"

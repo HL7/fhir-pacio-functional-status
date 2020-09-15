@@ -1,0 +1,59 @@
+{
+  "resourceType": "Observation",
+  "id": "BFS-HH-Discharge-Mobility-1-Ob-Question-6",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-03"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-08-30T14:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "83218-8",
+        "system": "http://loinc.org",
+        "display": "What was the patient's usual performance related to their ability to roll from lying on back to left and right side, and return to lying on back on the bed?"
+      }
+    ],
+    "text": "Roll left and right"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA9983-3",
+        "system": "http://loinc.org",
+        "display": "Independent"
+      }
+    ],
+    "text": "Independent"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-ScottDumble"
+    },
+    {
+      "reference": "PractitionerRole/Role-PT"
+    },
+    {
+      "reference": "Organization/Org-03",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-HH-Discharge-Mobility-1"
+    }
+  ]
+}

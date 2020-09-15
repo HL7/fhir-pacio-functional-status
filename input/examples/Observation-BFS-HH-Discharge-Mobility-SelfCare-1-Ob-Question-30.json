@@ -1,0 +1,59 @@
+{
+  "resourceType": "Observation",
+  "id": "BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-30",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-03"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-08-30T14:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "83222-0",
+        "system": "http://loinc.org",
+        "display": "Lower body dressing - functional ability during 3D assessment period"
+      }
+    ],
+    "text": "Lower body dressing"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA27993-7",
+        "system": "http://loinc.org",
+        "display": "Independent"
+      }
+    ],
+    "text": "Independent"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-ScottDumble"
+    },
+    {
+      "reference": "PractitionerRole/Role-PT"
+    },
+    {
+      "reference": "Organization/Org-03",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-HH-Discharge-Mobility-SelfCare-1"
+    }
+  ]
+}

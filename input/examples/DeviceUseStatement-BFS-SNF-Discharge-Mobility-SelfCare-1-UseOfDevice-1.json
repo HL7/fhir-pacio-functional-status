@@ -1,0 +1,25 @@
+{
+  "resourceType": "DeviceUseStatement",
+  "id": "BFS-SNF-Discharge-Mobility-SelfCare-1-UseOfDevice-1",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "derivedFrom": [
+    {
+      "reference": "Observation/BFS-SNF-Discharge-Mobility-SelfCare-1"
+    }
+  ],
+  "recordedOn": "2020-08-01T11:00:00-05:00",
+  "source": {
+    "reference": "Practitioner/Practitioner-DanielGranger"
+  },
+  "device": {
+    "reference": "Device/CMS-Device-9"
+  },
+  "status": "active"
+}

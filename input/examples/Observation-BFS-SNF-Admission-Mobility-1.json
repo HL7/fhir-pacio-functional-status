@@ -1,0 +1,142 @@
+{
+  "resourceType": "Observation",
+  "id": "BFS-SNF-Admission-Mobility-1",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-02"
+      }
+    },
+    {
+      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-12"
+      }
+    },
+    {
+      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-13"
+      }
+    },
+    {
+      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-14"
+      }
+    },
+    {
+      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-15"
+      }
+    },
+    {
+      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-16"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-07-11T16:32:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "88330-6",
+        "system": "http://loinc.org",
+        "display": "Mobility - Admission Performance"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "survey",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      ]
+    }
+  ],
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-JenCadbury"
+    },
+    {
+      "reference": "PractitionerRole/Role-PT"
+    },
+    {
+      "reference": "Organization/Org-02",
+      "display": "Organization"
+    }
+  ],
+  "hasMember": [
+    {
+      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-3"
+    },
+    {
+      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-9"
+    },
+    {
+      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-15"
+    },
+    {
+      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-21"
+    },
+    {
+      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-27"
+    },
+    {
+      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-33"
+    },
+    {
+      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-39"
+    },
+    {
+      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-45"
+    },
+    {
+      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-51"
+    },
+    {
+      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-57"
+    },
+    {
+      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-63"
+    },
+    {
+      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-69"
+    },
+    {
+      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-75"
+    },
+    {
+      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-81"
+    },
+    {
+      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-87"
+    },
+    {
+      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-93"
+    },
+    {
+      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-99"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-SNF-Admission-Mobility-1",
+      "display": "Questionnaire Response"
+    }
+  ]
+}

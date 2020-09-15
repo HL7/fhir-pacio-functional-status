@@ -1,0 +1,59 @@
+{
+  "resourceType": "Observation",
+  "id": "BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-43",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-03"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-08-02T13:31:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "89410-5",
+        "system": "http://loinc.org",
+        "display": "Eating"
+      }
+    ],
+    "text": "Eating"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA9983-3",
+        "system": "http://loinc.org",
+        "display": "Independent"
+      }
+    ],
+    "text": "Independent"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-LunaBaskins"
+    },
+    {
+      "reference": "PractitionerRole/Role-PT"
+    },
+    {
+      "reference": "Organization/Org-03",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-HH-StartOfCare-Mobility-SelfCare-1"
+    }
+  ]
+}

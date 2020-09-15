@@ -1,0 +1,82 @@
+{
+  "resourceType": "Observation",
+  "id": "BFS-Hospital-Admission-Mobility-SelfCare-1",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-01"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-07-08T16:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "83233-7",
+        "system": "http://loinc.org",
+        "display": "Self-Care - Admission Performance"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "survey",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      ]
+    }
+  ],
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-SallySmith"
+    },
+    {
+      "reference": "PractitionerRole/Role-PT"
+    },
+    {
+      "reference": "Organization/Org-01",
+      "display": "Organization"
+    }
+  ],
+  "hasMember": [
+    {
+      "reference": "Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-1"
+    },
+    {
+      "reference": "Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-6"
+    },
+    {
+      "reference": "Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-11"
+    },
+    {
+      "reference": "Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-16"
+    },
+    {
+      "reference": "Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-21"
+    },
+    {
+      "reference": "Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-26"
+    },
+    {
+      "reference": "Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-31"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-Hospital-Admission-Mobility-SelfCare-1",
+      "display": "Questionnaire Response"
+    }
+  ]
+}

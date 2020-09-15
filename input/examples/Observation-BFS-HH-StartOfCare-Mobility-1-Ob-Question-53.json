@@ -1,0 +1,59 @@
+{
+  "resourceType": "Observation",
+  "id": "BFS-HH-StartOfCare-Mobility-1-Ob-Question-53",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-03"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-08-02T13:31:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "83202-2",
+        "system": "http://loinc.org",
+        "display": "What was the patient's usual performance related to their ability to once standing, walk at least 50 feet and make two turns?"
+      }
+    ],
+    "text": "Walk 50 feet with two turns"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA10055-4",
+        "system": "http://loinc.org",
+        "display": "Partial/moderate assistance"
+      }
+    ],
+    "text": "Partial/moderate assistance"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-LunaBaskins"
+    },
+    {
+      "reference": "PractitionerRole/Role-PT"
+    },
+    {
+      "reference": "Organization/Org-03",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-HH-StartOfCare-Mobility-1"
+    }
+  ]
+}

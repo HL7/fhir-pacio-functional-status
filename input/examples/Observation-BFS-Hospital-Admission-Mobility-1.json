@@ -1,0 +1,127 @@
+{
+  "resourceType": "Observation",
+  "id": "BFS-Hospital-Admission-Mobility-1",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-01"
+      }
+    },
+    {
+      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "DeviceUseStatement/BFS-Hospital-Admission-Mobility-1-UseOfDevice-17"
+      }
+    },
+    {
+      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "DeviceUseStatement/BFS-Hospital-Admission-Mobility-1-UseOfDevice-18"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-07-08T16:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "88330-6",
+        "system": "http://loinc.org",
+        "display": "Mobility - Admission Performance"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "survey",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      ]
+    }
+  ],
+  "encounter": {
+    "reference": "Encounter/BSJ-Encounter-1"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-SallySmith"
+    },
+    {
+      "reference": "PractitionerRole/Role-PT"
+    },
+    {
+      "reference": "Organization/Org-01",
+      "display": "Organization"
+    }
+  ],
+  "hasMember": [
+    {
+      "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-1"
+    },
+    {
+      "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-7"
+    },
+    {
+      "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-13"
+    },
+    {
+      "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-19"
+    },
+    {
+      "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-25"
+    },
+    {
+      "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-31"
+    },
+    {
+      "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-37"
+    },
+    {
+      "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-43"
+    },
+    {
+      "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-49"
+    },
+    {
+      "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-55"
+    },
+    {
+      "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-61"
+    },
+    {
+      "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-67"
+    },
+    {
+      "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-73"
+    },
+    {
+      "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-79"
+    },
+    {
+      "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-85"
+    },
+    {
+      "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-91"
+    },
+    {
+      "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-97"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-Hospital-Admission-Mobility-1",
+      "display": "Questionnaire Response"
+    }
+  ]
+}

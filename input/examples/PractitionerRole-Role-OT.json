@@ -1,0 +1,16 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "Role-OT",
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "80546007",
+          "system": "http://snomed.info/sct",
+          "display": "Occupational therapist"
+        }
+      ]
+    }
+  ],
+  "active": true
+}

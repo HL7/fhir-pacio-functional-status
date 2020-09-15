@@ -108,12 +108,12 @@
       {
         "id": "Observation.category",
         "path": "Observation.category",
-        "short": "If this is from a Post-Acute Care Assessment, category should be survey."
+        "short": "For a Post-Acute Care Assessment, category should be survey."
       },
       {
         "id": "Observation.code",
         "path": "Observation.code",
-        "short": "If this is from a Post-Acute Care Assessment, code should be a LOINC code and text for the question.",
+        "short": "For a Post-Acute Care Assessment, code should be a LOINC code and text for the question.",
         "binding": {
           "strength": "extensible",
           "valueSet": "http://loinc.org"
@@ -161,7 +161,7 @@
       {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
-        "short": "This should only be used if the functional status observations values in the component field results in a score or roll up value."
+        "short": "For a Post-Acute Care Assessment, should include a LOINC code and text for the question."
       },
       {
         "id": "Observation.dataAbsentReason",
@@ -211,17 +211,17 @@
       {
         "id": "Observation.component",
         "path": "Observation.component",
-        "short": "The answer(s) for the functional status questions. If a single question results in multiple answers, then multiple component values should be used. (eg. performance at admission, discharge goals)"
+        "short": "If used, the answers for the associated questions (for the purpose of grouping multiple answers for a single question)"
       },
       {
         "id": "Observation.component.code",
         "path": "Observation.component.code",
-        "short": "The code and text for the column that this functional status value belongs to. Only used if there are multiple component values."
+        "short": "If used, the LOINC code or text of the column header (for the purpose of grouping answers under a heading and displaying side-by-side columns)."
       },
       {
         "id": "Observation.component.value[x]",
         "path": "Observation.component.value[x]",
-        "short": "The code and text for the answer to the functional status response. ",
+        "short": "The code and text for the answer to the functional status question. ",
         "binding": {
           "strength": "required",
           "valueSet": "http://loinc.org"

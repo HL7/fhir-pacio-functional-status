@@ -50,6 +50,7 @@
       {
         "id": "Observation.text",
         "path": "Observation.text",
+        "min": 1,
         "binding": {
           "description": "Text summary of the prior level of function for the patient."
         }
@@ -101,10 +102,24 @@
       {
         "id": "Observation.code",
         "path": "Observation.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "10158-4",
+              "system": "http://loinc.org",
+              "display": "History of Functional status Narrative"
+            }
+          ]
+        },
         "binding": {
           "strength": "required",
           "valueSet": "http://loinc.org"
         }
+      },
+      {
+        "id": "Observation.code.text",
+        "path": "Observation.code.text",
+        "patternString": "History of Functional status Narrative"
       },
       {
         "id": "Observation.subject",
@@ -122,6 +137,7 @@
       {
         "id": "Observation.effective[x]",
         "path": "Observation.effective[x]",
+        "min": 1,
         "type": [
           {
             "code": "dateTime"
@@ -137,19 +153,6 @@
         "min": 1,
         "binding": {
           "description": "The person who performed the assessment."
-        }
-      },
-      {
-        "id": "Observation.value[x]",
-        "path": "Observation.value[x]",
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://loinc.org"
         }
       }
     ]

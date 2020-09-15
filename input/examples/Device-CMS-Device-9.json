@@ -10,7 +10,7 @@
   "type": {
     "coding": [
       {
-        "code": "TEMP_LOINC_Reacher",
+        "code": "TBD_code",
         "system": "http://snomed.info/sct"
       }
     ]

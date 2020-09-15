@@ -1,0 +1,59 @@
+{
+  "resourceType": "Observation",
+  "id": "BFS-SNF-Discharge-Mobility-1-Ob-Question-94",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-02"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-08-01T11:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "83188-3",
+        "system": "http://loinc.org",
+        "display": "What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 50 feet and make two turns?"
+      }
+    ],
+    "text": "Wheel 50 feet with two turns"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA27993-7",
+        "system": "http://loinc.org",
+        "display": "Independent"
+      }
+    ],
+    "text": "Independent"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-DanielGranger"
+    },
+    {
+      "reference": "PractitionerRole/Role-PT"
+    },
+    {
+      "reference": "Organization/Org-02",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-SNF-Discharge-Mobility-1"
+    }
+  ]
+}

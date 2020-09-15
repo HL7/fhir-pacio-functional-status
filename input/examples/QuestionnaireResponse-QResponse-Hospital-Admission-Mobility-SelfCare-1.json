@@ -1,0 +1,115 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "QResponse-Hospital-Admission-Mobility-SelfCare-1",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "completed",
+  "questionnaire": "https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17",
+  "authored": "2020-07-08T16:00:00-05:00",
+  "item": [
+    {
+      "linkId": "Section-37",
+      "text": "Functional Abilities and Goals - Admission",
+      "id": "88482-5",
+      "item": [
+        {
+          "linkId": "Section-37/GG0130",
+          "text": "Self-Care - Admission Performance",
+          "id": "83233-7",
+          "item": [
+            {
+              "linkId": "Section-37/GG0130A1",
+              "text": "Eating - functional ability during 3D assessment period",
+              "id": "83232-9",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-1"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0130B1",
+              "text": "Oral hygiene - functional ability during 3D assessment period",
+              "id": "83230-3",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-6"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0130C1",
+              "text": "Toileting hygiene - functional ability during 3D assessment period",
+              "id": "83228-7",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-11"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0130E1",
+              "text": "Shower or bathe self - functional ability during 3D assessment period",
+              "id": "83226-1",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-16"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0130F1",
+              "text": "Upper body dressing - functional ability during 3D assessment period",
+              "id": "83224-6",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-21"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0130G1",
+              "text": "Lower body dressing - functional ability during 3D assessment period",
+              "id": "83222-0",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-26"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0130H1",
+              "text": "Putting on and taking off footwear - functional ability during 3D assessment period",
+              "id": "83220-4",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-31"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -168,12 +168,16 @@ This resource profile is intended to be used for the exchange of prior level of 
     <td>A “must support” extension added to the Observation resource for storing the Reference(Location) to indicate where the observation event occurred.</td>
   </tr>
   <tr>
+    <td>assistance-required</td>
+    <td>A “must support” extension added to the Observation resource to provide indication of 'independent' vs. 'assistance needed'.</td>
+  </tr>
+  <tr>
     <td>text</td>
-    <td>A “must support” field and to be used as text summary of the prior level of functional function for the patient.</td>
+    <td>A “must support” field and to be used as text summary of the prior level of function for the patient.</td>
   </tr>
   <tr>
     <td>code</td>
-    <td>A required field with binding to the LOINC code system http://loinc.org/.</td>
+    <td>This required field has the fixed value of the LOINC code 10158-4 "History of Functional status Narrative".</td>
   </tr>
   <tr>
     <td>subject</td>
@@ -181,7 +185,7 @@ This resource profile is intended to be used for the exchange of prior level of 
   </tr>
   <tr>
     <td>effective</td>
-    <td>This field, limited to the type dateTime or Period only, indicates the time/time-period for the observation.</td>
+    <td>This required field, limited to the type dateTime or Period only, indicates the time/time-period for the observation.</td>
   </tr>
   <tr>
     <td>performer</td>
@@ -189,7 +193,7 @@ This resource profile is intended to be used for the exchange of prior level of 
   </tr>
   <tr>
     <td>value</td>
-    <td>This field can only be of the type CodeableConcept.</td>
+    <td>Optional field with the type CodeableConcept.</td>
   </tr>
 </table>
 
@@ -264,10 +268,10 @@ In the following set of examples, we provide guidance for using specific codes a
 2. An assessment with more than one observation questions would have a number of ‘hasMember’ elements, each of which would point to an observation in the assessment.
 3. The 'derivedFrom' points back to the PACIOfunctionalQuestionaireResponse resource which provides context and structure for the observation-based information.
 
-### FunctionalStatus – Mobility Admission Two-Column Example
+### PriorLevelOfFunction – Prior Level of Function Example
 
-![FS Mobility Admission TwoColumn Example](FS_Mobility_Admission_TwoColumn_Example.png){:style="float: none;"}
+![PLOF Example](PLOF_Example.png){:style="float: none;"}
 
 **Guidance and Notes:**
-1. The observation questions of the 'Mobility - Admission Performance' and 'Mobility - Discharge Goal' assessments are identical and hence the answer code boxes for the questions are grouped as columns under two headings. Use the 'component.code' to specify column headings to provide support for two-column display.
-2. Use the 'component.value' to specify the answers to the observation questions to provide support for two-column display.
+1. Use the extension to provide indication of 'independent' vs. 'assistance needed'.
+2. Text summary of the prior level of function for the patient.

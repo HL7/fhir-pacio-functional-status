@@ -1,0 +1,59 @@
+{
+  "resourceType": "Observation",
+  "id": "BFS-Hospital-Admission-Mobility-1-Ob-Question-73",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-01"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-07-08T16:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "83194-1",
+        "system": "http://loinc.org",
+        "display": "What was the patient's usual performance related to their ability to go up and down four steps with or without a rail?"
+      }
+    ],
+    "text": "4 steps"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA26735-3",
+        "system": "http://loinc.org",
+        "display": "Not attempted due to medical condition or safety concerns"
+      }
+    ],
+    "text": "Not attempted due to medical condition or safety concerns"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-SallySmith"
+    },
+    {
+      "reference": "PractitionerRole/Role-PT"
+    },
+    {
+      "reference": "Organization/Org-01",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-Hospital-Admission-Mobility-1"
+    }
+  ]
+}

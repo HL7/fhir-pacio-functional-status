@@ -1,0 +1,25 @@
+{
+  "resourceType": "DeviceUseStatement",
+  "id": "BFS-SNF-Admission-Mobility-1-UseOfDevice-14",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "derivedFrom": [
+    {
+      "reference": "Observation/BFS-SNF-Admission-Mobility-1"
+    }
+  ],
+  "recordedOn": "2020-07-11T16:32:00-05:00",
+  "source": {
+    "reference": "Practitioner/Practitioner-JenCadbury"
+  },
+  "device": {
+    "reference": "Device/CMS-Device-5"
+  },
+  "status": "active"
+}

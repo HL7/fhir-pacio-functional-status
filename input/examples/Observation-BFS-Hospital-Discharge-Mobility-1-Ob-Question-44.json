@@ -1,0 +1,59 @@
+{
+  "resourceType": "Observation",
+  "id": "BFS-Hospital-Discharge-Mobility-1-Ob-Question-44",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-01"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-07-10T14:34:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "83204-8",
+        "system": "http://loinc.org",
+        "display": "What was the patient's usual performance related to their ability to once standing, walk at least 10 feet in a room, corridor, or similar space?"
+      }
+    ],
+    "text": "Walk 10 feet"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA11759-0",
+        "system": "http://loinc.org",
+        "display": "Substantial/maximal Assist"
+      }
+    ],
+    "text": "Substantial/maximal Assist"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-RonMarble"
+    },
+    {
+      "reference": "PractitionerRole/Role-PT"
+    },
+    {
+      "reference": "Organization/Org-01",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-1"
+    }
+  ]
+}
