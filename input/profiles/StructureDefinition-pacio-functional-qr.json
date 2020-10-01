@@ -43,9 +43,7 @@
       {
         "id": "QuestionnaireResponse.item.id",
         "path": "QuestionnaireResponse.item.id",
-        "binding": {
-          "description": "This field contains the LOINC code."
-        }
+        "short": "This field contains the LOINC code."
       },
       {
         "id": "QuestionnaireResponse.item.linkId",
@@ -53,6 +51,11 @@
         "binding": {
           "description": "This field contains the assesment section and GG question id."
         }
+      },
+      {
+        "id": "QuestionnaireResponse.item.text",
+        "path": "QuestionnaireResponse.item.text",
+        "short": "This field contains the LongName text of the LOINC code."
       },
       {
         "id": "QuestionnaireResponse.item.answer.value[x]",

@@ -11,7 +11,7 @@
 This implementation guide provides a set of resource profiles to define how information should be packaged and retrieved in the exchange of PAC assessment data. In the following sections the highlights of the key fields of each profile are presented and guidance for building profile instances is provided.
 
 A note on the use of "Must Support" in the Implementation Guide:
-For profiles defined in other IGs, the meaning of "Must Support" is established in the defining IG. For profiles defined in this IG, "Must Support" will conform with US Core definition.
+For profiles defined in other IGs, the meaning of "Must Support" is established in the defining IG. For profiles defined in this IG, <a href="http://hl7.org/fhir/us/core/1.0.1/guidance.html#must-support">"Must Support"</a> will conform with US Core definition.
 
 ### Resource Profile: PACIOfunctionalQuestionaireResponse
 
@@ -99,7 +99,7 @@ This resource profile is intended to be used for data exchange of a point in tim
   </tr>
   <tr>
     <td>derivedFrom</td>
-    <td>This field points to a CognitionQuestionnaireResponse instance.</td>
+    <td>This field points to a functionalQuestionnaireResponse instance.</td>
   </tr>
 </table>
 
@@ -148,7 +148,7 @@ This resource profile is intended to be used for data exchange of a single funct
   </tr>
   <tr>
     <td>derivedFrom</td>
-    <td>This field points to a CognitionQuestionnaireResponse instance.</td>
+    <td>This field points to a functionalQuestionnaireResponse instance.</td>
   </tr>
 </table>
 
@@ -264,7 +264,7 @@ In the following set of examples, we provide guidance for using specific codes a
 ![BFS SelfCare Admission Example](BFS_SelfCare_Admission_Example.png){:style="float: none;"}
 
 **Guidance and Notes:**
-1. Use the right LOINC code to indicate the particular kind of cognitive assessment. In this case the LOINC code ‘83233-7’ is used to indicate ‘Self-Care - Admission Performance’.
+1. Use the right LOINC code to indicate the particular kind of functional assessment. In this case the LOINC code ‘83233-7’ is used to indicate ‘Self-Care - Admission Performance’.
 2. An assessment with more than one observation questions would have a number of ‘hasMember’ elements, each of which would point to an observation in the assessment.
 3. The 'derivedFrom' points back to the PACIOfunctionalQuestionaireResponse resource which provides context and structure for the observation-based information.
 
