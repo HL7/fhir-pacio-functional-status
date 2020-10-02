@@ -156,13 +156,22 @@
       {
         "id": "Observation.performer",
         "path": "Observation.performer",
-        "short": "The person who performed the assessment. Also provide the role and organizationif available. ",
+        "short": "The person who performed the assessment. Also provide the role and organization if available. ",
         "min": 1
       },
       {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
-        "short": "For a Post-Acute Care Assessment, should include a LOINC code and text for the question."
+        "short": "For a Post-Acute Care Assessment, should include a LOINC code and text for the answer or value.",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://loinc.org"
+        }
       },
       {
         "id": "Observation.dataAbsentReason",
@@ -212,21 +221,17 @@
       {
         "id": "Observation.component",
         "path": "Observation.component",
-        "short": "If used, the answers for the associated questions (for the purpose of grouping multiple answers for a single question)"
+        "short": "Currently not used in FunctionalStatus."
       },
       {
         "id": "Observation.component.code",
         "path": "Observation.component.code",
-        "short": "If used, the LOINC code or text of the column header (for the purpose of grouping answers under a heading and displaying side-by-side columns)."
+        "short": "Currently not used in FunctionalStatus."
       },
       {
         "id": "Observation.component.value[x]",
         "path": "Observation.component.value[x]",
-        "short": "The code and text for the answer to the functional status question. ",
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://loinc.org"
-        }
+        "short": "Currently not used in FunctionalStatus."
       }
     ]
   }
