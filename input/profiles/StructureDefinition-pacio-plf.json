@@ -1,16 +1,6 @@
 {
   "resourceType": "StructureDefinition",
   "id": "pacio-plf",
-  "extension": [
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
-      "valueString": "Clinical.Diagnostics"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
-      "valueCode": "patient"
-    }
-  ],
   "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-plf",
   "version": "0.1.0",
   "name": "PriorLevelOfFunction",
@@ -19,6 +9,11 @@
   "description": "An exchange of prior level of function data for a patient.",
   "fhirVersion": "4.0.1",
   "mapping": [
+    {
+      "identity": "argonaut-dq-dstu2",
+      "uri": "http://unknown.org/Argonaut-DQ-DSTU2",
+      "name": "Argonaut-DQ-DSTU2"
+    },
     {
       "identity": "workflow",
       "uri": "http://hl7.org/fhir/workflow",
@@ -53,7 +48,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
-  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "baseDefinition": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
   "derivation": "constraint",
   "differential": {
     "element": [
@@ -132,30 +127,9 @@
         "patternString": "History of Functional status Narrative"
       },
       {
-        "id": "Observation.subject",
-        "path": "Observation.subject",
-        "min": 1,
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": [
-              "http://hl7.org/fhir/StructureDefinition/Patient"
-            ]
-          }
-        ]
-      },
-      {
         "id": "Observation.effective[x]",
         "path": "Observation.effective[x]",
-        "min": 1,
-        "type": [
-          {
-            "code": "dateTime"
-          },
-          {
-            "code": "Period"
-          }
-        ]
+        "min": 1
       },
       {
         "id": "Observation.performer",

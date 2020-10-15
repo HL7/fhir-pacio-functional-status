@@ -1,16 +1,6 @@
 {
   "resourceType": "StructureDefinition",
   "id": "pacio-bfs",
-  "extension": [
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
-      "valueString": "Clinical.Diagnostics"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
-      "valueCode": "patient"
-    }
-  ],
   "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs",
   "version": "0.1.0",
   "name": "BundledFunctionalStatus",
@@ -19,6 +9,11 @@
   "description": "An point in time bundle of functional status observations for a patient.",
   "fhirVersion": "4.0.1",
   "mapping": [
+    {
+      "identity": "argonaut-dq-dstu2",
+      "uri": "http://unknown.org/Argonaut-DQ-DSTU2",
+      "name": "Argonaut-DQ-DSTU2"
+    },
     {
       "identity": "workflow",
       "uri": "http://hl7.org/fhir/workflow",
@@ -53,7 +48,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
-  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "baseDefinition": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
   "derivation": "constraint",
   "differential": {
     "element": [
@@ -117,7 +112,6 @@
         "id": "Observation.category",
         "path": "Observation.category",
         "short": "If this is from a Post-Acute Care Assessment, category should be survey.",
-        "min": 1,
         "max": "1",
         "binding": {
           "strength": "extensible",
@@ -136,16 +130,7 @@
       {
         "id": "Observation.subject",
         "path": "Observation.subject",
-        "short": "Subject should only be Patient for BundledFunctionalStatus.",
-        "min": 1,
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": [
-              "http://hl7.org/fhir/StructureDefinition/Patient"
-            ]
-          }
-        ]
+        "short": "Subject should only be Patient for BundledFunctionalStatus."
       },
       {
         "id": "Observation.focus",
@@ -155,15 +140,7 @@
       {
         "id": "Observation.effective[x]",
         "path": "Observation.effective[x]",
-        "min": 1,
-        "type": [
-          {
-            "code": "dateTime"
-          },
-          {
-            "code": "Period"
-          }
-        ]
+        "min": 1
       },
       {
         "id": "Observation.issued",
