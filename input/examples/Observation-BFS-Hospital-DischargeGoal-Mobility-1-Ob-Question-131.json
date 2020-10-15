@@ -3,7 +3,7 @@
   "id": "BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-131",
   "meta": {
     "profile": [
-      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
     ]
   },
   "extension": [

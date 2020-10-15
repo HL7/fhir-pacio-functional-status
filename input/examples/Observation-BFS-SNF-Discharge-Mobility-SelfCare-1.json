@@ -3,7 +3,7 @@
   "id": "BFS-SNF-Discharge-Mobility-SelfCare-1",
   "meta": {
     "profile": [
-      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+      "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"
     ]
   },
   "extension": [
@@ -11,12 +11,6 @@
       "url": "http://hl7.org/fhir/StructureDefinition/event-location",
       "valueReference": {
         "reference": "Location/Org-Loc-02"
-      }
-    },
-    {
-      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
-      "valueReference": {
-        "reference": "DeviceUseStatement/BFS-SNF-Discharge-Mobility-SelfCare-1-UseOfDevice-1"
       }
     }
   ],

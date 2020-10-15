@@ -3,7 +3,7 @@
   "id": "BFS-Hospital-DischargeGoal-Mobility-1",
   "meta": {
     "profile": [
-      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+      "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"
     ]
   },
   "extension": [
@@ -38,9 +38,6 @@
       ]
     }
   ],
-  "encounter": {
-    "reference": "Encounter/BSJ-Encounter-1"
-  },
   "performer": [
     {
       "reference": "Practitioner/Practitioner-SallySmith"

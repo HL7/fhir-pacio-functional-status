@@ -3,7 +3,7 @@
   "id": "BFS-SNF-Discharge-Mobility-1-UseOfDevice-8",
   "meta": {
     "profile": [
-      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"
     ]
   },
   "subject": {

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "pacio-bfs",
-  "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs",
+  "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs",
   "version": "0.1.0",
   "name": "BundledFunctionalStatus",
   "title": "Bundled Functional Status",
@@ -84,7 +84,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used"
+              "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/device-patient-used"
             ]
           }
         ],
@@ -93,11 +93,6 @@
       {
         "id": "Observation.basedOn",
         "path": "Observation.basedOn",
-        "short": "Currently not used in BundledFunctionalStatus."
-      },
-      {
-        "id": "Observation.partOf",
-        "path": "Observation.partOf",
         "short": "Currently not used in BundledFunctionalStatus."
       },
       {
@@ -171,7 +166,6 @@
       {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
-        "short": "Should only be used if the functional status observations values in the hasMember field results in a score or roll up value.",
         "type": [
           {
             "code": "CodeableConcept"

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "pacio-dev",
-  "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev",
+  "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev",
   "version": "0.1.0",
   "name": "UseOfDevice",
   "title": "UseOfDevice",
@@ -57,9 +57,7 @@
       {
         "id": "DeviceUseStatement.device",
         "path": "DeviceUseStatement.device",
-        "binding": {
-          "description": "The description of the device that the patient used."
-        }
+        "short": "The description of the device that the patient used."
       }
     ]
   }

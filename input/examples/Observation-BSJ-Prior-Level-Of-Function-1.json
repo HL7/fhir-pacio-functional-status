@@ -3,7 +3,7 @@
   "id": "BSJ-Prior-Level-Of-Function-1",
   "meta": {
     "profile": [
-      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-plf"
+      "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-plf"
     ]
   },
   "code": {
@@ -17,7 +17,7 @@
   },
   "extension": [
     {
-      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/assistance-required",
+      "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/assistance-required",
       "valueCodeableConcept": {
         "text": "Independent"
       }

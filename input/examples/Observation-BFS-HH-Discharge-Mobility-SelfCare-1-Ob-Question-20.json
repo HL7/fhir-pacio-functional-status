@@ -3,7 +3,7 @@
   "id": "BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-20",
   "meta": {
     "profile": [
-      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
     ]
   },
   "extension": [

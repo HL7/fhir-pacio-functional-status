@@ -1,10 +1,10 @@
 {
   "resourceType": "StructureDefinition",
   "id": "pacio-functional-qr",
-  "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr",
+  "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr",
   "version": "0.1.0",
-  "name": "PACIOfunctionalQuestionaireResponse",
-  "title": "PACIO Questionaire Response",
+  "name": "PACIOfunctionalQuestionnaireResponse",
+  "title": "PACIO Questionnaire Response",
   "status": "active",
   "description": "A completed, or sections of a completed, CMS PAC assessment.",
   "fhirVersion": "4.0.1",
@@ -35,10 +35,7 @@
       {
         "id": "QuestionnaireResponse.questionnaire",
         "path": "QuestionnaireResponse.questionnaire",
-        "short": "This field contains the URI for the PAC assessment.",
-        "binding": {
-          "description": "This field contains the URI for the assessment."
-        }
+        "short": "This field contains the URI for the PAC assessment."
       },
       {
         "id": "QuestionnaireResponse.item.id",
@@ -48,9 +45,7 @@
       {
         "id": "QuestionnaireResponse.item.linkId",
         "path": "QuestionnaireResponse.item.linkId",
-        "binding": {
-          "description": "This field contains the assesment section and GG question id."
-        }
+        "short": "This field contains the assesment section and GG question id."
       },
       {
         "id": "QuestionnaireResponse.item.text",

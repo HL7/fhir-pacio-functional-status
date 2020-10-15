@@ -3,7 +3,7 @@
   "id": "BFS-Hospital-Discharge-Mobility-1",
   "meta": {
     "profile": [
-      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+      "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"
     ]
   },
   "extension": [
@@ -14,31 +14,31 @@
       }
     },
     {
-      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/device-patient-used",
       "valueReference": {
         "reference": "DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-1"
       }
     },
     {
-      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/device-patient-used",
       "valueReference": {
         "reference": "DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-2"
       }
     },
     {
-      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/device-patient-used",
       "valueReference": {
         "reference": "DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-3"
       }
     },
     {
-      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/device-patient-used",
       "valueReference": {
         "reference": "DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-4"
       }
     },
     {
-      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/device-patient-used",
       "valueReference": {
         "reference": "DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5"
       }
@@ -68,9 +68,6 @@
       ]
     }
   ],
-  "encounter": {
-    "reference": "Encounter/BSJ-Encounter-1"
-  },
   "performer": [
     {
       "reference": "Practitioner/Practitioner-RonMarble"

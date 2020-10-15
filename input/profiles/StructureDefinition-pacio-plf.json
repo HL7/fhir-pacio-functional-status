@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "pacio-plf",
-  "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-plf",
+  "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-plf",
   "version": "0.1.0",
   "name": "PriorLevelOfFunction",
   "title": "Prior Level Of Function",
@@ -50,10 +50,8 @@
       {
         "id": "Observation.text",
         "path": "Observation.text",
-        "min": 1,
-        "binding": {
-          "description": "Text summary of the prior level of function for the patient."
-        }
+        "short": "Text summary of the prior level of function for the patient.",
+        "min": 1
       },
       {
         "id": "Observation.extension",
@@ -93,7 +91,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://paciowg.github.io/functional-status-ig/StructureDefinition/assistance-required"
+              "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/assistance-required"
             ]
           }
         ],
@@ -150,10 +148,8 @@
       {
         "id": "Observation.performer",
         "path": "Observation.performer",
-        "min": 1,
-        "binding": {
-          "description": "The person who performed the assessment."
-        }
+        "short": "The person who performed the assessment.",
+        "min": 1
       }
     ]
   }
