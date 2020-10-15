@@ -38,5 +38,5 @@ lists those files generated from project configs or the contents in the ig-data 
 | input\pagecontent\profile_highlights_and_guidance.md                  | copied    | ..\ig-data\input\pagecontent\profile_highlights_and_guidance.md           |
 | input\pagecontent\security_and_data_sharing.md                        | copied    | ..\ig-data\input\pagecontent\security_and_data_sharing.md                 |
 | input\pagecontent\underlying_technologies.md                          | copied    | ..\ig-data\input\pagecontent\underlying_technologies.md                   |
-| input\resources\CapabilityStatement-CapabilityStatement-pacio-cs.json | copied    | ..\ig-data\input\resources\CapabilityStatement-functional_pacio.json      |
+| input\resources\CapabilityStatement-CapabilityStatement-pacio-fs.json | copied    | ..\ig-data\input\resources\CapabilityStatement-functional_pacio.json      |
 | package.json                                                          | copied    | ..\package.json                                                           |

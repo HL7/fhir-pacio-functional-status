@@ -17,7 +17,7 @@
    <name value="PACIOFunctionalStatusImplementationGuide"/>
    <title value="PACIO Functional Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2020-10-15T10:11:41-04:00"/>
+   <date value="2020-10-15T12:12:51-04:00"/>
    <publisher value="HL7 Patient Care Work Group"/>
    <contact>
       <name value="PACIO  project"/>
@@ -4065,13 +4065,13 @@
             <valueString value="CapabilityStatement"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="CapabilityStatement-CapabilityStatement-pacio-cs.html"/>
+            <valueUri value="CapabilityStatement-CapabilityStatement-pacio-fs.html"/>
          </extension>
          <reference>
-            <reference value="CapabilityStatement/CapabilityStatement-pacio-cs"/>
+            <reference value="CapabilityStatement/CapabilityStatement-pacio-fs"/>
          </reference>
-         <name value="PACIO functional Status Capability Statement"/>
-         <description value="This Capability Statement defines the expected capabilities of a PACIO functional Status FHIR server conforming to the PACIO functional Status Implementation Guide."/>
+         <name value="PACIO Functional Status Capability Statement"/>
+         <description value="This Capability Statement defines the expected capabilities of a PACIO Functional Status FHIR server conforming to the PACIO functional Status Implementation Guide."/>
          <exampleBoolean value="false"/>
          <groupingId value="_dyn_capabilitystatement"/>
       </resource>
@@ -4109,8 +4109,8 @@
             <title value="Artifacts Summary"/>
             <generation value="html"/>
             <page>
-               <nameUrl value="CapabilityStatement-CapabilityStatement-pacio-cs.html"/>
-               <title value="PACIO functional Status Capability Statement"/>
+               <nameUrl value="CapabilityStatement-CapabilityStatement-pacio-fs.html"/>
+               <title value="PACIO Functional Status Capability Statement"/>
                <generation value="generated"/>
             </page>
             <page>
