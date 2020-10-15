@@ -17,10 +17,10 @@ lists those files generated from project configs or the contents in the ig-data 
 | _genonce.sh                                                    | generated |                                                                           |
 | _updatePublisher.bat                                           | generated |                                                                           |
 | _updatePublisher.sh                                            | generated |                                                                           |
-| ig.ini                                                         | generated | ..\ig-data\ig.ini, ..\package.json                                        |
-| input\ImplementationGuide-hl7.fhir.us.pacio-fs.json            | generated | ..\ig-data\ig.ini, ..\package.json, {all input resources and pages}       |
+| ig.ini                                                         | generated | ..\config.yaml                                                            |
+| input\ImplementationGuide-hl7.fhir.us.pacio-fs.json            | generated | ..\config.yaml, {all input resources and pages}                           |
 | input\ignoreWarnings.txt                                       | generated |                                                                           |
-| package-list.json                                              | generated | ..\package.json                                                           |
+| package-list.json                                              | generated | ..\config.yaml                                                            |
 | input\images\BFS_Mobility_Admission_Example.png                | copied    | ..\ig-data\input\images\BFS_Mobility_Admission_Example.png                |
 | input\images\BFS_Mobility_DischargeGoal_Example.png            | copied    | ..\ig-data\input\images\BFS_Mobility_DischargeGoal_Example.png            |
 | input\images\BFS_Mobility_Discharge_and_DeviceUsed_Example.png | copied    | ..\ig-data\input\images\BFS_Mobility_Discharge_and_DeviceUsed_Example.png |
@@ -39,4 +39,3 @@ lists those files generated from project configs or the contents in the ig-data 
 | input\pagecontent\security_and_data_sharing.md                 | copied    | ..\ig-data\input\pagecontent\security_and_data_sharing.md                 |
 | input\pagecontent\underlying_technologies.md                   | copied    | ..\ig-data\input\pagecontent\underlying_technologies.md                   |
 | input\resources\CapabilityStatement-pacio-fs.json              | copied    | ..\ig-data\input\resources\CapabilityStatement-functional_pacio.json      |
-| package.json                                                   | copied    | ..\package.json                                                           |

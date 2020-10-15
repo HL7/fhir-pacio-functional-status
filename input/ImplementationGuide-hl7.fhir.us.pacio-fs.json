@@ -6,7 +6,6 @@
   "name": "PACIOFunctionalStatusImplementationGuide",
   "title": "PACIO Functional Status Implementation Guide",
   "status": "active",
-  "publisher": "HL7 Patient Care Work Group",
   "contact": [
     {
       "name": "PACIO  project",
@@ -23,17 +22,27 @@
     }
   ],
   "description": "To advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "US",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
   "packageId": "hl7.fhir.us.pacio-fs",
-
   "license": "CC0-1.0",
   "fhirVersion": [
     "4.0.1"
   ],
   "dependsOn": [
     {
-      "uri": "http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core",
       "packageId": "hl7.fhir.us.core",
-      "version": "3.1.0"
+      "version": "3.1.0",
+      "uri": "http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core",
+      "id": "hl7_fhir_us_core"
     }
   ],
   "definition": {
@@ -2037,9 +2046,9 @@
         "reference": {
           "reference": "CapabilityStatement/pacio-fs"
         },
-        "name": "PACIO Functional Status Capability Statement",
         "description": "This Capability Statement defines the expected capabilities of a PACIO Functional Status FHIR server conforming to the PACIO functional Status Implementation Guide.",
-        "exampleBoolean": false
+        "exampleBoolean": false,
+        "name": "PACIO Functional Status Capability Statement"
       }
     ],
     "page": {

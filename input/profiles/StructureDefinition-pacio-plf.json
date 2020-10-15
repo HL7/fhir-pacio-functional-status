@@ -1,6 +1,16 @@
 {
   "resourceType": "StructureDefinition",
   "id": "pacio-plf",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Clinical.Diagnostics"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "patient"
+    }
+  ],
   "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-plf",
   "version": "0.1.0",
   "name": "PriorLevelOfFunction",
@@ -71,6 +81,7 @@
         "id": "Observation.extension:event-location",
         "path": "Observation.extension",
         "sliceName": "event-location",
+        "min": 0,
         "max": "1",
         "type": [
           {
@@ -86,6 +97,7 @@
         "id": "Observation.extension:assistance-required",
         "path": "Observation.extension",
         "sliceName": "assistance-required",
+        "min": 0,
         "max": "1",
         "type": [
           {
