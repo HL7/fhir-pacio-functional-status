@@ -17,7 +17,7 @@
    <name value="PACIOFunctionalStatusImplementationGuide"/>
    <title value="PACIO Functional Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2020-10-15T12:12:51-04:00"/>
+   <date value="2020-10-15T12:25:54-04:00"/>
    <publisher value="HL7 Patient Care Work Group"/>
    <contact>
       <name value="PACIO  project"/>
@@ -31,12 +31,6 @@
       </telecom>
    </contact>
    <description value="To advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders"/>
-   <jurisdiction>
-      <coding>
-         <system value="urn:iso:std:iso:3166"/>
-         <code value="US"/>
-      </coding>
-   </jurisdiction>
    <packageId value="hl7.fhir.us.pacio-fs"/>
    <license value="CC0-1.0"/>
    <fhirVersion value="4.0.1"/>
@@ -4065,10 +4059,10 @@
             <valueString value="CapabilityStatement"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="CapabilityStatement-CapabilityStatement-pacio-fs.html"/>
+            <valueUri value="CapabilityStatement-pacio-fs.html"/>
          </extension>
          <reference>
-            <reference value="CapabilityStatement/CapabilityStatement-pacio-fs"/>
+            <reference value="CapabilityStatement/pacio-fs"/>
          </reference>
          <name value="PACIO Functional Status Capability Statement"/>
          <description value="This Capability Statement defines the expected capabilities of a PACIO Functional Status FHIR server conforming to the PACIO functional Status Implementation Guide."/>
@@ -4109,7 +4103,7 @@
             <title value="Artifacts Summary"/>
             <generation value="html"/>
             <page>
-               <nameUrl value="CapabilityStatement-CapabilityStatement-pacio-fs.html"/>
+               <nameUrl value="CapabilityStatement-pacio-fs.html"/>
                <title value="PACIO Functional Status Capability Statement"/>
                <generation value="generated"/>
             </page>

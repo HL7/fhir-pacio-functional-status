@@ -24,16 +24,7 @@
   ],
   "description": "To advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders",
   "packageId": "hl7.fhir.us.pacio-fs",
-  "jurisdiction": [
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166",
-          "code": "US"
-        }
-      ]
-    }
-  ], 
+
   "license": "CC0-1.0",
   "fhirVersion": [
     "4.0.1"
@@ -2044,7 +2035,7 @@
       },
       {
         "reference": {
-          "reference": "CapabilityStatement/CapabilityStatement-pacio-fs"
+          "reference": "CapabilityStatement/pacio-fs"
         },
         "name": "PACIO Functional Status Capability Statement",
         "description": "This Capability Statement defines the expected capabilities of a PACIO Functional Status FHIR server conforming to the PACIO functional Status Implementation Guide.",
