@@ -33,7 +33,7 @@
     "coding": [
       {
         "code": "85054-5",
-        "system": "http://loinc.org",
+        "system": "https://fhir.loinc.org",
         "display": "Self-Care - Discharge Goal"
       }
     ]

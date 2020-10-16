@@ -33,7 +33,7 @@
     "coding": [
       {
         "code": "83233-7",
-        "system": "http://loinc.org",
+        "system": "https://fhir.loinc.org",
         "display": "Self-Care - Admission Performance"
       }
     ]

@@ -33,7 +33,7 @@
     "coding": [
       {
         "code": "89388-3",
-        "system": "http://loinc.org",
+        "system": "https://fhir.loinc.org",
         "display": "Upper body dressing"
       }
     ],
@@ -43,7 +43,7 @@
     "coding": [
       {
         "code": "LA10073-7",
-        "system": "http://loinc.org",
+        "system": "https://fhir.loinc.org",
         "display": "Setup or clean-up assistance"
       }
     ],

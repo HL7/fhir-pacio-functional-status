@@ -33,7 +33,7 @@
     "coding": [
       {
         "code": "83231-1",
-        "system": "http://loinc.org",
+        "system": "https://fhir.loinc.org",
         "display": "Eating - functional ability during 3D assessment period"
       }
     ],
@@ -43,7 +43,7 @@
     "coding": [
       {
         "code": "LA9983-3",
-        "system": "http://loinc.org",
+        "system": "https://fhir.loinc.org",
         "display": "Independent"
       }
     ],

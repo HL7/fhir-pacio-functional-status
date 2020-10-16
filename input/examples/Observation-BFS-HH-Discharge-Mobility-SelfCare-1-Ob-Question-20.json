@@ -33,7 +33,7 @@
     "coding": [
       {
         "code": "83226-1",
-        "system": "http://loinc.org",
+        "system": "https://fhir.loinc.org",
         "display": "Shower or bathe self - functional ability during 3D assessment period"
       }
     ],
@@ -43,7 +43,7 @@
     "coding": [
       {
         "code": "LA27993-7",
-        "system": "http://loinc.org",
+        "system": "https://fhir.loinc.org",
         "display": "Independent"
       }
     ],

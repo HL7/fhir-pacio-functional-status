@@ -33,7 +33,7 @@
     "coding": [
       {
         "code": "89401-4",
-        "system": "http://loinc.org",
+        "system": "https://fhir.loinc.org",
         "display": "Puttin on/taking off footwear"
       }
     ],
@@ -43,7 +43,7 @@
     "coding": [
       {
         "code": "LA10055-4",
-        "system": "http://loinc.org",
+        "system": "https://fhir.loinc.org",
         "display": "Partial/moderate assistance"
       }
     ],

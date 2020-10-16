@@ -150,7 +150,7 @@
       {
         "id": "Observation.performer",
         "path": "Observation.performer",
-        "short": "The person who performed the assessment. Also provide the role and organizationif available. ",
+        "short": "The person who performed the assessment. Also provide the role and organizationif available.",
         "min": 1
       },
       {

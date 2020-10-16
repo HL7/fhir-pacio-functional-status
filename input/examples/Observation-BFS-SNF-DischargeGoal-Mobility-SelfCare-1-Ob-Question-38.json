@@ -33,7 +33,7 @@
     "coding": [
       {
         "code": "83227-9",
-        "system": "http://loinc.org",
+        "system": "https://fhir.loinc.org",
         "display": "Toileting hygiene - functional ability during 3D assessment period"
       }
     ],
@@ -43,7 +43,7 @@
     "coding": [
       {
         "code": "LA11757-4",
-        "system": "http://loinc.org",
+        "system": "https://fhir.loinc.org",
         "display": "Supervision or touching Assist"
       }
     ],

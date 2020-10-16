@@ -33,7 +33,7 @@
     "coding": [
       {
         "code": "83224-6",
-        "system": "http://loinc.org",
+        "system": "https://fhir.loinc.org",
         "display": "Upper body dressing - functional ability during 3D assessment period"
       }
     ],
@@ -43,7 +43,7 @@
     "coding": [
       {
         "code": "LA10055-4",
-        "system": "http://loinc.org",
+        "system": "https://fhir.loinc.org",
         "display": "Partial/moderate Assist"
       }
     ],

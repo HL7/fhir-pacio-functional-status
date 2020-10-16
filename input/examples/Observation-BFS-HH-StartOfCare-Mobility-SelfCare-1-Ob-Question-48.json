@@ -33,7 +33,7 @@
     "coding": [
       {
         "code": "89407-1",
-        "system": "http://loinc.org",
+        "system": "https://fhir.loinc.org",
         "display": "Lower body dressing"
       }
     ],
@@ -43,7 +43,7 @@
     "coding": [
       {
         "code": "LA10055-4",
-        "system": "http://loinc.org",
+        "system": "https://fhir.loinc.org",
         "display": "Partial/moderate assistance"
       }
     ],

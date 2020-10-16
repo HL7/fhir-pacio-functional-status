@@ -33,7 +33,7 @@
     "coding": [
       {
         "code": "89397-4",
-        "system": "http://loinc.org",
+        "system": "https://fhir.loinc.org",
         "display": "Shower/bathe self"
       }
     ],
@@ -43,7 +43,7 @@
     "coding": [
       {
         "code": "LA11759-0",
-        "system": "http://loinc.org",
+        "system": "https://fhir.loinc.org",
         "display": "Substantial/maximal assistance"
       }
     ],

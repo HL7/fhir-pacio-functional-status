@@ -33,7 +33,7 @@
     "coding": [
       {
         "code": "83220-4",
-        "system": "http://loinc.org",
+        "system": "https://fhir.loinc.org",
         "display": "Putting on and taking off footwear - functional ability during 3D assessment period"
       }
     ],
@@ -43,7 +43,7 @@
     "coding": [
       {
         "code": "LA10055-4",
-        "system": "http://loinc.org",
+        "system": "https://fhir.loinc.org",
         "display": "Partial/moderate assistance"
       }
     ],

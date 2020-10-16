@@ -44,7 +44,7 @@
       {
         "code": "LA9983-3",
         "system": "http://loinc.org",
-        "display": "Independent"
+        "display": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
       }
     ],
     "text": "Independent"

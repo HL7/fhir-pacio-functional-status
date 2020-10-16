@@ -33,7 +33,7 @@
     "coding": [
       {
         "code": "89479-0",
-        "system": "http://loinc.org",
+        "system": "https://fhir.loinc.org",
         "display": "Self-Care - SOC/ROC Performance"
       }
     ]

@@ -17,7 +17,7 @@
    <name value="PACIOFunctionalStatusImplementationGuide"/>
    <title value="PACIO Functional Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2020-10-15T21:16:44-04:00"/>
+   <date value="2020-10-15T23:30:23-04:00"/>
    <contact>
       <name value="PACIO  project"/>
       <telecom>
@@ -456,126 +456,6 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-HH-Discharge-Mobility-SelfCare-1"/>
-         </reference>
-         <name value="BFS-HH-Discharge-Mobility-SelfCare-1"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-10.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-10"/>
-         </reference>
-         <name value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-10"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-15.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-15"/>
-         </reference>
-         <name value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-15"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-20.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-20"/>
-         </reference>
-         <name value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-20"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-25.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-25"/>
-         </reference>
-         <name value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-25"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-30.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-30"/>
-         </reference>
-         <name value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-30"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-35.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-35"/>
-         </reference>
-         <name value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-35"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-5.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-5"/>
-         </reference>
-         <name value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-5"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="Observation-BFS-HH-StartOfCare-Mobility-1.html"/>
          </extension>
          <reference>
@@ -837,126 +717,6 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-95"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-95"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1"/>
-         </reference>
-         <name value="BFS-HH-StartOfCare-Mobility-SelfCare-1"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-43.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-43"/>
-         </reference>
-         <name value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-43"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-44.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-44"/>
-         </reference>
-         <name value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-44"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-45.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-45"/>
-         </reference>
-         <name value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-45"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-46.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-46"/>
-         </reference>
-         <name value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-46"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-47.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-47"/>
-         </reference>
-         <name value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-47"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-48.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-48"/>
-         </reference>
-         <name value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-48"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-49.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-49"/>
-         </reference>
-         <name value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-49"/>
          <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
@@ -1259,126 +1019,6 @@
          <name value="BFS-Hospital-Admission-Mobility-1-UseOfDevice-18"/>
          <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1"/>
-         </reference>
-         <name value="BFS-Hospital-Admission-Mobility-SelfCare-1"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-1.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-1"/>
-         </reference>
-         <name value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-1"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-11.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-11"/>
-         </reference>
-         <name value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-11"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-16.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-16"/>
-         </reference>
-         <name value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-16"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-21.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-21"/>
-         </reference>
-         <name value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-21"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-26.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-26"/>
-         </reference>
-         <name value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-26"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-31.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-31"/>
-         </reference>
-         <name value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-31"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-6.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-6"/>
-         </reference>
-         <name value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-6"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1722,156 +1362,6 @@
             <reference value="DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1"/>
-         </reference>
-         <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-12.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-12"/>
-         </reference>
-         <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-12"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-17.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-17"/>
-         </reference>
-         <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-17"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-2.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-2"/>
-         </reference>
-         <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-2"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-22.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-22"/>
-         </reference>
-         <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-22"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-27.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-27"/>
-         </reference>
-         <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-27"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-32.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-32"/>
-         </reference>
-         <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-32"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-7.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-7"/>
-         </reference>
-         <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-7"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="DeviceUseStatement"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="DeviceUseStatement-BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-3.html"/>
-         </extension>
-         <reference>
-            <reference value="DeviceUseStatement/BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-3"/>
-         </reference>
-         <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-3"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="DeviceUseStatement"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="DeviceUseStatement-BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-4.html"/>
-         </extension>
-         <reference>
-            <reference value="DeviceUseStatement/BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-4"/>
-         </reference>
-         <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-4"/>
          <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
@@ -2496,126 +1986,6 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-SNF-Admission-Mobility-SelfCare-1"/>
-         </reference>
-         <name value="BFS-SNF-Admission-Mobility-SelfCare-1"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-13.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-13"/>
-         </reference>
-         <name value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-13"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-18.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-18"/>
-         </reference>
-         <name value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-18"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-23.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-23"/>
-         </reference>
-         <name value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-23"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-28.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-28"/>
-         </reference>
-         <name value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-28"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-3.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-3"/>
-         </reference>
-         <name value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-3"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-33.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-33"/>
-         </reference>
-         <name value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-33"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-8.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-8"/>
-         </reference>
-         <name value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-8"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="Observation-BFS-SNF-Discharge-Mobility-1.html"/>
          </extension>
          <reference>
@@ -2976,126 +2346,6 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1"/>
-         </reference>
-         <name value="BFS-SNF-Discharge-Mobility-SelfCare-1"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-14.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-14"/>
-         </reference>
-         <name value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-14"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-19.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-19"/>
-         </reference>
-         <name value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-19"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-24.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-24"/>
-         </reference>
-         <name value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-24"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-29.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-29"/>
-         </reference>
-         <name value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-29"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-34.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-34"/>
-         </reference>
-         <name value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-34"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-4.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-4"/>
-         </reference>
-         <name value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-4"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-9.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-9"/>
-         </reference>
-         <name value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-9"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="Observation-BFS-SNF-DischargeGoal-Mobility-1.html"/>
          </extension>
          <reference>
@@ -3363,126 +2613,6 @@
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1"/>
-         </reference>
-         <name value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-36.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-36"/>
-         </reference>
-         <name value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-36"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-37.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-37"/>
-         </reference>
-         <name value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-37"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-38.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-38"/>
-         </reference>
-         <name value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-38"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-39.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-39"/>
-         </reference>
-         <name value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-39"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-40.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-40"/>
-         </reference>
-         <name value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-40"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-41.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-41"/>
-         </reference>
-         <name value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-41"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-42.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-42"/>
-         </reference>
-         <name value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-42"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="Condition"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
@@ -3732,21 +2862,6 @@
             <reference value="Device/CMS-Device-7"/>
          </reference>
          <name value="CMS-Device-7"/>
-         <description value="Sample Data"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Device"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Device-CMS-Device-8.html"/>
-         </extension>
-         <reference>
-            <reference value="Device/CMS-Device-8"/>
-         </reference>
-         <name value="CMS-Device-8"/>
          <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
@@ -4017,22 +3132,6 @@
             <reference value="QuestionnaireResponse/QResponse-HH-Discharge-Mobility-1"/>
          </reference>
          <name value="QResponse-HH-Discharge-Mobility-1"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="QuestionnaireResponse"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="QuestionnaireResponse-QResponse-HH-Discharge-Mobility-SelfCare-1.html"/>
-         </extension>
-         <reference>
-            <reference value="QuestionnaireResponse/QResponse-HH-Discharge-Mobility-SelfCare-1"/>
-         </reference>
-         <name value="QResponse-HH-Discharge-Mobility-SelfCare-1"/>
-         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -4047,22 +3146,6 @@
             <reference value="QuestionnaireResponse/QResponse-HH-StartOfCare-Mobility-1"/>
          </reference>
          <name value="QResponse-HH-StartOfCare-Mobility-1"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="QuestionnaireResponse"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="QuestionnaireResponse-QResponse-HH-StartOfCare-Mobility-SelfCare-1.html"/>
-         </extension>
-         <reference>
-            <reference value="QuestionnaireResponse/QResponse-HH-StartOfCare-Mobility-SelfCare-1"/>
-         </reference>
-         <name value="QResponse-HH-StartOfCare-Mobility-SelfCare-1"/>
-         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -4077,22 +3160,6 @@
             <reference value="QuestionnaireResponse/QResponse-Hospital-Admission-Mobility-1"/>
          </reference>
          <name value="QResponse-Hospital-Admission-Mobility-1"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="QuestionnaireResponse"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="QuestionnaireResponse-QResponse-Hospital-Admission-Mobility-SelfCare-1.html"/>
-         </extension>
-         <reference>
-            <reference value="QuestionnaireResponse/QResponse-Hospital-Admission-Mobility-SelfCare-1"/>
-         </reference>
-         <name value="QResponse-Hospital-Admission-Mobility-SelfCare-1"/>
-         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -4107,22 +3174,6 @@
             <reference value="QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-1"/>
          </reference>
          <name value="QResponse-Hospital-Discharge-Mobility-1"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="QuestionnaireResponse"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="QuestionnaireResponse-QResponse-Hospital-Discharge-Mobility-SelfCare-1.html"/>
-         </extension>
-         <reference>
-            <reference value="QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-SelfCare-1"/>
-         </reference>
-         <name value="QResponse-Hospital-Discharge-Mobility-SelfCare-1"/>
-         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -4137,7 +3188,6 @@
             <reference value="QuestionnaireResponse/QResponse-Hospital-DischargeGoal-Mobility-1"/>
          </reference>
          <name value="QResponse-Hospital-DischargeGoal-Mobility-1"/>
-         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -4152,22 +3202,6 @@
             <reference value="QuestionnaireResponse/QResponse-SNF-Admission-Mobility-1"/>
          </reference>
          <name value="QResponse-SNF-Admission-Mobility-1"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="QuestionnaireResponse"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="QuestionnaireResponse-QResponse-SNF-Admission-Mobility-SelfCare-1.html"/>
-         </extension>
-         <reference>
-            <reference value="QuestionnaireResponse/QResponse-SNF-Admission-Mobility-SelfCare-1"/>
-         </reference>
-         <name value="QResponse-SNF-Admission-Mobility-SelfCare-1"/>
-         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -4182,22 +3216,6 @@
             <reference value="QuestionnaireResponse/QResponse-SNF-Discharge-Mobility-1"/>
          </reference>
          <name value="QResponse-SNF-Discharge-Mobility-1"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="QuestionnaireResponse"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="QuestionnaireResponse-QResponse-SNF-Discharge-Mobility-SelfCare-1.html"/>
-         </extension>
-         <reference>
-            <reference value="QuestionnaireResponse/QResponse-SNF-Discharge-Mobility-SelfCare-1"/>
-         </reference>
-         <name value="QResponse-SNF-Discharge-Mobility-SelfCare-1"/>
-         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -4212,22 +3230,6 @@
             <reference value="QuestionnaireResponse/QResponse-SNF-DischargeGoal-Mobility-1"/>
          </reference>
          <name value="QResponse-SNF-DischargeGoal-Mobility-1"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="QuestionnaireResponse"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="QuestionnaireResponse-QResponse-SNF-DischargeGoal-Mobility-SelfCare-1.html"/>
-         </extension>
-         <reference>
-            <reference value="QuestionnaireResponse/QResponse-SNF-DischargeGoal-Mobility-SelfCare-1"/>
-         </reference>
-         <name value="QResponse-SNF-DischargeGoal-Mobility-SelfCare-1"/>
-         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -4515,46 +3517,6 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1.html"/>
-               <title value="BFS-HH-Discharge-Mobility-SelfCare-1"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-10.html"/>
-               <title value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-10"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-15.html"/>
-               <title value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-15"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-20.html"/>
-               <title value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-20"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-25.html"/>
-               <title value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-25"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-30.html"/>
-               <title value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-30"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-35.html"/>
-               <title value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-35"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-5.html"/>
-               <title value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-5"/>
-               <generation value="generated"/>
-            </page>
-            <page>
                <nameUrl value="Observation-BFS-HH-StartOfCare-Mobility-1.html"/>
                <title value="BFS-HH-StartOfCare-Mobility-1"/>
                <generation value="generated"/>
@@ -4642,46 +3604,6 @@
             <page>
                <nameUrl value="Observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-95.html"/>
                <title value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-95"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1.html"/>
-               <title value="BFS-HH-StartOfCare-Mobility-SelfCare-1"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-43.html"/>
-               <title value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-43"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-44.html"/>
-               <title value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-44"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-45.html"/>
-               <title value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-45"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-46.html"/>
-               <title value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-46"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-47.html"/>
-               <title value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-47"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-48.html"/>
-               <title value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-48"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-49.html"/>
-               <title value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-49"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -4782,46 +3704,6 @@
             <page>
                <nameUrl value="DeviceUseStatement-BFS-Hospital-Admission-Mobility-1-UseOfDevice-18.html"/>
                <title value="BFS-Hospital-Admission-Mobility-1-UseOfDevice-18"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1.html"/>
-               <title value="BFS-Hospital-Admission-Mobility-SelfCare-1"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-1.html"/>
-               <title value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-1"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-11.html"/>
-               <title value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-11"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-16.html"/>
-               <title value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-16"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-21.html"/>
-               <title value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-21"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-26.html"/>
-               <title value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-26"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-31.html"/>
-               <title value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-31"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-6.html"/>
-               <title value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-6"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -4937,56 +3819,6 @@
             <page>
                <nameUrl value="DeviceUseStatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5.html"/>
                <title value="BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1.html"/>
-               <title value="BFS-Hospital-Discharge-Mobility-SelfCare-1"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-12.html"/>
-               <title value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-12"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-17.html"/>
-               <title value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-17"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-2.html"/>
-               <title value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-2"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-22.html"/>
-               <title value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-22"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-27.html"/>
-               <title value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-27"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-32.html"/>
-               <title value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-32"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-7.html"/>
-               <title value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-7"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="DeviceUseStatement-BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-3.html"/>
-               <title value="BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-3"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="DeviceUseStatement-BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-4.html"/>
-               <title value="BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-4"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -5195,46 +4027,6 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1.html"/>
-               <title value="BFS-SNF-Admission-Mobility-SelfCare-1"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-13.html"/>
-               <title value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-13"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-18.html"/>
-               <title value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-18"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-23.html"/>
-               <title value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-23"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-28.html"/>
-               <title value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-28"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-3.html"/>
-               <title value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-3"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-33.html"/>
-               <title value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-33"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-8.html"/>
-               <title value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-8"/>
-               <generation value="generated"/>
-            </page>
-            <page>
                <nameUrl value="Observation-BFS-SNF-Discharge-Mobility-1.html"/>
                <title value="BFS-SNF-Discharge-Mobility-1"/>
                <generation value="generated"/>
@@ -5355,46 +4147,6 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1.html"/>
-               <title value="BFS-SNF-Discharge-Mobility-SelfCare-1"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-14.html"/>
-               <title value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-14"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-19.html"/>
-               <title value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-19"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-24.html"/>
-               <title value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-24"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-29.html"/>
-               <title value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-29"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-34.html"/>
-               <title value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-34"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-4.html"/>
-               <title value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-4"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-9.html"/>
-               <title value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-9"/>
-               <generation value="generated"/>
-            </page>
-            <page>
                <nameUrl value="Observation-BFS-SNF-DischargeGoal-Mobility-1.html"/>
                <title value="BFS-SNF-DischargeGoal-Mobility-1"/>
                <generation value="generated"/>
@@ -5485,46 +4237,6 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1.html"/>
-               <title value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-36.html"/>
-               <title value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-36"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-37.html"/>
-               <title value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-37"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-38.html"/>
-               <title value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-38"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-39.html"/>
-               <title value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-39"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-40.html"/>
-               <title value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-40"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-41.html"/>
-               <title value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-41"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-42.html"/>
-               <title value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-42"/>
-               <generation value="generated"/>
-            </page>
-            <page>
                <nameUrl value="Condition-BSJ-Diagnosis1.html"/>
                <title value="BSJ-Diagnosis1"/>
                <generation value="generated"/>
@@ -5607,11 +4319,6 @@
             <page>
                <nameUrl value="Device-CMS-Device-7.html"/>
                <title value="CMS-Device-7"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Device-CMS-Device-8.html"/>
-               <title value="CMS-Device-8"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -5705,18 +4412,8 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="QuestionnaireResponse-QResponse-HH-Discharge-Mobility-SelfCare-1.html"/>
-               <title value="QResponse-HH-Discharge-Mobility-SelfCare-1"/>
-               <generation value="generated"/>
-            </page>
-            <page>
                <nameUrl value="QuestionnaireResponse-QResponse-HH-StartOfCare-Mobility-1.html"/>
                <title value="QResponse-HH-StartOfCare-Mobility-1"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="QuestionnaireResponse-QResponse-HH-StartOfCare-Mobility-SelfCare-1.html"/>
-               <title value="QResponse-HH-StartOfCare-Mobility-SelfCare-1"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -5725,18 +4422,8 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="QuestionnaireResponse-QResponse-Hospital-Admission-Mobility-SelfCare-1.html"/>
-               <title value="QResponse-Hospital-Admission-Mobility-SelfCare-1"/>
-               <generation value="generated"/>
-            </page>
-            <page>
                <nameUrl value="QuestionnaireResponse-QResponse-Hospital-Discharge-Mobility-1.html"/>
                <title value="QResponse-Hospital-Discharge-Mobility-1"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="QuestionnaireResponse-QResponse-Hospital-Discharge-Mobility-SelfCare-1.html"/>
-               <title value="QResponse-Hospital-Discharge-Mobility-SelfCare-1"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -5750,28 +4437,13 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="QuestionnaireResponse-QResponse-SNF-Admission-Mobility-SelfCare-1.html"/>
-               <title value="QResponse-SNF-Admission-Mobility-SelfCare-1"/>
-               <generation value="generated"/>
-            </page>
-            <page>
                <nameUrl value="QuestionnaireResponse-QResponse-SNF-Discharge-Mobility-1.html"/>
                <title value="QResponse-SNF-Discharge-Mobility-1"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="QuestionnaireResponse-QResponse-SNF-Discharge-Mobility-SelfCare-1.html"/>
-               <title value="QResponse-SNF-Discharge-Mobility-SelfCare-1"/>
-               <generation value="generated"/>
-            </page>
-            <page>
                <nameUrl value="QuestionnaireResponse-QResponse-SNF-DischargeGoal-Mobility-1.html"/>
                <title value="QResponse-SNF-DischargeGoal-Mobility-1"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="QuestionnaireResponse-QResponse-SNF-DischargeGoal-Mobility-SelfCare-1.html"/>
-               <title value="QResponse-SNF-DischargeGoal-Mobility-SelfCare-1"/>
                <generation value="generated"/>
             </page>
             <page>

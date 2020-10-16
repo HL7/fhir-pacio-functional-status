@@ -249,70 +249,6 @@
       },
       {
         "reference": {
-          "reference": "Observation/BFS-HH-Discharge-Mobility-SelfCare-1"
-        },
-        "name": "BFS-HH-Discharge-Mobility-SelfCare-1",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-10"
-        },
-        "name": "BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-10",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-15"
-        },
-        "name": "BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-15",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-20"
-        },
-        "name": "BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-20",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-25"
-        },
-        "name": "BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-25",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-30"
-        },
-        "name": "BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-30",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-35"
-        },
-        "name": "BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-35",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-5"
-        },
-        "name": "BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-5",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
           "reference": "Observation/BFS-HH-StartOfCare-Mobility-1"
         },
         "name": "BFS-HH-StartOfCare-Mobility-1",
@@ -452,70 +388,6 @@
           "reference": "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-95"
         },
         "name": "BFS-HH-StartOfCare-Mobility-1-Ob-Question-95",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1"
-        },
-        "name": "BFS-HH-StartOfCare-Mobility-SelfCare-1",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-43"
-        },
-        "name": "BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-43",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-44"
-        },
-        "name": "BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-44",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-45"
-        },
-        "name": "BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-45",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-46"
-        },
-        "name": "BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-46",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-47"
-        },
-        "name": "BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-47",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-48"
-        },
-        "name": "BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-48",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-49"
-        },
-        "name": "BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-49",
         "description": "Sample Data",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
       },
@@ -678,70 +550,6 @@
         "name": "BFS-Hospital-Admission-Mobility-1-UseOfDevice-18",
         "description": "Sample Data",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-Hospital-Admission-Mobility-SelfCare-1"
-        },
-        "name": "BFS-Hospital-Admission-Mobility-SelfCare-1",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-1"
-        },
-        "name": "BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-1",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-11"
-        },
-        "name": "BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-11",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-16"
-        },
-        "name": "BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-16",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-21"
-        },
-        "name": "BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-21",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-26"
-        },
-        "name": "BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-26",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-31"
-        },
-        "name": "BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-31",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-6"
-        },
-        "name": "BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-6",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
@@ -924,86 +732,6 @@
           "reference": "DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5"
         },
         "name": "BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1"
-        },
-        "name": "BFS-Hospital-Discharge-Mobility-SelfCare-1",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-12"
-        },
-        "name": "BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-12",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-17"
-        },
-        "name": "BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-17",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-2"
-        },
-        "name": "BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-2",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-22"
-        },
-        "name": "BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-22",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-27"
-        },
-        "name": "BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-27",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-32"
-        },
-        "name": "BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-32",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-7"
-        },
-        "name": "BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-7",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "DeviceUseStatement/BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-3"
-        },
-        "name": "BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-3",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"
-      },
-      {
-        "reference": {
-          "reference": "DeviceUseStatement/BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-4"
-        },
-        "name": "BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-4",
         "description": "Sample Data",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"
       },
@@ -1337,70 +1065,6 @@
       },
       {
         "reference": {
-          "reference": "Observation/BFS-SNF-Admission-Mobility-SelfCare-1"
-        },
-        "name": "BFS-SNF-Admission-Mobility-SelfCare-1",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-13"
-        },
-        "name": "BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-13",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-18"
-        },
-        "name": "BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-18",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-23"
-        },
-        "name": "BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-23",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-28"
-        },
-        "name": "BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-28",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-3"
-        },
-        "name": "BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-3",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-33"
-        },
-        "name": "BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-33",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-8"
-        },
-        "name": "BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-8",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
           "reference": "Observation/BFS-SNF-Discharge-Mobility-1"
         },
         "name": "BFS-SNF-Discharge-Mobility-1",
@@ -1593,70 +1257,6 @@
       },
       {
         "reference": {
-          "reference": "Observation/BFS-SNF-Discharge-Mobility-SelfCare-1"
-        },
-        "name": "BFS-SNF-Discharge-Mobility-SelfCare-1",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-14"
-        },
-        "name": "BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-14",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-19"
-        },
-        "name": "BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-19",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-24"
-        },
-        "name": "BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-24",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-29"
-        },
-        "name": "BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-29",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-34"
-        },
-        "name": "BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-34",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-4"
-        },
-        "name": "BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-4",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-9"
-        },
-        "name": "BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-9",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
           "reference": "Observation/BFS-SNF-DischargeGoal-Mobility-1"
         },
         "name": "BFS-SNF-DischargeGoal-Mobility-1",
@@ -1801,70 +1401,6 @@
       },
       {
         "reference": {
-          "reference": "Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1"
-        },
-        "name": "BFS-SNF-DischargeGoal-Mobility-SelfCare-1",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-36"
-        },
-        "name": "BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-36",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-37"
-        },
-        "name": "BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-37",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-38"
-        },
-        "name": "BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-38",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-39"
-        },
-        "name": "BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-39",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-40"
-        },
-        "name": "BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-40",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-41"
-        },
-        "name": "BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-41",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-42"
-        },
-        "name": "BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-42",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
           "reference": "Condition/BSJ-Diagnosis1"
         },
         "name": "BSJ-Diagnosis1",
@@ -1996,14 +1532,6 @@
           "reference": "Device/CMS-Device-7"
         },
         "name": "CMS-Device-7",
-        "description": "Sample Data",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Device/CMS-Device-8"
-        },
-        "name": "CMS-Device-8",
         "description": "Sample Data",
         "exampleBoolean": true
       },
@@ -2148,15 +1676,6 @@
           "reference": "QuestionnaireResponse/QResponse-HH-Discharge-Mobility-1"
         },
         "name": "QResponse-HH-Discharge-Mobility-1",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"
-      },
-      {
-        "reference": {
-          "reference": "QuestionnaireResponse/QResponse-HH-Discharge-Mobility-SelfCare-1"
-        },
-        "name": "QResponse-HH-Discharge-Mobility-SelfCare-1",
-        "description": "Sample Data",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"
       },
       {
@@ -2164,15 +1683,6 @@
           "reference": "QuestionnaireResponse/QResponse-HH-StartOfCare-Mobility-1"
         },
         "name": "QResponse-HH-StartOfCare-Mobility-1",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"
-      },
-      {
-        "reference": {
-          "reference": "QuestionnaireResponse/QResponse-HH-StartOfCare-Mobility-SelfCare-1"
-        },
-        "name": "QResponse-HH-StartOfCare-Mobility-SelfCare-1",
-        "description": "Sample Data",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"
       },
       {
@@ -2180,15 +1690,6 @@
           "reference": "QuestionnaireResponse/QResponse-Hospital-Admission-Mobility-1"
         },
         "name": "QResponse-Hospital-Admission-Mobility-1",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"
-      },
-      {
-        "reference": {
-          "reference": "QuestionnaireResponse/QResponse-Hospital-Admission-Mobility-SelfCare-1"
-        },
-        "name": "QResponse-Hospital-Admission-Mobility-SelfCare-1",
-        "description": "Sample Data",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"
       },
       {
@@ -2196,15 +1697,6 @@
           "reference": "QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-1"
         },
         "name": "QResponse-Hospital-Discharge-Mobility-1",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"
-      },
-      {
-        "reference": {
-          "reference": "QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-SelfCare-1"
-        },
-        "name": "QResponse-Hospital-Discharge-Mobility-SelfCare-1",
-        "description": "Sample Data",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"
       },
       {
@@ -2212,7 +1704,6 @@
           "reference": "QuestionnaireResponse/QResponse-Hospital-DischargeGoal-Mobility-1"
         },
         "name": "QResponse-Hospital-DischargeGoal-Mobility-1",
-        "description": "Sample Data",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"
       },
       {
@@ -2220,15 +1711,6 @@
           "reference": "QuestionnaireResponse/QResponse-SNF-Admission-Mobility-1"
         },
         "name": "QResponse-SNF-Admission-Mobility-1",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"
-      },
-      {
-        "reference": {
-          "reference": "QuestionnaireResponse/QResponse-SNF-Admission-Mobility-SelfCare-1"
-        },
-        "name": "QResponse-SNF-Admission-Mobility-SelfCare-1",
-        "description": "Sample Data",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"
       },
       {
@@ -2236,15 +1718,6 @@
           "reference": "QuestionnaireResponse/QResponse-SNF-Discharge-Mobility-1"
         },
         "name": "QResponse-SNF-Discharge-Mobility-1",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"
-      },
-      {
-        "reference": {
-          "reference": "QuestionnaireResponse/QResponse-SNF-Discharge-Mobility-SelfCare-1"
-        },
-        "name": "QResponse-SNF-Discharge-Mobility-SelfCare-1",
-        "description": "Sample Data",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"
       },
       {
@@ -2252,15 +1725,6 @@
           "reference": "QuestionnaireResponse/QResponse-SNF-DischargeGoal-Mobility-1"
         },
         "name": "QResponse-SNF-DischargeGoal-Mobility-1",
-        "description": "Sample Data",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"
-      },
-      {
-        "reference": {
-          "reference": "QuestionnaireResponse/QResponse-SNF-DischargeGoal-Mobility-SelfCare-1"
-        },
-        "name": "QResponse-SNF-DischargeGoal-Mobility-SelfCare-1",
-        "description": "Sample Data",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"
       },
       {

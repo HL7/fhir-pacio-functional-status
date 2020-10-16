@@ -33,7 +33,7 @@
     "coding": [
       {
         "code": "83228-7",
-        "system": "http://loinc.org",
+        "system": "https://fhir.loinc.org",
         "display": "Toileting hygiene - functional ability during 3D assessment period"
       }
     ],
@@ -43,7 +43,7 @@
     "coding": [
       {
         "code": "LA10055-4",
-        "system": "http://loinc.org",
+        "system": "https://fhir.loinc.org",
         "display": "Dependent"
       }
     ],
