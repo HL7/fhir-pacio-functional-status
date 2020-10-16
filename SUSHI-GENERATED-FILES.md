@@ -20,6 +20,7 @@ lists those files generated from project configs or the contents in the ig-data 
 | ig.ini                                                         | generated | ..\config.yaml                                                            |
 | input\ImplementationGuide-hl7.fhir.us.pacio-fs.json            | generated | ..\config.yaml, {all input resources and pages}                           |
 | input\ignoreWarnings.txt                                       | generated |                                                                           |
+| input\includes\menu.xml                                        | generated | ..\config.yaml                                                            |
 | package-list.json                                              | generated | ..\config.yaml                                                            |
 | input\images\BFS_Mobility_Admission_Example.png                | copied    | ..\ig-data\input\images\BFS_Mobility_Admission_Example.png                |
 | input\images\BFS_Mobility_DischargeGoal_Example.png            | copied    | ..\ig-data\input\images\BFS_Mobility_DischargeGoal_Example.png            |
@@ -32,7 +33,6 @@ lists those files generated from project configs or the contents in the ig-data 
 | input\images\QResponse_Mobility_Example.png                    | copied    | ..\ig-data\input\images\QResponse_Mobility_Example.png                    |
 | input\images\pacio.png                                         | copied    | ..\ig-data\input\images\pacio.png                                         |
 | input\images\pacio.png.jpg                                     | copied    | ..\ig-data\input\images\pacio.png.jpg                                     |
-| input\includes\menu.xml                                        | copied    | ..\ig-data\input\includes\menu.xml                                        |
 | input\pagecontent\functional_status_use_case.md                | copied    | ..\ig-data\input\pagecontent\functional_status_use_case.md                |
 | input\pagecontent\index.md                                     | copied    | ..\ig-data\input\pagecontent\index.md                                     |
 | input\pagecontent\profile_highlights_and_guidance.md           | copied    | ..\ig-data\input\pagecontent\profile_highlights_and_guidance.md           |

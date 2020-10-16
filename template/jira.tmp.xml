@@ -80,7 +80,7 @@
    <name value="PACIOFunctionalStatusImplementationGuide"/>
    <title value="PACIO Functional Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2020-10-15T20:34:30-04:00"/>
+   <date value="2020-10-15T21:16:44-04:00"/>
    <contact>
       <name value="PACIO  project"/>
       <telecom>
@@ -255,6 +255,7 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -269,6 +270,7 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-102"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-102"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -283,6 +285,7 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-12"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-12"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -297,6 +300,7 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-18"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-18"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -311,6 +315,7 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-24"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-24"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -325,6 +330,7 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-30"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-30"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -339,6 +345,7 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-36"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-36"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -353,6 +360,7 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-42"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-42"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -367,6 +375,7 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-48"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-48"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -381,6 +390,7 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-54"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-54"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -395,6 +405,7 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-6"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-6"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -409,6 +420,7 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-60"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-60"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -423,6 +435,7 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-66"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-66"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -437,6 +450,7 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-72"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-72"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -451,6 +465,7 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-78"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-78"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -465,6 +480,7 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-84"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-84"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -479,6 +495,7 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-90"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-90"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -493,6 +510,7 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-96"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-96"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -507,6 +525,7 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-SelfCare-1"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-SelfCare-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -521,6 +540,7 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-10"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-10"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -535,6 +555,7 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-15"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-15"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -549,6 +570,7 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-20"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-20"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -563,6 +585,7 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-25"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-25"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -577,6 +600,7 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-30"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-30"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -591,6 +615,7 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-35"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-35"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -605,6 +630,7 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-5"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-5"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -619,6 +645,7 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -633,6 +660,7 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-101"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-101"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -647,6 +675,7 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-11"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-11"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -661,6 +690,7 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-17"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-17"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -675,6 +705,7 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-23"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-23"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -689,6 +720,7 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-29"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-29"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -703,6 +735,7 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-35"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-35"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -717,6 +750,7 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-41"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-41"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -731,6 +765,7 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-47"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-47"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -745,6 +780,7 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-5"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-5"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -759,6 +795,7 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-53"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-53"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -773,6 +810,7 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-59"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-59"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -787,6 +825,7 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-65"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-65"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -801,6 +840,7 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-71"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-71"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -815,6 +855,7 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-77"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-77"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -829,6 +870,7 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-83"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-83"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -843,6 +885,7 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-89"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-89"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -857,6 +900,7 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-95"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-95"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -871,6 +915,7 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-SelfCare-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -885,6 +930,7 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-43"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-43"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -899,6 +945,7 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-44"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-44"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -913,6 +960,7 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-45"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-45"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -927,6 +975,7 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-46"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-46"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -941,6 +990,7 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-47"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-47"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -955,6 +1005,7 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-48"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-48"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -969,6 +1020,7 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-49"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-49"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -983,6 +1035,7 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -997,6 +1050,7 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-1"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1011,6 +1065,7 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-13"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-13"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1025,6 +1080,7 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-19"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-19"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1039,6 +1095,7 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-25"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-25"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1053,6 +1110,7 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-31"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-31"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1067,6 +1125,7 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-37"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-37"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1081,6 +1140,7 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-43"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-43"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1095,6 +1155,7 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-49"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-49"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1109,6 +1170,7 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-55"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-55"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1123,6 +1185,7 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-61"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-61"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1137,6 +1200,7 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-67"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-67"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1151,6 +1215,7 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-7"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-7"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1165,6 +1230,7 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-73"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-73"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1179,6 +1245,7 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-79"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-79"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1193,6 +1260,7 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-85"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-85"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1207,6 +1275,7 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-91"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-91"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1221,6 +1290,7 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-97"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-97"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1235,6 +1305,7 @@
             <reference value="DeviceUseStatement/BFS-Hospital-Admission-Mobility-1-UseOfDevice-17"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-UseOfDevice-17"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1249,6 +1320,7 @@
             <reference value="DeviceUseStatement/BFS-Hospital-Admission-Mobility-1-UseOfDevice-18"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-UseOfDevice-18"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1263,6 +1335,7 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-SelfCare-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1277,6 +1350,7 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-1"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1291,6 +1365,7 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-11"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-11"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1305,6 +1380,7 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-16"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-16"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1319,6 +1395,7 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-21"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-21"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1333,6 +1410,7 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-26"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-26"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1347,6 +1425,7 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-31"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-31"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1361,6 +1440,7 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-6"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-6"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1375,6 +1455,7 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1389,6 +1470,7 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-14"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-14"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1403,6 +1485,7 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-2"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-2"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1417,6 +1500,7 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-20"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-20"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1431,6 +1515,7 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-26"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-26"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1445,6 +1530,7 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-32"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-32"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1459,6 +1545,7 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-38"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-38"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1473,6 +1560,7 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-44"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-44"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1487,6 +1575,7 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-50"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-50"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1501,6 +1590,7 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-56"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-56"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1515,6 +1605,7 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-62"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-62"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1529,6 +1620,7 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-68"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-68"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1543,6 +1635,7 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-74"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-74"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1557,6 +1650,7 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-8"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-8"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1571,6 +1665,7 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-80"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-80"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1585,6 +1680,7 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-86"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-86"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1599,6 +1695,7 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-92"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-92"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1613,6 +1710,7 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-98"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-98"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1627,6 +1725,7 @@
             <reference value="DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-1"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-UseOfDevice-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1641,6 +1740,7 @@
             <reference value="DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-2"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-UseOfDevice-2"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1655,6 +1755,7 @@
             <reference value="DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-3"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-UseOfDevice-3"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1669,6 +1770,7 @@
             <reference value="DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-4"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-UseOfDevice-4"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1683,6 +1785,7 @@
             <reference value="DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1697,6 +1800,7 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1711,6 +1815,7 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-12"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-12"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1725,6 +1830,7 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-17"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-17"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1739,6 +1845,7 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-2"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-2"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1753,6 +1860,7 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-22"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-22"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1767,6 +1875,7 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-27"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-27"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1781,6 +1890,7 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-32"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-32"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1795,6 +1905,7 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-7"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-7"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1809,6 +1920,7 @@
             <reference value="DeviceUseStatement/BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-3"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-3"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1823,6 +1935,7 @@
             <reference value="DeviceUseStatement/BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-4"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-4"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1837,6 +1950,7 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1851,6 +1965,7 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-103"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-103"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1865,6 +1980,7 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-105"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-105"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1879,6 +1995,7 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-107"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-107"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1893,6 +2010,7 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-109"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-109"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1907,6 +2025,7 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-111"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-111"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1921,6 +2040,7 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-113"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-113"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1935,6 +2055,7 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-115"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-115"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1949,6 +2070,7 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-117"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-117"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1963,6 +2085,7 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-119"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-119"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1977,6 +2100,7 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-121"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-121"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1991,6 +2115,7 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-123"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-123"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2005,6 +2130,7 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-125"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-125"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2019,6 +2145,7 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-127"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-127"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2033,6 +2160,7 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-129"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-129"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2047,6 +2175,7 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-131"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-131"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2061,6 +2190,7 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-133"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-133"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2075,6 +2205,7 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-135"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-135"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2089,6 +2220,7 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2103,6 +2235,7 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-15"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-15"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2117,6 +2250,7 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-21"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-21"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2131,6 +2265,7 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-27"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-27"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2145,6 +2280,7 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-3"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-3"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2159,6 +2295,7 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-33"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-33"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2173,6 +2310,7 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-39"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-39"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2187,6 +2325,7 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-45"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-45"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2201,6 +2340,7 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-51"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-51"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2215,6 +2355,7 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-57"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-57"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2229,6 +2370,7 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-63"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-63"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2243,6 +2385,7 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-69"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-69"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2257,6 +2400,7 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-75"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-75"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2271,6 +2415,7 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-81"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-81"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2285,6 +2430,7 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-87"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-87"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2299,6 +2445,7 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-9"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-9"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2313,6 +2460,7 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-93"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-93"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2327,6 +2475,7 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-99"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-99"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2341,6 +2490,7 @@
             <reference value="DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-12"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-UseOfDevice-12"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2355,6 +2505,7 @@
             <reference value="DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-13"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-UseOfDevice-13"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2369,6 +2520,7 @@
             <reference value="DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-14"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-UseOfDevice-14"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2383,6 +2535,7 @@
             <reference value="DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-15"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-UseOfDevice-15"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2397,6 +2550,7 @@
             <reference value="DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-16"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-UseOfDevice-16"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2411,6 +2565,7 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-SelfCare-1"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-SelfCare-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2425,6 +2580,7 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-13"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-13"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2439,6 +2595,7 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-18"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-18"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2453,6 +2610,7 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-23"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-23"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2467,6 +2625,7 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-28"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-28"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2481,6 +2640,7 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-3"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-3"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2495,6 +2655,7 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-33"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-33"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2509,6 +2670,7 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-8"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-8"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2523,6 +2685,7 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2537,6 +2700,7 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-10"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-10"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2551,6 +2715,7 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-100"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-100"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2565,6 +2730,7 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-16"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-16"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2579,6 +2745,7 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-22"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-22"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2593,6 +2760,7 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-28"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-28"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2607,6 +2775,7 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-34"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-34"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2621,6 +2790,7 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-4"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-4"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2635,6 +2805,7 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-40"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-40"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2649,6 +2820,7 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-46"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-46"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2663,6 +2835,7 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-52"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-52"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2677,6 +2850,7 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-58"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-58"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2691,6 +2865,7 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-64"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-64"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2705,6 +2880,7 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-70"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-70"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2719,6 +2895,7 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-76"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-76"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2733,6 +2910,7 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-82"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-82"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2747,6 +2925,7 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-88"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-88"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2761,6 +2940,7 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-94"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-94"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2775,6 +2955,7 @@
             <reference value="DeviceUseStatement/BFS-SNF-Discharge-Mobility-1-UseOfDevice-10"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-UseOfDevice-10"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2789,6 +2970,7 @@
             <reference value="DeviceUseStatement/BFS-SNF-Discharge-Mobility-1-UseOfDevice-11"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-UseOfDevice-11"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2803,6 +2985,7 @@
             <reference value="DeviceUseStatement/BFS-SNF-Discharge-Mobility-1-UseOfDevice-6"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-UseOfDevice-6"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2817,6 +3000,7 @@
             <reference value="DeviceUseStatement/BFS-SNF-Discharge-Mobility-1-UseOfDevice-7"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-UseOfDevice-7"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2831,6 +3015,7 @@
             <reference value="DeviceUseStatement/BFS-SNF-Discharge-Mobility-1-UseOfDevice-8"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-UseOfDevice-8"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2845,6 +3030,7 @@
             <reference value="DeviceUseStatement/BFS-SNF-Discharge-Mobility-1-UseOfDevice-9"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-UseOfDevice-9"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2859,6 +3045,7 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-SelfCare-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2873,6 +3060,7 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-14"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-14"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2887,6 +3075,7 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-19"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-19"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2901,6 +3090,7 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-24"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-24"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2915,6 +3105,7 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-29"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-29"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2929,6 +3120,7 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-34"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-34"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2943,6 +3135,7 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-4"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-4"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2957,6 +3150,7 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-9"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-9"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2971,6 +3165,7 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2985,6 +3180,7 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-104"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-104"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -2999,6 +3195,7 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-106"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-106"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3013,6 +3210,7 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-108"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-108"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3027,6 +3225,7 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-110"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-110"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3041,6 +3240,7 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-112"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-112"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3055,6 +3255,7 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-114"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-114"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3069,6 +3270,7 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-116"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-116"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3083,6 +3285,7 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-118"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-118"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3097,6 +3300,7 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-120"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-120"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3111,6 +3315,7 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-122"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-122"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3125,6 +3330,7 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-124"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-124"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3139,6 +3345,7 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-126"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-126"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3153,6 +3360,7 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-128"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-128"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3167,6 +3375,7 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-130"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-130"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3181,6 +3390,7 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-132"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-132"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3195,6 +3405,7 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-134"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-134"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3209,6 +3420,7 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-136"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-136"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3223,6 +3435,7 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3237,6 +3450,7 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-36"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-36"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3251,6 +3465,7 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-37"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-37"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3265,6 +3480,7 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-38"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-38"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3279,6 +3495,7 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-39"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-39"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3293,6 +3510,7 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-40"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-40"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3307,6 +3525,7 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-41"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-41"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3321,6 +3540,7 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-42"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-42"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3335,6 +3555,7 @@
             <reference value="Condition/BSJ-Diagnosis1"/>
          </reference>
          <name value="BSJ-Diagnosis1"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3349,6 +3570,7 @@
             <reference value="Condition/BSJ-Diagnosis2"/>
          </reference>
          <name value="BSJ-Diagnosis2"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3363,6 +3585,7 @@
             <reference value="Condition/BSJ-Diagnosis3"/>
          </reference>
          <name value="BSJ-Diagnosis3"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3377,6 +3600,7 @@
             <reference value="Condition/BSJ-Diagnosis4"/>
          </reference>
          <name value="BSJ-Diagnosis4"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3391,6 +3615,7 @@
             <reference value="Condition/BSJ-Diagnosis5"/>
          </reference>
          <name value="BSJ-Diagnosis5"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3405,6 +3630,7 @@
             <reference value="Condition/BSJ-Diagnosis6"/>
          </reference>
          <name value="BSJ-Diagnosis6"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3419,6 +3645,7 @@
             <reference value="Condition/BSJ-Diagnosis7"/>
          </reference>
          <name value="BSJ-Diagnosis7"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3433,6 +3660,7 @@
             <reference value="Condition/BSJ-Diagnosis8"/>
          </reference>
          <name value="BSJ-Diagnosis8"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3447,6 +3675,7 @@
             <reference value="Condition/BSJ-Diagnosis9"/>
          </reference>
          <name value="BSJ-Diagnosis9"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3461,6 +3690,7 @@
             <reference value="Observation/BSJ-Prior-Level-Of-Function-1"/>
          </reference>
          <name value="BSJ-Prior-Level-Of-Function-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-plf"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3475,6 +3705,7 @@
             <reference value="Device/CMS-Device-1"/>
          </reference>
          <name value="CMS-Device-1"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3489,6 +3720,7 @@
             <reference value="Device/CMS-Device-2"/>
          </reference>
          <name value="CMS-Device-2"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3503,6 +3735,7 @@
             <reference value="Device/CMS-Device-3"/>
          </reference>
          <name value="CMS-Device-3"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3517,6 +3750,7 @@
             <reference value="Device/CMS-Device-4"/>
          </reference>
          <name value="CMS-Device-4"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3531,6 +3765,7 @@
             <reference value="Device/CMS-Device-5"/>
          </reference>
          <name value="CMS-Device-5"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3545,6 +3780,7 @@
             <reference value="Device/CMS-Device-6"/>
          </reference>
          <name value="CMS-Device-6"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3559,6 +3795,7 @@
             <reference value="Device/CMS-Device-7"/>
          </reference>
          <name value="CMS-Device-7"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3573,6 +3810,7 @@
             <reference value="Device/CMS-Device-8"/>
          </reference>
          <name value="CMS-Device-8"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3587,6 +3825,7 @@
             <reference value="Organization/Org-01"/>
          </reference>
          <name value="Org-01"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3601,6 +3840,7 @@
             <reference value="Organization/Org-02"/>
          </reference>
          <name value="Org-02"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3615,6 +3855,7 @@
             <reference value="Organization/Org-03"/>
          </reference>
          <name value="Org-03"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3629,6 +3870,7 @@
             <reference value="Location/Org-Loc-01"/>
          </reference>
          <name value="Org-Loc-01"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3643,6 +3885,7 @@
             <reference value="Location/Org-Loc-02"/>
          </reference>
          <name value="Org-Loc-02"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3657,6 +3900,7 @@
             <reference value="Location/Org-Loc-03"/>
          </reference>
          <name value="Org-Loc-03"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3671,6 +3915,7 @@
             <reference value="Practitioner/Practitioner-DanielGranger"/>
          </reference>
          <name value="Practitioner-DanielGranger"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3685,6 +3930,7 @@
             <reference value="Practitioner/Practitioner-HoneyJones"/>
          </reference>
          <name value="Practitioner-HoneyJones"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3699,6 +3945,7 @@
             <reference value="Practitioner/Practitioner-JenCadbury"/>
          </reference>
          <name value="Practitioner-JenCadbury"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3713,6 +3960,7 @@
             <reference value="Practitioner/Practitioner-JennyGlass"/>
          </reference>
          <name value="Practitioner-JennyGlass"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3727,6 +3975,7 @@
             <reference value="Practitioner/Practitioner-JohnSmith"/>
          </reference>
          <name value="Practitioner-JohnSmith"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3741,6 +3990,7 @@
             <reference value="Practitioner/Practitioner-LunaBaskins"/>
          </reference>
          <name value="Practitioner-LunaBaskins"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3755,6 +4005,7 @@
             <reference value="Practitioner/Practitioner-NoraOlogist"/>
          </reference>
          <name value="Practitioner-NoraOlogist"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3769,6 +4020,7 @@
             <reference value="Practitioner/Practitioner-RonBurgendy"/>
          </reference>
          <name value="Practitioner-RonBurgendy"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3783,6 +4035,7 @@
             <reference value="Practitioner/Practitioner-RonMarble"/>
          </reference>
          <name value="Practitioner-RonMarble"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3797,6 +4050,7 @@
             <reference value="Practitioner/Practitioner-SallySmith"/>
          </reference>
          <name value="Practitioner-SallySmith"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3811,6 +4065,7 @@
             <reference value="Practitioner/Practitioner-ScottDumble"/>
          </reference>
          <name value="Practitioner-ScottDumble"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3825,6 +4080,7 @@
             <reference value="QuestionnaireResponse/QResponse-HH-Discharge-Mobility-1"/>
          </reference>
          <name value="QResponse-HH-Discharge-Mobility-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3839,6 +4095,7 @@
             <reference value="QuestionnaireResponse/QResponse-HH-Discharge-Mobility-SelfCare-1"/>
          </reference>
          <name value="QResponse-HH-Discharge-Mobility-SelfCare-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3853,6 +4110,7 @@
             <reference value="QuestionnaireResponse/QResponse-HH-StartOfCare-Mobility-1"/>
          </reference>
          <name value="QResponse-HH-StartOfCare-Mobility-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3867,6 +4125,7 @@
             <reference value="QuestionnaireResponse/QResponse-HH-StartOfCare-Mobility-SelfCare-1"/>
          </reference>
          <name value="QResponse-HH-StartOfCare-Mobility-SelfCare-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3881,6 +4140,7 @@
             <reference value="QuestionnaireResponse/QResponse-Hospital-Admission-Mobility-1"/>
          </reference>
          <name value="QResponse-Hospital-Admission-Mobility-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3895,6 +4155,7 @@
             <reference value="QuestionnaireResponse/QResponse-Hospital-Admission-Mobility-SelfCare-1"/>
          </reference>
          <name value="QResponse-Hospital-Admission-Mobility-SelfCare-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3909,6 +4170,7 @@
             <reference value="QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-1"/>
          </reference>
          <name value="QResponse-Hospital-Discharge-Mobility-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3923,6 +4185,7 @@
             <reference value="QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-SelfCare-1"/>
          </reference>
          <name value="QResponse-Hospital-Discharge-Mobility-SelfCare-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3937,6 +4200,7 @@
             <reference value="QuestionnaireResponse/QResponse-Hospital-DischargeGoal-Mobility-1"/>
          </reference>
          <name value="QResponse-Hospital-DischargeGoal-Mobility-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3951,6 +4215,7 @@
             <reference value="QuestionnaireResponse/QResponse-SNF-Admission-Mobility-1"/>
          </reference>
          <name value="QResponse-SNF-Admission-Mobility-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3965,6 +4230,7 @@
             <reference value="QuestionnaireResponse/QResponse-SNF-Admission-Mobility-SelfCare-1"/>
          </reference>
          <name value="QResponse-SNF-Admission-Mobility-SelfCare-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3979,6 +4245,7 @@
             <reference value="QuestionnaireResponse/QResponse-SNF-Discharge-Mobility-1"/>
          </reference>
          <name value="QResponse-SNF-Discharge-Mobility-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3993,6 +4260,7 @@
             <reference value="QuestionnaireResponse/QResponse-SNF-Discharge-Mobility-SelfCare-1"/>
          </reference>
          <name value="QResponse-SNF-Discharge-Mobility-SelfCare-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -4007,6 +4275,7 @@
             <reference value="QuestionnaireResponse/QResponse-SNF-DischargeGoal-Mobility-1"/>
          </reference>
          <name value="QResponse-SNF-DischargeGoal-Mobility-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -4021,6 +4290,7 @@
             <reference value="QuestionnaireResponse/QResponse-SNF-DischargeGoal-Mobility-SelfCare-1"/>
          </reference>
          <name value="QResponse-SNF-DischargeGoal-Mobility-SelfCare-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -4035,6 +4305,7 @@
             <reference value="PractitionerRole/Role-OT"/>
          </reference>
          <name value="Role-OT"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -4049,6 +4320,7 @@
             <reference value="PractitionerRole/Role-PT"/>
          </reference>
          <name value="Role-PT"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -4063,6 +4335,7 @@
             <reference value="PractitionerRole/Role-RN"/>
          </reference>
          <name value="Role-RN"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -4077,6 +4350,7 @@
             <reference value="Patient/patientBSJ1"/>
          </reference>
          <name value="patientBSJ1"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -4091,6 +4365,7 @@
             <reference value="Organization/provider-org-01"/>
          </reference>
          <name value="provider-org-01"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -4105,6 +4380,7 @@
             <reference value="Location/provider-org-loc-01"/>
          </reference>
          <name value="provider-org-loc-01"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -4119,6 +4395,7 @@
             <reference value="PractitionerRole/provider-role-pcp"/>
          </reference>
          <name value="provider-role-pcp"/>
+         <description value="Sample Data"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
