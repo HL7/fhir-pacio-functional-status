@@ -88,59 +88,6 @@
       "display": "Organization"
     }
   ],
-  "hasMember": [
-    {
-      "reference": "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-2"
-    },
-    {
-      "reference": "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-8"
-    },
-    {
-      "reference": "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-14"
-    },
-    {
-      "reference": "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-20"
-    },
-    {
-      "reference": "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-26"
-    },
-    {
-      "reference": "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-32"
-    },
-    {
-      "reference": "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-38"
-    },
-    {
-      "reference": "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-44"
-    },
-    {
-      "reference": "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-50"
-    },
-    {
-      "reference": "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-56"
-    },
-    {
-      "reference": "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-62"
-    },
-    {
-      "reference": "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-68"
-    },
-    {
-      "reference": "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-74"
-    },
-    {
-      "reference": "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-80"
-    },
-    {
-      "reference": "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-86"
-    },
-    {
-      "reference": "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-92"
-    },
-    {
-      "reference": "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-98"
-    }
-  ],
   "derivedFrom": [
     {
       "reference": "QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-1",
