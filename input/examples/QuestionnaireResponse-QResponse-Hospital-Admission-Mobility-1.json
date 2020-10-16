@@ -30,7 +30,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-1"
+                    "reference": "BFS-Hospital-Admission-Mobility-1-Ob-Question-1"
                   }
                 }
               ]
@@ -42,7 +42,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-7"
+                    "reference": "BFS-Hospital-Admission-Mobility-1-Ob-Question-7"
                   }
                 }
               ]
@@ -54,7 +54,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-13"
+                    "reference": "BFS-Hospital-Admission-Mobility-1-Ob-Question-13"
                   }
                 }
               ]
@@ -66,7 +66,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-19"
+                    "reference": "BFS-Hospital-Admission-Mobility-1-Ob-Question-19"
                   }
                 }
               ]
@@ -78,7 +78,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-25"
+                    "reference": "BFS-Hospital-Admission-Mobility-1-Ob-Question-25"
                   }
                 }
               ]
@@ -90,7 +90,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-31"
+                    "reference": "BFS-Hospital-Admission-Mobility-1-Ob-Question-31"
                   }
                 }
               ]
@@ -102,7 +102,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-37"
+                    "reference": "BFS-Hospital-Admission-Mobility-1-Ob-Question-37"
                   }
                 }
               ]
@@ -114,7 +114,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-43"
+                    "reference": "BFS-Hospital-Admission-Mobility-1-Ob-Question-43"
                   }
                 }
               ]
@@ -126,7 +126,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-49"
+                    "reference": "BFS-Hospital-Admission-Mobility-1-Ob-Question-49"
                   }
                 }
               ]
@@ -138,7 +138,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-55"
+                    "reference": "BFS-Hospital-Admission-Mobility-1-Ob-Question-55"
                   }
                 }
               ]
@@ -150,7 +150,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-61"
+                    "reference": "BFS-Hospital-Admission-Mobility-1-Ob-Question-61"
                   }
                 }
               ]
@@ -162,7 +162,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-67"
+                    "reference": "BFS-Hospital-Admission-Mobility-1-Ob-Question-67"
                   }
                 }
               ]
@@ -174,7 +174,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-73"
+                    "reference": "BFS-Hospital-Admission-Mobility-1-Ob-Question-73"
                   }
                 }
               ]
@@ -186,7 +186,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-79"
+                    "reference": "BFS-Hospital-Admission-Mobility-1-Ob-Question-79"
                   }
                 }
               ]
@@ -198,7 +198,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-85"
+                    "reference": "BFS-Hospital-Admission-Mobility-1-Ob-Question-85"
                   }
                 }
               ]
@@ -210,7 +210,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-91"
+                    "reference": "BFS-Hospital-Admission-Mobility-1-Ob-Question-91"
                   }
                 }
               ]
@@ -222,7 +222,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-97"
+                    "reference": "BFS-Hospital-Admission-Mobility-1-Ob-Question-97"
                   }
                 }
               ]

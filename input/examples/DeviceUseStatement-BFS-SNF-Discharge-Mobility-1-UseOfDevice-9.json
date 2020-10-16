@@ -11,7 +11,7 @@
   },
   "derivedFrom": [
     {
-      "reference": "Observation/BFS-SNF-Discharge-Mobility-1"
+      "reference": "BFS-SNF-Discharge-Mobility-1"
     }
   ],
   "recordedOn": "2020-08-01T11:00:00-05:00",

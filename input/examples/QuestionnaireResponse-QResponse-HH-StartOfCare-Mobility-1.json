@@ -30,7 +30,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-5"
+                    "reference": "BFS-HH-StartOfCare-Mobility-1-Ob-Question-5"
                   }
                 }
               ]
@@ -42,7 +42,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-11"
+                    "reference": "BFS-HH-StartOfCare-Mobility-1-Ob-Question-11"
                   }
                 }
               ]
@@ -54,7 +54,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-17"
+                    "reference": "BFS-HH-StartOfCare-Mobility-1-Ob-Question-17"
                   }
                 }
               ]
@@ -66,7 +66,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-23"
+                    "reference": "BFS-HH-StartOfCare-Mobility-1-Ob-Question-23"
                   }
                 }
               ]
@@ -78,7 +78,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-29"
+                    "reference": "BFS-HH-StartOfCare-Mobility-1-Ob-Question-29"
                   }
                 }
               ]
@@ -90,7 +90,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-35"
+                    "reference": "BFS-HH-StartOfCare-Mobility-1-Ob-Question-35"
                   }
                 }
               ]
@@ -102,7 +102,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-41"
+                    "reference": "BFS-HH-StartOfCare-Mobility-1-Ob-Question-41"
                   }
                 }
               ]
@@ -114,7 +114,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-47"
+                    "reference": "BFS-HH-StartOfCare-Mobility-1-Ob-Question-47"
                   }
                 }
               ]
@@ -126,7 +126,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-53"
+                    "reference": "BFS-HH-StartOfCare-Mobility-1-Ob-Question-53"
                   }
                 }
               ]
@@ -138,7 +138,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-59"
+                    "reference": "BFS-HH-StartOfCare-Mobility-1-Ob-Question-59"
                   }
                 }
               ]
@@ -150,7 +150,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-65"
+                    "reference": "BFS-HH-StartOfCare-Mobility-1-Ob-Question-65"
                   }
                 }
               ]
@@ -162,7 +162,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-71"
+                    "reference": "BFS-HH-StartOfCare-Mobility-1-Ob-Question-71"
                   }
                 }
               ]
@@ -174,7 +174,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-77"
+                    "reference": "BFS-HH-StartOfCare-Mobility-1-Ob-Question-77"
                   }
                 }
               ]
@@ -186,7 +186,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-83"
+                    "reference": "BFS-HH-StartOfCare-Mobility-1-Ob-Question-83"
                   }
                 }
               ]
@@ -198,7 +198,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-89"
+                    "reference": "BFS-HH-StartOfCare-Mobility-1-Ob-Question-89"
                   }
                 }
               ]
@@ -210,7 +210,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-95"
+                    "reference": "BFS-HH-StartOfCare-Mobility-1-Ob-Question-95"
                   }
                 }
               ]
@@ -222,7 +222,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-101"
+                    "reference": "BFS-HH-StartOfCare-Mobility-1-Ob-Question-101"
                   }
                 }
               ]

@@ -30,7 +30,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-6"
+                    "reference": "BFS-HH-Discharge-Mobility-1-Ob-Question-6"
                   }
                 }
               ]
@@ -42,7 +42,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-12"
+                    "reference": "BFS-HH-Discharge-Mobility-1-Ob-Question-12"
                   }
                 }
               ]
@@ -54,7 +54,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-18"
+                    "reference": "BFS-HH-Discharge-Mobility-1-Ob-Question-18"
                   }
                 }
               ]
@@ -66,7 +66,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-24"
+                    "reference": "BFS-HH-Discharge-Mobility-1-Ob-Question-24"
                   }
                 }
               ]
@@ -78,7 +78,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-30"
+                    "reference": "BFS-HH-Discharge-Mobility-1-Ob-Question-30"
                   }
                 }
               ]
@@ -90,7 +90,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-36"
+                    "reference": "BFS-HH-Discharge-Mobility-1-Ob-Question-36"
                   }
                 }
               ]
@@ -102,7 +102,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-42"
+                    "reference": "BFS-HH-Discharge-Mobility-1-Ob-Question-42"
                   }
                 }
               ]
@@ -114,7 +114,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-48"
+                    "reference": "BFS-HH-Discharge-Mobility-1-Ob-Question-48"
                   }
                 }
               ]
@@ -126,7 +126,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-54"
+                    "reference": "BFS-HH-Discharge-Mobility-1-Ob-Question-54"
                   }
                 }
               ]
@@ -138,7 +138,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-60"
+                    "reference": "BFS-HH-Discharge-Mobility-1-Ob-Question-60"
                   }
                 }
               ]
@@ -150,7 +150,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-66"
+                    "reference": "BFS-HH-Discharge-Mobility-1-Ob-Question-66"
                   }
                 }
               ]
@@ -162,7 +162,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-72"
+                    "reference": "BFS-HH-Discharge-Mobility-1-Ob-Question-72"
                   }
                 }
               ]
@@ -174,7 +174,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-78"
+                    "reference": "BFS-HH-Discharge-Mobility-1-Ob-Question-78"
                   }
                 }
               ]
@@ -186,7 +186,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-84"
+                    "reference": "BFS-HH-Discharge-Mobility-1-Ob-Question-84"
                   }
                 }
               ]
@@ -198,7 +198,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-90"
+                    "reference": "BFS-HH-Discharge-Mobility-1-Ob-Question-90"
                   }
                 }
               ]
@@ -210,7 +210,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-96"
+                    "reference": "BFS-HH-Discharge-Mobility-1-Ob-Question-96"
                   }
                 }
               ]
@@ -222,7 +222,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-102"
+                    "reference": "BFS-HH-Discharge-Mobility-1-Ob-Question-102"
                   }
                 }
               ]

@@ -90,55 +90,55 @@
   ],
   "hasMember": [
     {
-      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-3"
+      "reference": "BFS-SNF-Admission-Mobility-1-Ob-Question-3"
     },
     {
-      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-9"
+      "reference": "BFS-SNF-Admission-Mobility-1-Ob-Question-9"
     },
     {
-      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-15"
+      "reference": "BFS-SNF-Admission-Mobility-1-Ob-Question-15"
     },
     {
-      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-21"
+      "reference": "BFS-SNF-Admission-Mobility-1-Ob-Question-21"
     },
     {
-      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-27"
+      "reference": "BFS-SNF-Admission-Mobility-1-Ob-Question-27"
     },
     {
-      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-33"
+      "reference": "BFS-SNF-Admission-Mobility-1-Ob-Question-33"
     },
     {
-      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-39"
+      "reference": "BFS-SNF-Admission-Mobility-1-Ob-Question-39"
     },
     {
-      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-45"
+      "reference": "BFS-SNF-Admission-Mobility-1-Ob-Question-45"
     },
     {
-      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-51"
+      "reference": "BFS-SNF-Admission-Mobility-1-Ob-Question-51"
     },
     {
-      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-57"
+      "reference": "BFS-SNF-Admission-Mobility-1-Ob-Question-57"
     },
     {
-      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-63"
+      "reference": "BFS-SNF-Admission-Mobility-1-Ob-Question-63"
     },
     {
-      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-69"
+      "reference": "BFS-SNF-Admission-Mobility-1-Ob-Question-69"
     },
     {
-      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-75"
+      "reference": "BFS-SNF-Admission-Mobility-1-Ob-Question-75"
     },
     {
-      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-81"
+      "reference": "BFS-SNF-Admission-Mobility-1-Ob-Question-81"
     },
     {
-      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-87"
+      "reference": "BFS-SNF-Admission-Mobility-1-Ob-Question-87"
     },
     {
-      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-93"
+      "reference": "BFS-SNF-Admission-Mobility-1-Ob-Question-93"
     },
     {
-      "reference": "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-99"
+      "reference": "BFS-SNF-Admission-Mobility-1-Ob-Question-99"
     }
   ],
   "derivedFrom": [
