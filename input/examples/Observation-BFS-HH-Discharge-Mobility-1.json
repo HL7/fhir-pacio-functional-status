@@ -10,8 +10,8 @@
     {
       "coding": [
         {
-          "code": "survey",
-          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
         }
       ]
     }
@@ -35,6 +35,14 @@
         "code": "88331-4",
         "system": "http://loinc.org",
         "display": "Mobility - Discharge Performance"
+      }
+    ]
+  },
+  "dataAbsentReason": {
+    "coding": [
+      {
+        "code": "not-applicable",
+        "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason"
       }
     ]
   },

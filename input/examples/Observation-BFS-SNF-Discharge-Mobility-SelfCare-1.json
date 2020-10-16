@@ -10,7 +10,7 @@
     {
       "coding": [
         {
-          "code": "survey",
+          "code": "laboratory",
           "system": "http://terminology.hl7.org/CodeSystem/observation-category"
         }
       ]
@@ -35,6 +35,14 @@
         "code": "83254-3",
         "system": "http://loinc.org",
         "display": "Self-Care - Discharge Performance"
+      }
+    ]
+  },
+  "dataAbsentReason": {
+    "coding": [
+      {
+        "code": "not-applicable",
+        "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason"
       }
     ]
   },
