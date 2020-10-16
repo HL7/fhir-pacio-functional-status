@@ -19,9 +19,8 @@ lists those files generated from project configs or the contents in the ig-data 
 | _updatePublisher.sh                                            | generated |                                                                           |
 | ig.ini                                                         | generated | ..\config.yaml                                                            |
 | input\ImplementationGuide-hl7.fhir.us.pacio-fs.json            | generated | ..\config.yaml, {all input resources and pages}                           |
-| input\ignoreWarnings.txt                                       | generated |                                                                           |
 | input\includes\menu.xml                                        | generated | ..\config.yaml                                                            |
-| package-list.json                                              | generated | ..\config.yaml                                                            |
+| input\ignoreWarnings.txt                                       | copied    | ..\ig-data\input\ignoreWarnings.txt                                       |
 | input\images\BFS_Mobility_Admission_Example.png                | copied    | ..\ig-data\input\images\BFS_Mobility_Admission_Example.png                |
 | input\images\BFS_Mobility_DischargeGoal_Example.png            | copied    | ..\ig-data\input\images\BFS_Mobility_DischargeGoal_Example.png            |
 | input\images\BFS_Mobility_Discharge_and_DeviceUsed_Example.png | copied    | ..\ig-data\input\images\BFS_Mobility_Discharge_and_DeviceUsed_Example.png |
@@ -39,3 +38,4 @@ lists those files generated from project configs or the contents in the ig-data 
 | input\pagecontent\security_and_data_sharing.md                 | copied    | ..\ig-data\input\pagecontent\security_and_data_sharing.md                 |
 | input\pagecontent\underlying_technologies.md                   | copied    | ..\ig-data\input\pagecontent\underlying_technologies.md                   |
 | input\resources\CapabilityStatement-pacio-fs.json              | copied    | ..\ig-data\input\resources\CapabilityStatement-functional_pacio.json      |
+| package-list.json                                              | copied    | ..\ig-data\package-list.json                                              |

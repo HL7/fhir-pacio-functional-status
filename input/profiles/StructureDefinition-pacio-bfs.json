@@ -120,7 +120,7 @@
         "short": "LOINC code and text for the question, if this is from a Post-Acute Care Assessment.",
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://loinc.org"
+          "valueSet": "http://hl7.org/fhir/ValueSet/observation-codes"
         }
       },
       {

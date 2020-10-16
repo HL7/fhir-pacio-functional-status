@@ -38,6 +38,16 @@
       }
     ]
   },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA11759-0",
+        "system": "http://loinc.org",
+        "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+      }
+    ],
+    "text": "Substantial/maximal Assist"
+  },
   "performer": [
     {
       "reference": "Practitioner/Practitioner-RonMarble"
@@ -50,14 +60,6 @@
       "display": "Organization"
     }
   ],
-  "dataAbsentReason": {
-    "coding": [
-      {
-        "code": "not-applicable",
-        "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason"
-      }
-    ]
-  },
   "derivedFrom": [
     {
       "reference": "QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-1"

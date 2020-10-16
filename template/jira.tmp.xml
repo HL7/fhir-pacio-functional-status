@@ -57,9 +57,11 @@
 </specification> 
 <package-list>
    <package version="current"
-            path="http://build.fhir.org/ig/example/example-ig"
+            path="https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/"
             status="ci-build"/>
-   <package version="0.0.1" path="http://example.org/fhir/STU1" status="ballot"/>
+   <package version="0.1.0"
+            path="http://hl7.org/fhir/us/pacio-fs/2021Jan"
+            status="ballot"/>
 </package-list>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
@@ -80,7 +82,19 @@
    <name value="PACIOFunctionalStatusImplementationGuide"/>
    <title value="PACIO Functional Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2020-10-16T04:26:50-04:00"/>
+   <date value="2020-10-16T15:54:22-04:00"/>
+   <publisher value="HL7 Patient Care Work Group"/>
+   <contact>
+      <name value="HL7 Patient Care Work Group"/>
+      <telecom>
+         <system value="url"/>
+         <value value="http://www.hl7.org/Special/committees/patientcare"/>
+      </telecom>
+      <telecom>
+         <system value="email"/>
+         <value value="patientcare@lists.HL7.org"/>
+      </telecom>
+   </contact>
    <contact>
       <name value="PACIO  project"/>
       <telecom>
@@ -89,7 +103,7 @@
       </telecom>
       <telecom>
          <system value="email"/>
-         <value value="info@pacioproject.org"/>
+         <value value="patientcare@lists.HL7.org"/>
       </telecom>
    </contact>
    <description value="To advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders"/>

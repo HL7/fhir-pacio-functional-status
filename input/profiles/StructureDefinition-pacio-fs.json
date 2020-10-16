@@ -124,7 +124,7 @@
         "short": "For a Post-Acute Care Assessment, code should be a LOINC code and text for the question.",
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://loinc.org"
+          "valueSet": "http://hl7.org/fhir/ValueSet/observation-codes"
         }
       },
       {
@@ -169,7 +169,7 @@
         ],
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://loinc.org"
+          "valueSet": "http://hl7.org/fhir/ValueSet/observation-codes"
         }
       },
       {

@@ -6,7 +6,21 @@
   "name": "PACIOFunctionalStatusImplementationGuide",
   "title": "PACIO Functional Status Implementation Guide",
   "status": "active",
+  "publisher": "HL7 Patient Care Work Group",
   "contact": [
+    {
+      "name": "HL7 Patient Care Work Group",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/patientcare"
+        },
+        {
+          "system": "email",
+          "value": "patientcare@lists.HL7.org"
+        }
+      ]
+    },
     {
       "name": "PACIO  project",
       "telecom": [
@@ -16,7 +30,7 @@
         },
         {
           "system": "email",
-          "value": "info@pacioproject.org"
+          "value": "patientcare@lists.HL7.org"
         }
       ]
     }
