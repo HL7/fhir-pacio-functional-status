@@ -34,7 +34,7 @@
       {
         "code": "83212-1",
         "system": "http://loinc.org",
-        "display": "What was the patient's usual performance related to their ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the bed?"
+        "display": "Sit to stand - functional ability during 3 day assessment period [CMS Assessment]"
       }
     ],
     "text": "Sit to stand"
@@ -44,7 +44,7 @@
       {
         "code": "LA27996-0",
         "system": "http://loinc.org",
-        "display": "Partial/moderate Assist"
+        "display": "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort."
       }
     ],
     "text": "Partial/moderate Assist"

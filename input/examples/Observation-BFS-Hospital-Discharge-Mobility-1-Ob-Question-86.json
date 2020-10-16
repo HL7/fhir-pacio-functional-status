@@ -34,7 +34,7 @@
       {
         "code": "83190-9",
         "system": "http://loinc.org",
-        "display": "What was the patients's usual performance related to their ability to bend/stoop from a standing position to pick up a small object, such as a spoon, from the floor?"
+        "display": "Picking up object - functional ability during 3 day assessment period [CMS Assessment]"
       }
     ],
     "text": "Picking up object"

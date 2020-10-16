@@ -564,6 +564,7 @@
           "reference": "QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-1"
         },
         "name": "QResponse-Hospital-Discharge-Mobility-1",
+        "description": "Sample Data",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"
       },
       {

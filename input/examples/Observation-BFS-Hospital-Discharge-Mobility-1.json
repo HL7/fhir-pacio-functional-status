@@ -10,8 +10,8 @@
     {
       "coding": [
         {
-          "code": "laboratory",
-          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
         }
       ]
     }
@@ -64,7 +64,7 @@
       {
         "code": "88331-4",
         "system": "http://loinc.org",
-        "display": "Mobility - Discharge Performance"
+        "display": "Mobility - discharge performance during 3 day assessment period [CMS Assessment]"
       }
     ]
   },

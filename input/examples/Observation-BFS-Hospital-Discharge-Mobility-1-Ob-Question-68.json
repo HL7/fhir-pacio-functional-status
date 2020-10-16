@@ -34,7 +34,7 @@
       {
         "code": "83196-6",
         "system": "http://loinc.org",
-        "display": "What was the patient's usual performance related to their ability to go up and down a curb and/or up and down one step?"
+        "display": "1 step (curb) - functional ability during 3 day assessment period [CMS Assessment]"
       }
     ],
     "text": "1 step (curb)"

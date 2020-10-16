@@ -34,7 +34,7 @@
       {
         "code": "83198-2",
         "system": "http://loinc.org",
-        "display": "What was the patient's usual performance related to their ability to walk 10 feet on uneven or sloping surfaces (indoor or outdoor), such as turf or gravel?"
+        "display": "Walking 10 feet on uneven surfaces - functional ability during 3 day assessment period [CMS Assessment]"
       }
     ],
     "text": "Walking 10 feet on uneven surfaces"

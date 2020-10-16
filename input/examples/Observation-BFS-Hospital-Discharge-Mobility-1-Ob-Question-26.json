@@ -34,7 +34,7 @@
       {
         "code": "83210-5",
         "system": "http://loinc.org",
-        "display": "What was the patient's usual performance related to their ability to transfer to and from a bed to a chair (or wheelchair)?"
+        "display": "Bed-to-chair transfer - functional ability during 3 day assessment period [CMS Assessment]"
       }
     ],
     "text": "Chair/bed-to-chair transfer"
@@ -44,7 +44,7 @@
       {
         "code": "LA11759-0",
         "system": "http://loinc.org",
-        "display": "Substantial/maximal Assist"
+        "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
       }
     ],
     "text": "Substantial/maximal Assist"

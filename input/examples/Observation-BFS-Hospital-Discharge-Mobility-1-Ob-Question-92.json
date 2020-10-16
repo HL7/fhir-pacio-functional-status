@@ -34,7 +34,7 @@
       {
         "code": "83188-3",
         "system": "http://loinc.org",
-        "display": "What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 50 feet and make two turns?"
+        "display": "Wheel 50 feet with two turns - functional ability during 3 day assessment period [CMS Assessment]"
       }
     ],
     "text": "Wheel 50 feet with two turns"
@@ -44,7 +44,7 @@
       {
         "code": "LA11759-0",
         "system": "http://loinc.org",
-        "display": "Substantial/maximal Assist"
+        "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
       }
     ],
     "text": "Substantial/maximal Assist"

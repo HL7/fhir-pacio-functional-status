@@ -17,7 +17,7 @@
    <name value="PACIOFunctionalStatusImplementationGuide"/>
    <title value="PACIO Functional Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2020-10-16T00:56:43-04:00"/>
+   <date value="2020-10-16T02:17:55-04:00"/>
    <contact>
       <name value="PACIO  project"/>
       <telecom>
@@ -1047,6 +1047,7 @@
             <reference value="QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-1"/>
          </reference>
          <name value="QResponse-Hospital-Discharge-Mobility-1"/>
+         <description value="Sample Data"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>

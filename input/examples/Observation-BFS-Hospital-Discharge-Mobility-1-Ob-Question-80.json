@@ -34,7 +34,7 @@
       {
         "code": "83192-5",
         "system": "http://loinc.org",
-        "display": "What was the patient's usual performance related to their ability to go up and down 12 steps with or without a rail?"
+        "display": "12 steps - functional ability during 3 day assessment period [CMS Assessment]"
       }
     ],
     "text": "12 steps"

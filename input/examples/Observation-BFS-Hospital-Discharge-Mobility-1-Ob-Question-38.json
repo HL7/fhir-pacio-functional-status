@@ -34,7 +34,7 @@
       {
         "code": "83206-3",
         "system": "http://loinc.org",
-        "display": "What was the patient's usual performance related to their ability to transfer in and out of a car or van on the passenger side?  Does not include the ability to open/close door or fasten seat belt."
+        "display": "Car transfer - functional ability during 3 day assessment period [CMS Assessment]"
       }
     ],
     "text": "Car transfer"

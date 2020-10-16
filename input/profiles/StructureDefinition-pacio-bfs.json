@@ -112,11 +112,7 @@
         "id": "Observation.category",
         "path": "Observation.category",
         "short": "If this is from a Post-Acute Care Assessment, category should be survey.",
-        "max": "1",
-        "binding": {
-          "strength": "extensible",
-          "valueSet": "http://terminology.hl7.org/CodeSystem/observation-category"
-        }
+        "max": "1"
       },
       {
         "id": "Observation.code",

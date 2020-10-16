@@ -34,7 +34,7 @@
       {
         "code": "83214-7",
         "system": "http://loinc.org",
-        "display": "What was the patient's usual performance related to their ability to move from lying on the back to sitting on the side of the bed with feet flat on the floor, and with no back support?"
+        "display": "Lying to sitting on side of bed - functional ability during 3 day assessment period [CMS Assessment]"
       }
     ],
     "text": "Lying to sitting on side of bed"
@@ -44,7 +44,7 @@
       {
         "code": "LA27996-0",
         "system": "http://loinc.org",
-        "display": "Partial/moderate Assist"
+        "display": "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort."
       }
     ],
     "text": "Partial/moderate Assist"
