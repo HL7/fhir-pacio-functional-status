@@ -557,7 +557,7 @@
       },
       {
         "code": "releaselabel",
-        "value": "CI Build"
+        "value": "STU Ballot"
       },
       {
         "code": "show-inherited-invariants",
