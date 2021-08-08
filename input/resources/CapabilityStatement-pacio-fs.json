@@ -15,7 +15,7 @@
     "json"
   ],
   "implementationGuide": [
-    "https://paciowg.github.io/functional-status-ig"
+    "https://build.fhir.org/ig/HL7/fhir-pacio-functional-status"
   ],
   "rest": [
     {
@@ -23,7 +23,7 @@
       "resource": [
         {
           "type": "Observation",
-          "profile": "https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-bfs.html",
+          "profile": "https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-bfs.html",
           "interaction": [
             {
               "code":"read",
@@ -270,7 +270,7 @@
         },
         {
           "type": "QuestionnaireResponse",
-          "profile": "https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-functional-qr.html",
+          "profile": "https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-functional-qr.html",
           "interaction": [
             {
               "code":"read",
@@ -374,7 +374,7 @@
         },
         {
           "type" : "DeviceUseStatement",
-          "profile" : "https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-dev.html",
+          "profile" : "https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-dev.html",
           "interaction" : [{
             "code" : "read",
             "documentation" : "Implemented per the specification (or Insert other doco here)"
@@ -513,7 +513,7 @@
         "resource": [
             {
                 "type": "Observation",
-                "profile": "https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-plf.html",
+                "profile": "https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-plf.html",
                 "interaction": [
                   {
                     "code":"read",
@@ -848,7 +848,7 @@
         "resource": [
           {
             "type": "Observation",
-            "profile": "https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-fs.html",
+            "profile": "https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-fs.html",
             "interaction": [
               {
                 "code":"read",
