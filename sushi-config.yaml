@@ -11,7 +11,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.us.pacio-fs
 ##### use this URL when publishing the IG:
-canonical: https://build.fhir.org/ig/HL7/fhir-pacio-functional-status
+canonical: http://hl7.org/fhir/us/pacio-fs
 ###canonical: http://paciowg.github.io/functional-status-ig
 version: 0.1.0
 name: PACIOFunctionalStatusImplementationGuide
