@@ -1,6 +1,6 @@
 <json>{
   "package-id": "hl7.fhir.us.pacio-fs",
-  "canonical": "http://hl7.org/fhir/us/pacio-fs",
+  "canonical": "http://paciowg.github.io/functional-status-ig",
   "title": "PACIO Functional Status Implementation Guide",
   "category": "Patient Summary",
   "introduction": "To advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders",
@@ -8,7 +8,7 @@
     {
       "version": "current",
       "desc": "Continuous Integration Build (latest in version control)",
-      "path": "https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/",
+      "path": "https://build.fhir.org/ig/HL7/fhir-pacio-functional-status",
       "status": "ci-build",
       "current": true
     },
