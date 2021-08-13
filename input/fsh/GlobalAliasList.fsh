@@ -1,8 +1,7 @@
 // Code Systems
 // NOTE: use a code system (not value set) in instances
 Alias:  LNC = http://loinc.org
-//Alias: CAT = http://terminology.hl7.org/CodeSystem/observation-category
-Alias: CAT = http://hl7.org/fhir/us/pacio-cs/CodeSystem/pacio-cat-cs
+Alias: CAT = http://terminology.hl7.org/CodeSystem/observation-category
 Alias: PACIOFunctioningCategoryCS = http://hl7.org/fhir/us/pacio-cs/CodeSystem/pacio-cat-cs
 //Alias: PACIOFunctioningCategoryCS = http://paciowg.github.io/cognitive-status-ig/CodeSystem/pacio-cat-cs
 
