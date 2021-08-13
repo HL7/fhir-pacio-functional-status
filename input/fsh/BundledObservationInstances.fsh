@@ -9,7 +9,7 @@ Description: "An instance of FunctionalStatusCollection"
 * effectiveDateTime = "2020-07-10T14:34:00-05:00"
 * code = LNC#88331-4
 * code.coding.display = "Mobility - discharge performance during 3 day assessment period [CMS Assessment]"
-* category = CAT#survey
+* category[1].coding = CAT#survey "Survey"
 * performer = Reference(Practitioner-RonMarble)
 * performer[1] = Reference(Role-PT)
 * performer[2] = Reference(Org-01)
@@ -48,7 +48,7 @@ Description: "An instance of FunctionalStatusCollection"
 * effectiveDateTime = "2020-08-01T11:00:00-05:00"
 * code = LNC#88331-4
 * code.coding.display = "Mobility - discharge performance during 3 day assessment period [CMS Assessment]"
-* category = CAT#survey
+* category[1].coding = CAT#survey "Survey"
 * performer = Reference(Practitioner-DanielGranger)
 * performer[1] = Reference(Role-PT)
 * performer[2] = Reference(Org-02)
@@ -88,7 +88,7 @@ Description: "An instance of FunctionalStatusCollection"
 * effectiveDateTime = "2020-07-08T16:00:00-05:00"
 * code = LNC#85056-0
 * code.coding.display = "Mobility - discharge goal during 3 day assessment period [CMS Assessment]"
-* category = CAT#survey
+* category[1].coding = CAT#survey "Survey"
 * performer = Reference(Practitioner-SallySmith)
 * performer[1] = Reference(Role-PT)
 * performer[2] = Reference(Org-01)
@@ -122,7 +122,7 @@ Description: "An instance of FunctionalStatusCollection"
 * effectiveDateTime = "2020-07-11T16:32:00-05:00"
 * code = LNC#85056-0
 * code.coding.display = "Mobility - discharge goal during 3 day assessment period [CMS Assessment]"
-* category = CAT#survey
+* category[1].coding = CAT#survey "Survey"
 * performer = Reference(Practitioner-JenCadbury)
 * performer[1] = Reference(Role-PT)
 * performer[2] = Reference(Org-02)
@@ -156,7 +156,7 @@ Description: "An instance of FunctionalStatusCollection"
 * effectiveDateTime = "2020-07-11T16:32:00-05:00"
 * code = LNC#88330-6
 * code.coding.display = "Mobility - admission performance during 3 day assessment period [CMS Assessment]"
-* category = CAT#survey
+* category[1].coding = CAT#survey "Survey"
 * performer = Reference(Practitioner-JenCadbury)
 * performer[1] = Reference(Role-PT)
 * performer[2] = Reference(Org-02)
@@ -195,7 +195,7 @@ Description: "An instance of FunctionalStatusCollection"
 * effectiveDateTime = "2020-07-08T16:00:00-05:00"
 * code = LNC#88330-6
 * code.coding.display = "Mobility - admission performance during 3 day assessment period [CMS Assessment]"
-* category = CAT#survey
+* category[1].coding = CAT#survey "Survey"
 * performer = Reference(Practitioner-SallySmith)
 * performer[1] = Reference(Role-PT)
 * performer[2] = Reference(Org-01)
@@ -231,7 +231,7 @@ Description: "An instance of FunctionalStatusCollection"
 * effectiveDateTime = "2020-08-02T13:31:00-05:00"
 * code = LNC#88330-6
 * code.coding.display = "Mobility - admission performance during 3 day assessment period [CMS Assessment]"
-* category = CAT#survey
+* category[1].coding = CAT#survey "Survey"
 * performer = Reference(Practitioner-LunaBaskins)
 * performer[1] = Reference(Role-PT)
 * performer[2] = Reference(Org-03)
@@ -265,7 +265,7 @@ Description: "An instance of FunctionalStatusCollection"
 * effectiveDateTime = "2020-08-30T14:00:00-05:00"
 * code = LNC#88331-4
 * code.coding.display = "Mobility - discharge performance during 3 day assessment period [CMS Assessment]"
-* category = CAT#survey
+* category[1].coding = CAT#survey "Survey"
 * performer = Reference(Practitioner-ScottDumble)
 * performer[1] = Reference(Role-PT)
 * performer[2] = Reference(Org-03)

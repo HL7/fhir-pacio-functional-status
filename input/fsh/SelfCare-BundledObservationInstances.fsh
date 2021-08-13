@@ -9,7 +9,7 @@ Description: "An instance of FunctionalStatusCollection"
 * effectiveDateTime = "2020-08-01T11:00:00-05:00"
 * code = LNC#83254-3
 * code.coding.display = "Self-care - discharge performance [CMS Assessment]"
-* category = CAT#survey
+* category[1].coding = CAT#survey "Survey"
 * performer = Reference(Practitioner-DanielGranger)
 * performer[1] = Reference(Role-OT)
 * performer[2] = Reference(Org-02)
@@ -33,7 +33,7 @@ Description: "An instance of FunctionalStatusCollection"
 * effectiveDateTime = "2020-07-11T16:32:00-05:00"
 * code = LNC#85054-5
 * code.coding.display = "Self-care - discharge goal [CMS Assessment]"
-* category = CAT#survey
+* category[1].coding = CAT#survey "Survey"
 * performer = Reference(Practitioner-JenCadbury)
 * performer[1] = Reference(Role-OT)
 * performer[2] = Reference(Org-02)
@@ -57,7 +57,7 @@ Description: "An instance of FunctionalStatusCollection"
 * effectiveDateTime = "2020-07-10T14:34:00-05:00"
 * code = LNC#83254-3
 * code.coding.display = "Self-care - discharge performance [CMS Assessment]"
-* category = CAT#survey
+* category[1].coding = CAT#survey "Survey"
 * performer = Reference(Practitioner-RonMarble)
 * performer[1] = Reference(Role-PT)
 * performer[2] = Reference(Org-01)
@@ -81,7 +81,7 @@ Description: "An instance of FunctionalStatusCollection"
 * effectiveDateTime = "2020-07-11T16:32:00-05:00"
 * code = LNC#83233-7
 * code.coding.display = "Self-care - admission performance [CMS Assessment]"
-* category = CAT#survey
+* category[1].coding = CAT#survey "Survey"
 * performer = Reference(Practitioner-JenCadbury)
 * performer[1] = Reference(Role-OT)
 * performer[2] = Reference(Org-02)
@@ -105,7 +105,7 @@ Description: "An instance of FunctionalStatusCollection"
 * effectiveDateTime = "2020-07-08T16:00:00-05:00"
 * code = LNC#83233-7
 * code.coding.display = "Self-care - admission performance [CMS Assessment]"
-* category = CAT#survey
+* category[1].coding = CAT#survey "Survey"
 * performer = Reference(Practitioner-SallySmith)
 * performer[1] = Reference(Role-PT)
 * performer[2] = Reference(Org-01)
@@ -129,7 +129,7 @@ Description: "An instance of FunctionalStatusCollection"
 * effectiveDateTime = "2020-08-30T14:00:00-05:00"
 * code = LNC#89475-8
 * code.coding.display = "OASIS D - Self-care - discharge performance [CMS Assessment]"
-* category = CAT#survey
+* category[1].coding = CAT#survey "Survey"
 * performer = Reference(Practitioner-ScottDumble)
 * performer[1] = Reference(Role-PT)
 * performer[2] = Reference(Org-03)
@@ -153,7 +153,7 @@ Description: "An instance of FunctionalStatusCollection"
 * effectiveDateTime = "2020-08-02T13:31:00-05:00"
 * code = LNC#89479-0
 * code.coding.display = "OASIS D - Self-care - SOC/ROC performance [CMS Assessment]"
-* category = CAT#survey
+* category[1].coding = CAT#survey "Survey"
 * performer = Reference(Practitioner-LunaBaskins)
 * performer[1] = Reference(Role-PT)
 * performer[2] = Reference(Org-03)

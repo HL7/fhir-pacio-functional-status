@@ -15,8 +15,9 @@ Description:    "A point in time collection of functional status observations fo
 * performer only Reference(USCorePractitioner or USCorePractitionerRole or USCoreOrganization)
 * value[x] only CodeableConcept
 
-//TODO: create a new System Code and Value Set to extend CATVS
-* category 1..1
+* category 1..*
+* category from PACIOFunctioningCategoryVS (extensible)
+* category = PACIOFunctioningCategoryCS#functioning
 
 * effective[x] 1..1
 * effective[x] only dateTime or Period
@@ -31,7 +32,7 @@ Description:    "A point in time collection of functional status observations fo
 
 * value[x] ^short = "If used, should use the CodeableConcept type whenever possible to provide a suitable code to define the concept. When capturing a collection of related observations, typically this field is not used. As for values like an assessment score or roll-up value, the preferred way is to leave this field unused and use the 'hasMember' field to reference a functional status observation specifying the score or roll-up value in the value field using the Quantity type."
 * performer ^short = "The person who performed the assessment. The preferred way to specify the performer is to use the PractitionerRole resource to provide both the practitioner and organization."
-* category ^short = "If this is from a Post-Acute Care Assessment, category should be survey."
+* category ^short = "A second category code may be used along with the code “functioning”. For example, for assessment tool/survey instrument observations use “survey” as a second code."
 * code ^short = "For a Post-Acute Care structured assessment resource such as an instrument or screen, use a LOINC code to identify the instrument/screen name or panel/section title to indicate the kind of assessment."
 * subject ^short = "Should only reference a Patient resource."
 * hasMember ^short = "Each functional status observation in the collection."

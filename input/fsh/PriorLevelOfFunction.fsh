@@ -17,6 +17,9 @@ Description:    "An exchange of summary observation regarding the most recent pr
 * subject 1..1
 * subject only Reference(USCorePatient)
 
+* category 1..*
+* category from PACIOFunctioningCategoryVS (extensible)
+* category = PACIOFunctioningCategoryCS#functioning
 
 * performer 1..*
 * performer ^short = "The person who performed the assessment. The preferred way to specify the performer is to use the PractitionerRole resource to provide both the practitioner and organization."

@@ -1,15 +1,18 @@
 // Code Systems
 // NOTE: use a code system (not value set) in instances
 Alias:  LNC = http://loinc.org
+Alias: CAT = http://terminology.hl7.org/CodeSystem/observation-category
+Alias: PACIOFunctioningCategoryCS = https://build.fhir.org/ig/HL7/fhir-pacio-cognitive-status/CodeSystem/pacio-cat-cs
+//Alias: PACIOFunctioningCategoryCS = http://paciowg.github.io/cognitive-status-ig/CodeSystem/pacio-cat-cs
 
 // Value Sets
 // NOTE: use a value set (not code system) when binding a field
 Alias: LNCVS = http://hl7.org/fhir/ValueSet/observation-codes
-Alias: CATVS = http://terminology.hl7.org/ValueSet/observation-category
+Alias: PACIOFunctioningCategoryVS = https://build.fhir.org/ig/HL7/fhir-pacio-cognitive-status/ValueSet/pacio-cat-vs
+//Alias: PACIOFunctioningCategoryVS = http://paciowg.github.io/cognitive-status-ig/ValueSet/pacio-cat-vs
 Alias: LL4309-2 = http://loinc.org/vs/LL4309-2
 
 // Misc.
-//Alias: OBC = http://hl7.org/fhir/ValueSet/observation-codes
 Alias: ObservationLocation = http://hl7.org/fhir/StructureDefinition/event-location
 Alias: USCorePatient = http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient
 Alias: USCoreEncounter = http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter
