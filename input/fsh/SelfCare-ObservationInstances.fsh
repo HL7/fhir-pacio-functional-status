@@ -1,6 +1,6 @@
-Alias: LNC = http://loinc.org
-Alias: UOM = http://unitsofmeasure.org
-Alias: DAR = http://terminology.hl7.org/CodeSystem/data-absent-reason
+//Alias: LNC = http://loinc.org
+//Alias: UOM = http://unitsofmeasure.org
+//Alias: DAR = http://terminology.hl7.org/CodeSystem/data-absent-reason
 
 Instance: BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-25
 InstanceOf: FunctionalStatus

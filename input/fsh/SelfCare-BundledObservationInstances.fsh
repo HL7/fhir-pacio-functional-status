@@ -1,5 +1,5 @@
-Alias:  LNC = http://loinc.org
-Alias:  CAT = http://terminology.hl7.org/CodeSystem/observation-category
+//Alias:  LNC = http://loinc.org
+//Alias:  CAT = http://terminology.hl7.org/CodeSystem/observation-category
 
 Instance: BFS-SNF-Discharge-Mobility-SelfCare-1
 InstanceOf: FunctionalStatusCollection
