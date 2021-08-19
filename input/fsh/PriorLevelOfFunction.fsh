@@ -34,6 +34,23 @@ Description:    "An exchange of summary observation regarding the most recent pr
 * extension contains AssistanceRequired named assistance-required 0..1 MS
 * extension[assistance-required] ^short = "An extension to indicate the level of assistance required for a patient during an assessment."
 
+* basedOn ^short = "Currently not used in NarrativeHistoryOfFunctionalStatus."
+* partOf ^short = "Currently not used in NarrativeHistoryOfFunctionalStatus."
+* status ^short = "Should have the value 'final' when the observation is complete and there are no further actions needed. Otherwise, another value from the value set may appropriately be used."
+* focus ^short = "Currently not used in NarrativeHistoryOfFunctionalStatus."
+* issued ^short = "Currently not used in NarrativeHistoryOfFunctionalStatus."
+* dataAbsentReason ^short = "Currently not used in NarrativeHistoryOfFunctionalStatus."
+* interpretation ^short = "Currently not used in NarrativeHistoryOfFunctionalStatus."
+* bodySite ^short = "Currently not used in NarrativeHistoryOfFunctionalStatus."
+* method ^short = "Currently not used in NarrativeHistoryOfFunctionalStatus."
+* specimen ^short = "Currently not used in NarrativeHistoryOfFunctionalStatus."
+* device ^short = "Currently not used in NarrativeHistoryOfFunctionalStatus."
+* referenceRange ^short = "Currently not used in NarrativeHistoryOfFunctionalStatus."
+* hasMember ^short = "Currently not used in NarrativeHistoryOfFunctionalStatus."
+* derivedFrom ^short = "Currently not used in NarrativeHistoryOfFunctionalStatus."
+* component ^short = "Currently not used in NarrativeHistoryOfFunctionalStatus."
+
+
 Extension: AssistanceRequired
 Description: "Associated with the Narrative History of Functional Status profile to provide a high-level indication of assistance required for the person’s baseline ability (physical function immediately preceding the current admission, illness, or exacerbation for a patient) to perform everyday activities. The CMS Assessment answer list LL4309-2 provides possible values for this extension."
 Id: assistance-required

@@ -25,6 +25,7 @@ Description:    "A point in time collection of functional status observations fo
 * hasMember only Reference(FunctionalStatus)
 * hasMember MS
 
+* derivedFrom only Reference(QuestionnaireResponse)
 * derivedFrom MS
 
 * extension contains ObservationLocation named event-location 0..1 MS

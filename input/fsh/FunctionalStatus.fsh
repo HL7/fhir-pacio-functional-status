@@ -24,6 +24,7 @@ Description:    "An exchange of functional status observation for a patient. Thi
 * effective[x] only dateTime
 * effective[x] 1..1
 
+* derivedFrom only Reference(QuestionnaireResponse)
 * derivedFrom MS
 
 * extension contains ObservationLocation named event-location 0..1 MS
