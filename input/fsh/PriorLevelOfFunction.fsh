@@ -17,6 +17,8 @@ Description:    "An exchange of summary observation regarding the most recent pr
 * subject 1..1
 * subject only Reference(USCorePatient)
 
+* encounter only Reference(USCoreEncounter)
+
 * category 1..*
 * category from PACIOFunctioningCategoryVS (extensible)
 * category = PACIOFunctioningCategoryCS#functioning

@@ -59,8 +59,14 @@ Description:    "A point in time collection of functional status observations fo
 * extension[event-location] ^definition = "The principal physical location where the observation event occurred."
 * extension[device-use] ^short = "An extension to indicate a record of assistive device usage by a patient during an assessment."
 
+Extension: ObservationEventLocation
+Parent: EventLocation
+Description: "This extension is used to indicate the principal physical location where an observation event occurred."
+Id: event-location
+* value[x] only Reference(USCoreLocation)
+
 Extension: DevicePatientUsed
 Description: "Associated with the Funcational Status Collection profile to point to a record indicating what healthcare-related assistive device was used by a patient during a functional status assessment. This extension leverages the DeviceUseStatement resource instead of Device resource so as to indicate appropriately a record of assistive device usage by a patient."
-
 Id: device-patient-used
 * value[x] only Reference(UseOfDevice)
+* value[x] ^short = "Points to a record of a healthcare-related assistive device being used by a patient during an assessment."

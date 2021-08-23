@@ -10,6 +10,8 @@ Description:    "An exchange of functional status observation for a patient. Thi
 * subject 1..1
 * subject only Reference(USCorePatient)
 
+* encounter only Reference(USCoreEncounter)
+
 * code from LNCVS (extensible)
 
 * performer 1..*
