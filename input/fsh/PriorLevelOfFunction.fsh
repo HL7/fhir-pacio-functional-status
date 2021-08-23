@@ -12,7 +12,7 @@ Description:    "An exchange of summary observation regarding the most recent pr
 * value[x] 1..1
 * value[x] only string
 * value[x] ^short = "Unstructured summary of functional status observation for the patient. (Strongly encouraged until more structured method is established)"
-//* value[x] ^binding.description = "Unstructured summary of functional status observation for the patient. (Strongly encouraged until more structured method is established)"
+* value[x] ^definition = "Unstructured summary of functional status observation for the patient. (Strongly encouraged until more structured method is established)"
 
 * subject 1..1
 * subject only Reference(USCorePatient)

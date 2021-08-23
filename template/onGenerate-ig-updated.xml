@@ -17,7 +17,7 @@
    <name value="PACIOFunctionalStatusImplementationGuide"/>
    <title value="PACIO Functional Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2021-08-19T10:31:43-07:00"/>
+   <date value="2021-08-22T22:45:07-07:00"/>
    <contact>
       <name value="PACIO project"/>
       <telecom>
@@ -122,21 +122,6 @@
          </reference>
          <name value="PACIO Narrative History of Functional Status"/>
          <description value="An exchange of summary observation regarding the most recent prior level of function immediately preceding the current admission, illness, or exacerbation for a patient. The use of this profile is encouraged in the absence of formal prior level of function assessments. For formal assessments conducted with for example, an assessment instructment, use the Functional Status Collecction and Functional Status profiles to capture assessment data."/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-str-profile"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="StructureDefinition:resource"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="StructureDefinition-pacio-functional-qr.html"/>
-         </extension>
-         <reference>
-            <reference value="StructureDefinition/pacio-functional-qr"/>
-         </reference>
-         <name value="PACIO Questionnaire Response"/>
-         <description value="A completed, or sections of a completed, CMS PAC assessment."/>
          <exampleBoolean value="false"/>
          <groupingId value="-str-profile"/>
       </resource>
@@ -3798,8 +3783,8 @@
             <reference value="QuestionnaireResponse/QResponse-HH-Discharge-Mobility-1"/>
          </reference>
          <name value="QResponse-HH-Discharge-Mobility-1"/>
-         <description value="An instance of PACIOfunctionalQuestionnaireResponse"/>
-         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
+         <description value="An instance of QuestionnaireResponse"/>
+         <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -3813,8 +3798,8 @@
             <reference value="QuestionnaireResponse/QResponse-HH-Discharge-Mobility-SelfCare-1"/>
          </reference>
          <name value="QResponse-HH-Discharge-Mobility-SelfCare-1"/>
-         <description value="An instance of PACIOfunctionalQuestionnaireResponse"/>
-         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
+         <description value="An instance of QuestionnaireResponse"/>
+         <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -3828,8 +3813,8 @@
             <reference value="QuestionnaireResponse/QResponse-HH-StartOfCare-Mobility-1"/>
          </reference>
          <name value="QResponse-HH-StartOfCare-Mobility-1"/>
-         <description value="An instance of PACIOfunctionalQuestionnaireResponse"/>
-         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
+         <description value="An instance of QuestionnaireResponse"/>
+         <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -3843,8 +3828,8 @@
             <reference value="QuestionnaireResponse/QResponse-HH-StartOfCare-Mobility-SelfCare-1"/>
          </reference>
          <name value="QResponse-HH-StartOfCare-Mobility-SelfCare-1"/>
-         <description value="An instance of PACIOfunctionalQuestionnaireResponse"/>
-         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
+         <description value="An instance of QuestionnaireResponse"/>
+         <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -3858,8 +3843,8 @@
             <reference value="QuestionnaireResponse/QResponse-Hospital-Admission-Mobility-1"/>
          </reference>
          <name value="QResponse-Hospital-Admission-Mobility-1"/>
-         <description value="An instance of PACIOfunctionalQuestionnaireResponse"/>
-         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
+         <description value="An instance of QuestionnaireResponse"/>
+         <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -3873,8 +3858,8 @@
             <reference value="QuestionnaireResponse/QResponse-Hospital-Admission-Mobility-SelfCare-1"/>
          </reference>
          <name value="QResponse-Hospital-Admission-Mobility-SelfCare-1"/>
-         <description value="An instance of PACIOfunctionalQuestionnaireResponse"/>
-         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
+         <description value="An instance of QuestionnaireResponse"/>
+         <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -3888,8 +3873,8 @@
             <reference value="QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-1"/>
          </reference>
          <name value="QResponse-Hospital-Discharge-Mobility-1"/>
-         <description value="An instance of PACIOfunctionalQuestionnaireResponse"/>
-         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
+         <description value="An instance of QuestionnaireResponse"/>
+         <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -3903,8 +3888,8 @@
             <reference value="QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-SelfCare-1"/>
          </reference>
          <name value="QResponse-Hospital-Discharge-Mobility-SelfCare-1"/>
-         <description value="An instance of PACIOfunctionalQuestionnaireResponse"/>
-         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
+         <description value="An instance of QuestionnaireResponse"/>
+         <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -3918,8 +3903,8 @@
             <reference value="QuestionnaireResponse/QResponse-Hospital-DischargeGoal-Mobility-1"/>
          </reference>
          <name value="QResponse-Hospital-DischargeGoal-Mobility-1"/>
-         <description value="An instance of PACIOfunctionalQuestionnaireResponse"/>
-         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
+         <description value="An instance of QuestionnaireResponse"/>
+         <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -3933,8 +3918,8 @@
             <reference value="QuestionnaireResponse/QResponse-SNF-Admission-Mobility-1"/>
          </reference>
          <name value="QResponse-SNF-Admission-Mobility-1"/>
-         <description value="An instance of PACIOfunctionalQuestionnaireResponse"/>
-         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
+         <description value="An instance of QuestionnaireResponse"/>
+         <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -3948,8 +3933,8 @@
             <reference value="QuestionnaireResponse/QResponse-SNF-Admission-Mobility-SelfCare-1"/>
          </reference>
          <name value="QResponse-SNF-Admission-Mobility-SelfCare-1"/>
-         <description value="An instance of PACIOfunctionalQuestionnaireResponse"/>
-         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
+         <description value="An instance of QuestionnaireResponse"/>
+         <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -3963,8 +3948,8 @@
             <reference value="QuestionnaireResponse/QResponse-SNF-Discharge-Mobility-1"/>
          </reference>
          <name value="QResponse-SNF-Discharge-Mobility-1"/>
-         <description value="An instance of PACIOfunctionalQuestionnaireResponse"/>
-         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
+         <description value="An instance of QuestionnaireResponse"/>
+         <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -3978,8 +3963,8 @@
             <reference value="QuestionnaireResponse/QResponse-SNF-Discharge-Mobility-SelfCare-1"/>
          </reference>
          <name value="QResponse-SNF-Discharge-Mobility-SelfCare-1"/>
-         <description value="An instance of PACIOfunctionalQuestionnaireResponse"/>
-         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
+         <description value="An instance of QuestionnaireResponse"/>
+         <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -3993,8 +3978,8 @@
             <reference value="QuestionnaireResponse/QResponse-SNF-DischargeGoal-Mobility-1"/>
          </reference>
          <name value="QResponse-SNF-DischargeGoal-Mobility-1"/>
-         <description value="An instance of PACIOfunctionalQuestionnaireResponse"/>
-         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
+         <description value="An instance of QuestionnaireResponse"/>
+         <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -4008,8 +3993,8 @@
             <reference value="QuestionnaireResponse/QResponse-SNF-DischargeGoal-Mobility-SelfCare-1"/>
          </reference>
          <name value="QResponse-SNF-DischargeGoal-Mobility-SelfCare-1"/>
-         <description value="An instance of PACIOfunctionalQuestionnaireResponse"/>
-         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
+         <description value="An instance of QuestionnaireResponse"/>
+         <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -4176,11 +4161,6 @@
             <page>
                <nameUrl value="StructureDefinition-pacio-nhfs.html"/>
                <title value="PACIO Narrative History of Functional Status"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="StructureDefinition-pacio-functional-qr.html"/>
-               <title value="PACIO Questionnaire Response"/>
                <generation value="generated"/>
             </page>
             <page>

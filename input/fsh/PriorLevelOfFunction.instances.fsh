@@ -10,11 +10,6 @@ InstanceOf: NarrativeHistoryOfFunctionalStatus
 * extension[assistance-required].valueCodeableConcept = LNC#LA11539-6
 * extension[assistance-required].valueCodeableConcept.coding.display = "Independent - Patient completed the activities by him/herself, with or without an assistive device, with no assistance from a helper."
 
-// * performer = Reference(Practitioner-JohnSmith)
-// * performer[1] = Reference(provider-role-pcp)
-// * performer[2] = Reference(provider-org-01)
-// * performer[2].display = "Organization"
-
 * valueString = "Patient is a community ambulator, able to attend desired activites and able to care for herself independently."
 
 * performer = Reference(provider-role-pcp)

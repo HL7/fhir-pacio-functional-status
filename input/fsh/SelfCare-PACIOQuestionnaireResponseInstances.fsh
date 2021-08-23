@@ -1,8 +1,8 @@
 Alias: MDS3.0-NC-1.17 = https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17
 
 Instance: QResponse-SNF-DischargeGoal-Mobility-SelfCare-1
-InstanceOf: PACIOfunctionalQuestionnaireResponse
-Description: "An instance of PACIOfunctionalQuestionnaireResponse"
+InstanceOf: QuestionnaireResponse
+Description: "An instance of QuestionnaireResponse"
 * subject = Reference(patientBSJ1)
 * status = #completed
 * questionnaire = MDS3.0-NC-1.17
@@ -44,8 +44,8 @@ Description: "An instance of PACIOfunctionalQuestionnaireResponse"
 * item[0].item[0].item[6].answer.valueReference = Reference(BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-35)
 
 Instance: QResponse-SNF-Discharge-Mobility-SelfCare-1
-InstanceOf: PACIOfunctionalQuestionnaireResponse
-Description: "An instance of PACIOfunctionalQuestionnaireResponse"
+InstanceOf: QuestionnaireResponse
+Description: "An instance of QuestionnaireResponse"
 * subject = Reference(patientBSJ1)
 * status = #completed
 * questionnaire = MDS3.0-NC-1.17
@@ -87,8 +87,8 @@ Description: "An instance of PACIOfunctionalQuestionnaireResponse"
 * item[0].item[0].item[6].answer.valueReference = Reference(BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-28)
 
 Instance: QResponse-HH-StartOfCare-Mobility-SelfCare-1
-InstanceOf: PACIOfunctionalQuestionnaireResponse
-Description: "An instance of PACIOfunctionalQuestionnaireResponse"
+InstanceOf: QuestionnaireResponse
+Description: "An instance of QuestionnaireResponse"
 * subject = Reference(patientBSJ1)
 * status = #completed
 * questionnaire = MDS3.0-NC-1.17
@@ -130,8 +130,8 @@ Description: "An instance of PACIOfunctionalQuestionnaireResponse"
 * item[0].item[0].item[6].answer.valueReference = Reference(BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-48)
 
 Instance: QResponse-Hospital-Discharge-Mobility-SelfCare-1
-InstanceOf: PACIOfunctionalQuestionnaireResponse
-Description: "An instance of PACIOfunctionalQuestionnaireResponse"
+InstanceOf: QuestionnaireResponse
+Description: "An instance of QuestionnaireResponse"
 * subject = Reference(patientBSJ1)
 * status = #completed
 * questionnaire = MDS3.0-NC-1.17
@@ -173,8 +173,8 @@ Description: "An instance of PACIOfunctionalQuestionnaireResponse"
 * item[0].item[0].item[6].answer.valueReference = Reference(BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-26)
 
 Instance: QResponse-Hospital-Admission-Mobility-SelfCare-1
-InstanceOf: PACIOfunctionalQuestionnaireResponse
-Description: "An instance of PACIOfunctionalQuestionnaireResponse"
+InstanceOf: QuestionnaireResponse
+Description: "An instance of QuestionnaireResponse"
 * subject = Reference(patientBSJ1)
 * status = #completed
 * questionnaire = MDS3.0-NC-1.17
@@ -216,8 +216,8 @@ Description: "An instance of PACIOfunctionalQuestionnaireResponse"
 * item[0].item[0].item[6].answer.valueReference = Reference(BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-25)
 
 Instance: QResponse-SNF-Admission-Mobility-SelfCare-1
-InstanceOf: PACIOfunctionalQuestionnaireResponse
-Description: "An instance of PACIOfunctionalQuestionnaireResponse"
+InstanceOf: QuestionnaireResponse
+Description: "An instance of QuestionnaireResponse"
 * subject = Reference(patientBSJ1)
 * status = #completed
 * questionnaire = MDS3.0-NC-1.17
@@ -259,8 +259,8 @@ Description: "An instance of PACIOfunctionalQuestionnaireResponse"
 * item[0].item[0].item[6].answer.valueReference = Reference(BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-27)
 
 Instance: QResponse-HH-Discharge-Mobility-SelfCare-1
-InstanceOf: PACIOfunctionalQuestionnaireResponse
-Description: "An instance of PACIOfunctionalQuestionnaireResponse"
+InstanceOf: QuestionnaireResponse
+Description: "An instance of QuestionnaireResponse"
 * subject = Reference(patientBSJ1)
 * status = #completed
 * questionnaire = MDS3.0-NC-1.17

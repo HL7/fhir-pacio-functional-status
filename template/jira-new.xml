@@ -255,7 +255,7 @@
 <artifact id="CapabilityStatement/pacio-fs" key="CapabilityStatement-pacio-fs" name="PACIO Functional Status Capability Statement"/>
 <artifact id="StructureDefinition/pacio-fsc" key="StructureDefinition-pacio-fsc" name="PACIO Functional Status Collection"/>
 <artifact id="StructureDefinition/pacio-nhfs" key="StructureDefinition-pacio-nhfs" name="PACIO Narrative History of Functional Status"/>
-<artifact id="StructureDefinition/pacio-functional-qr" key="StructureDefinition-pacio-functional-qr" name="PACIO Questionnaire Response"/>
+<artifact deprecated="true" id="StructureDefinition/pacio-functional-qr" key="StructureDefinition-pacio-functional-qr" name="PACIO Questionnaire Response"/>
 <artifact id="Practitioner/Practitioner-DanielGranger" key="Practitioner-Practitioner-DanielGranger" name="Practitioner-DanielGranger"/>
 <artifact id="Practitioner/Practitioner-HoneyJones" key="Practitioner-Practitioner-HoneyJones" name="Practitioner-HoneyJones"/>
 <artifact id="Practitioner/Practitioner-JenCadbury" key="Practitioner-Practitioner-JenCadbury" name="Practitioner-JenCadbury"/>

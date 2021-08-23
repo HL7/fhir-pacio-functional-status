@@ -15,7 +15,7 @@
     "json"
   ],
   "implementationGuide": [
-    "https://paciowg.github.io/functional-status-ig"
+    "https://build.fhir.org/ig/HL7/fhir-pacio-functional-status"
   ],
   "rest": [
     {
@@ -23,7 +23,7 @@
       "resource": [
         {
           "type": "Observation",
-          "profile": "https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-bfs.html",
+          "profile": "https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-fsc.html",
           "interaction": [
             {
               "code":"read",
@@ -269,112 +269,8 @@
                     ]
         },
         {
-          "type": "QuestionnaireResponse",
-          "profile": "https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-functional-qr.html",
-          "interaction": [
-            {
-              "code":"read",
-              "documentation":"Implemented per the specification (or Insert other doco here)"
-          },
-          {
-              "code":"vread",
-              "documentation":"Implemented per the specification (or Insert other doco here)"
-          },
-          {
-              "code":"history-instance",
-              "documentation":"Implemented per the specification (or Insert other doco here)"
-          },
-          {
-              "code":"history-type",
-              "documentation":"Implemented per the specification (or Insert other doco here)"
-          },
-          {
-              "code":"search-type",
-              "documentation":"Implemented per the specification (or Insert other doco here)"
-          }
-          ],
-          "conditionalCreate":true,
-                    "conditionalUpdate":true,
-                    "conditionalDelete":"multiple",
-                    "referencePolicy": [
-                        "literal",
-                        "logical"
-                    ],
-                    "searchInclude": [
-                      "FunctionalQuestionnaireResponse.parent",
-                      "FunctionalQuestionnaireResponse.questionnaire",
-                      "FunctionalQuestionnaireResponse.based-on",
-                      "FunctionalQuestionnaireResponse.subject",
-                      "FunctionalQuestionnaireResponse.author",
-                      "FunctionalQuestionnaireResponse.patient",
-                      "FunctionalQuestionnaireResponse.context",
-                      "FunctionalQuestionnaireResponse.source"
-                    ],
-                    "searchRevInclude": [
-                      "ClinicalImpression.investigation",
-                      "Consent.source",
-                      "Observation.related-target"
-                    ],"searchParam": [
-                      {
-                        "name": "authored",
-                        "type": "date",
-                        "documentation": "When the questionnaire response was last changed"
-                      },
-                      {
-                        "name": "identifier",
-                        "type": "token",
-                        "documentation": "The unique identifier for the questionnaire response"
-                      },
-                      {
-                        "name": "parent",
-                        "type": "reference",
-                        "documentation": "Procedure or observation this questionnaire response was performed as a part of"
-                      },
-                      {
-                        "name": "questionnaire",
-                        "type": "reference",
-                        "documentation": "The questionnaire the answers are provided for"
-                      },
-                      {
-                        "name": "based-on",
-                        "type": "reference",
-                        "documentation": "Plan/proposal/order fulfilled by this questionnaire response"
-                      },
-                      {
-                        "name": "subject",
-                        "type": "reference",
-                        "documentation": "The subject of the questionnaire response"
-                      },
-                      {
-                        "name": "author",
-                        "type": "reference",
-                        "documentation": "The author of the questionnaire response"
-                      },
-                      {
-                        "name": "patient",
-                        "type": "reference",
-                        "documentation": "The patient that is the subject of the questionnaire response"
-                      },
-                      {
-                        "name": "context",
-                        "type": "reference",
-                        "documentation": "Encounter or episode associated with the questionnaire response"
-                      },
-                      {
-                        "name": "source",
-                        "type": "reference",
-                        "documentation": "The individual providing the information reflected in the questionnaire respose"
-                      },
-                      {
-                        "name": "status",
-                        "type": "token",
-                        "documentation": "The status of the questionnaire response"
-                      }
-                    ]
-        },
-        {
           "type" : "DeviceUseStatement",
-          "profile" : "https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-dev.html",
+          "profile" : "https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-dev.html",
           "interaction" : [{
             "code" : "read",
             "documentation" : "Implemented per the specification (or Insert other doco here)"
@@ -513,7 +409,7 @@
         "resource": [
             {
                 "type": "Observation",
-                "profile": "https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-plf.html",
+                "profile": "https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-nhfs.html",
                 "interaction": [
                   {
                     "code":"read",
@@ -848,7 +744,7 @@
         "resource": [
           {
             "type": "Observation",
-            "profile": "https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-fs.html",
+            "profile": "https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-fs.html",
             "interaction": [
               {
                 "code":"read",

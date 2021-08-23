@@ -13,6 +13,7 @@ Description:    "An exchange of functional status observation for a patient. Thi
 * code from LNCVS (extensible)
 
 * performer 1..*
+* performer only Reference(USCorePractitioner or USCorePractitionerRole or USCoreOrganization)
 
 //* value[x] only CodeableConcept
 //* value[x] from LNCVS (extensible)
@@ -42,7 +43,7 @@ Description:    "An exchange of functional status observation for a patient. Thi
 * status ^short = "Should have the value 'final' when the observation is complete and there are no further actions needed. Otherwise, another value from the value set may appropriately be used."
 * focus ^short = "Currently not used in FunctionalStatus."
 * issued ^short = "Currently not used in FunctionalStatus."
-* dataAbsentReason ^short = "Currently not used in FunctionalStatus."
+//* dataAbsentReason ^short = "Currently not used in FunctionalStatus."
 * interpretation ^short = "Currently not used in FunctionalStatus."
 * bodySite ^short = "Currently not used in FunctionalStatus."
 * method ^short = "Currently not used in FunctionalStatus."

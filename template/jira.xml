@@ -23,9 +23,6 @@
    <artifact name="PACIO Narrative History of Functional Status"
              key="StructureDefinition-pacio-nhfs"
              id="StructureDefinition/pacio-nhfs"/>
-   <artifact name="PACIO Questionnaire Response"
-             key="StructureDefinition-pacio-functional-qr"
-             id="StructureDefinition/pacio-functional-qr"/>
    <artifact name="UseOfDevice"
              key="StructureDefinition-pacio-dev"
              id="StructureDefinition/pacio-dev"/>
@@ -830,6 +827,10 @@
    <artifact name="Bundled Functional Status"
              key="StructureDefinition-pacio-bfs"
              id="StructureDefinition/pacio-bfs"
+             deprecated="true"/>
+   <artifact name="PACIO Questionnaire Response"
+             key="StructureDefinition-pacio-functional-qr"
+             id="StructureDefinition/pacio-functional-qr"
              deprecated="true"/>
    <artifact name="Prior Level Of Function"
              key="StructureDefinition-pacio-plf"
