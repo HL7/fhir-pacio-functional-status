@@ -11,9 +11,9 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.us.pacio-fs
 ##### use this URL when publishing the IG:
-#####canonical: http://hl7.org/fhir/us/pacio-cs
-#####canonical: https://build.fhir.org/ig/HL7/fhir-pacio-functional-status
-canonical: http://paciowg.github.io/functional-status-ig
+#####canonical: http://hl7.org/fhir/us/pacio-fs
+canonical: https://build.fhir.org/ig/HL7/fhir-pacio-functional-status
+###canonical: http://paciowg.github.io/functional-status-ig
 version: 0.1.0
 name: PACIOFunctionalStatusImplementationGuide
 title: PACIO Functional Status Implementation Guide
@@ -32,7 +32,7 @@ description: To advance interoperable health data exchange between post-acute ca
 license: CC0-1.0
 fhirVersion: 4.0.1
 dependencies:
-  hl7.fhir.us.core: 3.1.0
+  hl7.fhir.us.core: 3.1.1
 parameters:
   show-inherited-invariants: false
 copyrightYear: 2020+
