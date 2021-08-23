@@ -1,0 +1,53 @@
+# ╭────────────────────────────────────────────────────────────────────────────────────────────────╮
+# │  ACTION REQUIRED: REVIEW AND EDIT THIS FILE TO ENSURE IT ACCURATELY REFLECTS YOUR PROJECT!     │
+# │                                                                                                │
+# │  This file was generated from your existing project files and will be used for SUSHI           │
+# │  configuration from now on. You may delete your package.json as it is no longer needed.        │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+# ╭─────────────────────────ImplementationGuide-hl7.fhir.us.pacio-fs.json──────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see: https://fshschool.org/sushi/configuration/                         │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: hl7.fhir.us.pacio-fs
+##### use this URL when publishing the IG:
+#####canonical: http://hl7.org/fhir/us/pacio-cs
+#####canonical: https://build.fhir.org/ig/HL7/fhir-pacio-functional-status
+canonical: http://paciowg.github.io/functional-status-ig
+version: 0.1.0
+name: PACIOFunctionalStatusImplementationGuide
+title: PACIO Functional Status Implementation Guide
+status: active
+publisher: HL7 Patient Care Work Group
+jurisdiction: urn:iso:std:iso:3166#US
+contact:
+  - name: PACIO project
+    telecom:
+      - system: url
+        value: http://www.hl7.org/Special/committees/patientcare/
+      - system: email
+        value: info@pacioproject.org
+description: To advance interoperable health data exchange between post-acute care (PAC)
+  and other providers, patients, and key stakeholders
+license: CC0-1.0
+fhirVersion: 4.0.1
+dependencies:
+  hl7.fhir.us.core: 3.1.0
+parameters:
+  show-inherited-invariants: false
+copyrightYear: 2020+
+releaseLabel: CI Build
+
+
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │  To control the menu.xml using this config, uncomment and set the "menu" property.             │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+# menu:
+#   IG Home: index.html
+#   Table of Contents: toc.html
+#   Underlying Technologies: underlying_technologies.html
+#   Use Case Example: functional_status_use_case.html
+#   Profile Highlights and Guidance: profile_highlights_and_guidance.html
+#   Artifacts Summary: artifacts.html
+#   Other Resources:
+#     "FHIR Spec ": new-tab external {{site.data.fhir.path}}index.html
