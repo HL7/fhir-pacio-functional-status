@@ -32,6 +32,9 @@
    <artifact name="DevicePatientUsed"
              key="StructureDefinition-device-patient-used"
              id="StructureDefinition/device-patient-used"/>
+   <artifact name="ObservationEventLocation"
+             key="StructureDefinition-event-location"
+             id="StructureDefinition/event-location"/>
    <artifact name="BFS-HH-Discharge-Mobility-1"
              key="Observation-BFS-HH-Discharge-Mobility-1"
              id="Observation/BFS-HH-Discharge-Mobility-1"/>

@@ -30,7 +30,8 @@ Description:    "An exchange of summary observation regarding the most recent pr
 * effective[x] 1..1
 * effective[x] only dateTime or Period
 
-* extension contains ObservationLocation named event-location 0..1 MS
+* extension contains ObservationEventLocation named event-location 0..1 MS
+//* extension contains ObservationLocation named event-location 0..1 MS
 * extension[event-location] ^short = "An extension to indicate where the observation event occurred."
 * extension[event-location] ^definition = "The principal physical location where the observation event occurred."
 * extension contains AssistanceRequired named assistance-required 0..1 MS

@@ -245,6 +245,7 @@
 <artifact id="Device/CMS-Device-6" key="Device-CMS-Device-6" name="CMS-Device-6"/>
 <artifact id="Device/CMS-Device-7" key="Device-CMS-Device-7" name="CMS-Device-7"/>
 <artifact id="StructureDefinition/device-patient-used" key="StructureDefinition-device-patient-used" name="DevicePatientUsed"/>
+<artifact id="StructureDefinition/event-location" key="StructureDefinition-event-location" name="ObservationEventLocation"/>
 <artifact id="Organization/Org-01" key="Organization-Org-01" name="Org-01"/>
 <artifact id="Organization/Org-02" key="Organization-Org-02" name="Org-02"/>
 <artifact id="Organization/Org-03" key="Organization-Org-03" name="Org-03"/>
