@@ -20,9 +20,16 @@ Description:    "An exchange of functional status observation for a patient. Thi
 //* value[x] only CodeableConcept
 //* value[x] from LNCVS (extensible)
 
-* category 1..*
-* category from PACIOFunctioningCategoryVS (extensible)
-* category = PACIOFunctioningCategoryCS#functioning
+* category ^slicing.discriminator.type = #pattern
+* category ^slicing.discriminator.path = "coding"
+* category ^slicing.rules = #open
+* category ^slicing.ordered = true
+* category contains functioning 1..1
+* category[functioning] from PACIOFunctioningCategoryVS (extensible)
+* category[functioning].coding = PACIOFunctioningCategoryCS#functioning "Functioning"
+// * category 1..*
+// * category from PACIOFunctioningCategoryVS (extensible)
+// * category = PACIOFunctioningCategoryCS#functioning
 
 * effective[x] only dateTime
 * effective[x] 1..1

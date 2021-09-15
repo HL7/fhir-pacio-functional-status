@@ -6,23 +6,19 @@ For profiles defined in other IGs, the meaning of "Must Support" is established 
 
 ### Resource Profile: FunctionalStatusCollection
 
-This resource profile is intended to be used for data exchange of a point in time collection of functional status observations from a single PAC assessment. It is derived from the FHIR resource Observation.
-
+This resource profile is intended to be used for the data exchange of a point in time set of observation data collected through the use of a structured resource (e.g. assessment tool, instrument, or screen). It is derived from the FHIR Observation resource.
 
 ### Resource Profile: FunctionalStatus
 
-This resource profile is intended to be used for data exchange of a single functional status observation included in a PAC assessment. It is derived from the FHIR resource Observation.
+This resource profile is intended to be used for the data exchange of a single observation data generally included in a set of observation data collected through the use of a structured resource (e.g. assessment tool, instrument, or screen). It is derived from the FHIR Observation resource.
 
+### Resource Profile: NarrativeHistoryOfFunctionalStatus
 
-### Resource Profile: PriorLevelOfFunction
-
-This resource profile is intended to be used for the exchange of prior level of function data when formal functional assessments are not available. It is derived from the FHIR resource Observation.
-
+This resource profile is intended to be used for the data exchange of a summary observation regarding the most recent prior level of function immediately preceding the current admission, illness, or exacerbation for a patient. The use of this profile is encouraged in the absence of formal prior level of function assessments. For formal assessments conducted with for example, an assessment instrument, use the Functional Status Collection and Functional Status profiles to capture assessment data. It is derived from the FHIR Observation resource.
 
 ### Resource Profile: UseOfDevice
 
-This resource profile is intended to be used for specifying a device used by a patient during a functional status assessment. It is derived from the FHIR resource DeviceUseStatement.
-
+This resource profile is intended to be used for specifying a record of an assistive device–e.g. walker or wheelchair, being used by a patient during a functional status assessment. This profile based on the DeviceUseStatement resource provides a way to include information about device usage during an assessment.
 
 ### Data Exchange Guidance and Examples
 

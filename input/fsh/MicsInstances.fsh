@@ -10,23 +10,83 @@ InstanceOf: Patient
 * name.family = "Smith-Johnson"
 
 // PractitionerRole instances
-Instance: Role-PT
+Instance: Role-PT-SallySmith
 InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
 * code = SCT#36682004
 * code.coding.display = "Physiotherapist"
 * active = true
+* practitioner = Reference(Practitioner-SallySmith)
+* organization = Reference(Org-01)
+* location = Reference(Org-Loc-01)
 
-Instance: Role-OT
+Instance: Role-PT-RonMarble
 InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
+* code = SCT#36682004
+* code.coding.display = "Physiotherapist"
+* active = true
+* practitioner = Reference(Practitioner-RonMarble)
+* organization = Reference(Org-01)
+* location = Reference(Org-Loc-01)
+
+Instance: Role-OT-JenCadbury
+InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
 * code = SCT#80546007
 * code.coding.display = "Occupational therapist"
 * active = true
+* practitioner = Reference(Practitioner-JenCadbury)
+* organization = Reference(Org-02)
+* location = Reference(Org-Loc-02)
 
-Instance: Role-RN
+Instance: Role-OT-DanielGranger
 InstanceOf: PractitionerRole
-* code = SCT#224535009
-* code.coding.display = "Registered Nurse"
+Description: "An instance of PractitionerRole"
+* code = SCT#80546007
+* code.coding.display = "Occupational therapist"
 * active = true
+* practitioner = Reference(Practitioner-DanielGranger)
+* organization = Reference(Org-02)
+* location = Reference(Org-Loc-02)
+
+Instance: Role-PT-LunaBaskins
+InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
+* code = SCT#36682004
+* code.coding.display = "Physiotherapist"
+* active = true
+* practitioner = Reference(Practitioner-LunaBaskins)
+* organization = Reference(Org-03)
+* location = Reference(Org-Loc-03)
+
+Instance: Role-PT-ScottDumble
+InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
+* code = SCT#36682004
+* code.coding.display = "Physiotherapist"
+* active = true
+* practitioner = Reference(Practitioner-ScottDumble)
+* organization = Reference(Org-03)
+* location = Reference(Org-Loc-03)
+
+// Instance: Role-PT
+// InstanceOf: PractitionerRole
+// * code = SCT#36682004
+// * code.coding.display = "Physiotherapist"
+// * active = true
+
+// Instance: Role-OT
+// InstanceOf: PractitionerRole
+// * code = SCT#80546007
+// * code.coding.display = "Occupational therapist"
+// * active = true
+
+// Instance: Role-RN
+// InstanceOf: PractitionerRole
+// * code = SCT#224535009
+// * code.coding.display = "Registered Nurse"
+// * active = true
 
 // Practitioner instances
 Instance: Practitioner-SallySmith
@@ -71,26 +131,26 @@ InstanceOf: Practitioner
 * active = true
 * gender = Hl7FhirAdminGender#male
 
-Instance: Practitioner-JennyGlass
-InstanceOf: Practitioner
-* name.given = "Jenny"
-* name.family = "Glass"
-* active = true
-* gender = Hl7FhirAdminGender#female
+// Instance: Practitioner-JennyGlass
+// InstanceOf: Practitioner
+// * name.given = "Jenny"
+// * name.family = "Glass"
+// * active = true
+// * gender = Hl7FhirAdminGender#female
 
-Instance: Practitioner-RonBurgendy
-InstanceOf: Practitioner
-* name.given = "Ron"
-* name.family = "Burgendy"
-* active = true
-* gender = Hl7FhirAdminGender#male
+// Instance: Practitioner-RonBurgendy
+// InstanceOf: Practitioner
+// * name.given = "Ron"
+// * name.family = "Burgendy"
+// * active = true
+// * gender = Hl7FhirAdminGender#male
 
-Instance: Practitioner-HoneyJones
-InstanceOf: Practitioner
-* name.given = "Honey"
-* name.family = "Jones"
-* active = true
-* gender = Hl7FhirAdminGender#female
+// Instance: Practitioner-HoneyJones
+// InstanceOf: Practitioner
+// * name.given = "Honey"
+// * name.family = "Jones"
+// * active = true
+// * gender = Hl7FhirAdminGender#female
 
 
 // Organization instances
@@ -130,7 +190,7 @@ InstanceOf: Location
 Instance: provider-role-pcp
 InstanceOf: PractitionerRole
 * code = NUCC#261QP2300X
-* code.coding.display = "Primary Care"
+* code.coding.display = "Primary Care Clinic/Center"
 * active = true
 * practitioner = Reference(Practitioner-JohnSmith)
 * organization = Reference(provider-org-01)

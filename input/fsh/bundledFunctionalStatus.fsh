@@ -14,11 +14,18 @@ Description:    "A point in time collection of functional status observations fo
 * performer 1..*
 * performer only Reference(USCorePractitioner or USCorePractitionerRole or USCoreOrganization)
 
-* value[x] only CodeableConcept
+//* value[x] only CodeableConcept
 
-* category 1..*
-* category from PACIOFunctioningCategoryVS (extensible)
-* category = PACIOFunctioningCategoryCS#functioning
+* category ^slicing.discriminator.type = #pattern
+* category ^slicing.discriminator.path = "coding"
+* category ^slicing.rules = #open
+* category ^slicing.ordered = true
+* category contains functioning 1..1
+* category[functioning] from PACIOFunctioningCategoryVS (extensible)
+* category[functioning].coding = PACIOFunctioningCategoryCS#functioning "Functioning"
+// * category 1..*
+// * category from PACIOFunctioningCategoryVS (extensible)
+// * category = PACIOFunctioningCategoryCS#functioning
 
 * effective[x] 1..1
 * effective[x] only dateTime or Period

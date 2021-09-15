@@ -3,11 +3,11 @@ Profile:        NarrativeHistoryOfFunctionalStatus
 Parent:         Observation
 Id:             pacio-nhfs
 Title:          "PACIO Narrative History of Functional Status"
-Description:    "An exchange of summary observation regarding the most recent prior level of function immediately preceding the current admission, illness, or exacerbation for a patient. The use of this profile is encouraged in the absence of formal prior level of function assessments. For formal assessments conducted with for example, an assessment instructment, use the Functional Status Collecction and Functional Status profiles to capture assessment data."
+Description:    "An exchange of summary observation regarding the most recent prior level of function immediately preceding the current admission, illness, or exacerbation for a patient. The use of this profile is encouraged in the absence of formal prior level of function assessments. For formal assessments conducted with for example, an assessment instrument, use the Functional Status Collection and Functional Status profiles to capture assessment data."
 
 * code from LNCVS
 * code = LNC#10158-4 "History of Functional status Narrative"
-* code.text = "History of Functional status Narrative"
+//* code.text = "History of Functional status Narrative"
 
 * value[x] 1..1
 * value[x] only string
