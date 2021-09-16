@@ -17,7 +17,7 @@
    <name value="PACIOFunctionalStatusImplementationGuide"/>
    <title value="PACIO Functional Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2021-09-15T15:53:48-07:00"/>
+   <date value="2021-09-15T21:20:17-07:00"/>
    <contact>
       <name value="PACIO project"/>
       <telecom>
@@ -42,7 +42,7 @@
    <dependsOn id="hl7_fhir_us_core">
       <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core"/>
       <packageId value="hl7.fhir.us.core"/>
-      <version value="3.1.0"/>
+      <version value="3.1.1"/>
    </dependsOn>
    <definition>
       <grouping id="-dyn-capabilitystatement">
@@ -196,6 +196,7 @@
             <reference value="Observation/BSJ-Narrative-History-Functional-Status-1"/>
          </reference>
          <name value="BSJ-Narrative-History-Functional-Status-1"/>
+         <description value="An instance of NarrativeHistoryOfFunctionalStatus"/>
          <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-nhfs"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -210,6 +211,7 @@
             <reference value="Device/CMS-Device-1"/>
          </reference>
          <name value="CMS-Device-1"/>
+         <description value="An instance of Device"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -224,6 +226,7 @@
             <reference value="Device/CMS-Device-2"/>
          </reference>
          <name value="CMS-Device-2"/>
+         <description value="An instance of Device"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -238,6 +241,7 @@
             <reference value="Device/CMS-Device-3"/>
          </reference>
          <name value="CMS-Device-3"/>
+         <description value="An instance of Device"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -252,6 +256,7 @@
             <reference value="Device/CMS-Device-4"/>
          </reference>
          <name value="CMS-Device-4"/>
+         <description value="An instance of Device"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -266,6 +271,7 @@
             <reference value="Device/CMS-Device-5"/>
          </reference>
          <name value="CMS-Device-5"/>
+         <description value="An instance of Device"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -280,6 +286,7 @@
             <reference value="Device/CMS-Device-6"/>
          </reference>
          <name value="CMS-Device-6"/>
+         <description value="An instance of Device"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -294,6 +301,7 @@
             <reference value="Device/CMS-Device-7"/>
          </reference>
          <name value="CMS-Device-7"/>
+         <description value="An instance of Device"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -818,6 +826,7 @@
             <reference value="DeviceUseStatement/FSC-Hospital-Admission-Mobility-1-UseOfDevice-17"/>
          </reference>
          <name value="FSC-Hospital-Admission-Mobility-1-UseOfDevice-17"/>
+         <description value="An instance of UseOfDevice"/>
          <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -832,6 +841,7 @@
             <reference value="DeviceUseStatement/FSC-Hospital-Admission-Mobility-1-UseOfDevice-18"/>
          </reference>
          <name value="FSC-Hospital-Admission-Mobility-1-UseOfDevice-18"/>
+         <description value="An instance of UseOfDevice"/>
          <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -1116,6 +1126,7 @@
             <reference value="DeviceUseStatement/FSC-Hospital-Discharge-Mobility-1-UseOfDevice-1"/>
          </reference>
          <name value="FSC-Hospital-Discharge-Mobility-1-UseOfDevice-1"/>
+         <description value="An instance of UseOfDevice"/>
          <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -1130,6 +1141,7 @@
             <reference value="DeviceUseStatement/FSC-Hospital-Discharge-Mobility-1-UseOfDevice-2"/>
          </reference>
          <name value="FSC-Hospital-Discharge-Mobility-1-UseOfDevice-2"/>
+         <description value="An instance of UseOfDevice"/>
          <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -1144,6 +1156,7 @@
             <reference value="DeviceUseStatement/FSC-Hospital-Discharge-Mobility-1-UseOfDevice-3"/>
          </reference>
          <name value="FSC-Hospital-Discharge-Mobility-1-UseOfDevice-3"/>
+         <description value="An instance of UseOfDevice"/>
          <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -1158,6 +1171,7 @@
             <reference value="DeviceUseStatement/FSC-Hospital-Discharge-Mobility-1-UseOfDevice-4"/>
          </reference>
          <name value="FSC-Hospital-Discharge-Mobility-1-UseOfDevice-4"/>
+         <description value="An instance of UseOfDevice"/>
          <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -1172,6 +1186,7 @@
             <reference value="DeviceUseStatement/FSC-Hospital-Discharge-Mobility-1-UseOfDevice-5"/>
          </reference>
          <name value="FSC-Hospital-Discharge-Mobility-1-UseOfDevice-5"/>
+         <description value="An instance of UseOfDevice"/>
          <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -1546,6 +1561,7 @@
             <reference value="Organization/Org-01"/>
          </reference>
          <name value="Org-01"/>
+         <description value="An instance of Organization"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -1560,6 +1576,7 @@
             <reference value="Organization/Org-02"/>
          </reference>
          <name value="Org-02"/>
+         <description value="An instance of Organization"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -1574,6 +1591,7 @@
             <reference value="Organization/Org-03"/>
          </reference>
          <name value="Org-03"/>
+         <description value="An instance of Organization"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -1588,6 +1606,7 @@
             <reference value="Location/Org-Loc-01"/>
          </reference>
          <name value="Org-Loc-01"/>
+         <description value="An instance of Location"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -1602,6 +1621,7 @@
             <reference value="Location/Org-Loc-02"/>
          </reference>
          <name value="Org-Loc-02"/>
+         <description value="An instance of Location"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -1616,6 +1636,7 @@
             <reference value="Location/Org-Loc-03"/>
          </reference>
          <name value="Org-Loc-03"/>
+         <description value="An instance of Location"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -1630,6 +1651,7 @@
             <reference value="Practitioner/Practitioner-DanielGranger"/>
          </reference>
          <name value="Practitioner-DanielGranger"/>
+         <description value="An instance of Practitioner"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -1644,6 +1666,7 @@
             <reference value="Practitioner/Practitioner-JenCadbury"/>
          </reference>
          <name value="Practitioner-JenCadbury"/>
+         <description value="An instance of Practitioner"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -1658,6 +1681,7 @@
             <reference value="Practitioner/Practitioner-JohnSmith"/>
          </reference>
          <name value="Practitioner-JohnSmith"/>
+         <description value="An instance of Practitioner"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -1672,6 +1696,7 @@
             <reference value="Practitioner/Practitioner-LunaBaskins"/>
          </reference>
          <name value="Practitioner-LunaBaskins"/>
+         <description value="An instance of Practitioner"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -1686,6 +1711,7 @@
             <reference value="Practitioner/Practitioner-NoraOlogist"/>
          </reference>
          <name value="Practitioner-NoraOlogist"/>
+         <description value="An instance of Practitioner"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -1700,6 +1726,7 @@
             <reference value="Practitioner/Practitioner-RonMarble"/>
          </reference>
          <name value="Practitioner-RonMarble"/>
+         <description value="An instance of Practitioner"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -1714,6 +1741,7 @@
             <reference value="Practitioner/Practitioner-SallySmith"/>
          </reference>
          <name value="Practitioner-SallySmith"/>
+         <description value="An instance of Practitioner"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -1728,6 +1756,7 @@
             <reference value="Practitioner/Practitioner-ScottDumble"/>
          </reference>
          <name value="Practitioner-ScottDumble"/>
+         <description value="An instance of Practitioner"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -1937,6 +1966,7 @@
             <reference value="Patient/patientBSJ1"/>
          </reference>
          <name value="patientBSJ1"/>
+         <description value="An instance of Patient"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -1951,6 +1981,7 @@
             <reference value="Organization/provider-org-01"/>
          </reference>
          <name value="provider-org-01"/>
+         <description value="An instance of Organization"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -1965,6 +1996,7 @@
             <reference value="Location/provider-org-loc-01"/>
          </reference>
          <name value="provider-org-loc-01"/>
+         <description value="An instance of Location"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -1979,6 +2011,7 @@
             <reference value="PractitionerRole/provider-role-pcp"/>
          </reference>
          <name value="provider-role-pcp"/>
+         <description value="An instance of PractitionerRole"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>

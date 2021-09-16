@@ -6,6 +6,7 @@ Alias: NUCC = http://nucc.org/provider-taxonomy
 // Patient instance
 Instance: patientBSJ1
 InstanceOf: Patient
+Description: "An instance of Patient"
 * name.given = "Betsy"
 * name.family = "Smith-Johnson"
 
@@ -91,6 +92,7 @@ Description: "An instance of PractitionerRole"
 // Practitioner instances
 Instance: Practitioner-SallySmith
 InstanceOf: Practitioner
+Description: "An instance of Practitioner"
 * name.given = "Sally"
 * name.family = "Smith"
 * active = true
@@ -98,6 +100,7 @@ InstanceOf: Practitioner
 
 Instance: Practitioner-RonMarble
 InstanceOf: Practitioner
+Description: "An instance of Practitioner"
 * name.given = "Ron"
 * name.family = "Marble"
 * active = true
@@ -105,6 +108,7 @@ InstanceOf: Practitioner
 
 Instance: Practitioner-JenCadbury
 InstanceOf: Practitioner
+Description: "An instance of Practitioner"
 * name.given = "Jen"
 * name.family = "Cadbury"
 * active = true
@@ -112,6 +116,7 @@ InstanceOf: Practitioner
 
 Instance: Practitioner-DanielGranger
 InstanceOf: Practitioner
+Description: "An instance of Practitioner"
 * name.given = "Daniel"
 * name.family = "Granger"
 * active = true
@@ -119,6 +124,7 @@ InstanceOf: Practitioner
 
 Instance: Practitioner-LunaBaskins
 InstanceOf: Practitioner
+Description: "An instance of Practitioner"
 * name.given = "Luna"
 * name.family = "Baskins"
 * active = true
@@ -126,6 +132,7 @@ InstanceOf: Practitioner
 
 Instance: Practitioner-ScottDumble
 InstanceOf: Practitioner
+Description: "An instance of Practitioner"
 * name.given = "Scott"
 * name.family = "Dumble"
 * active = true
@@ -156,31 +163,37 @@ InstanceOf: Practitioner
 // Organization instances
 Instance: Org-01
 InstanceOf: Organization
+Description: "An instance of Organization"
 * name = "San Antonio General Hospital"
 
 Instance: Org-02
 InstanceOf: Organization
+Description: "An instance of Organization"
 * name = "Happy Nursing Facility"
 
 Instance: Org-03
 InstanceOf: Organization
+Description: "An instance of Organization"
 * name = "Sky Harbor Home Health Services"
 
 // Location instances
 Instance: Org-Loc-01
 InstanceOf: Location
+Description: "An instance of Location"
 * status = #active
 * name = "San Antonio General Hospital"
 * address.text = "26022 Meadowlark Bay, San Antonio, TX 78260"
 
 Instance: Org-Loc-02
 InstanceOf: Location
+Description: "An instance of Location"
 * status = #active
 * name = "Happy Nursing Facility"
 * address.text  = "8100 Pinebrook Dr, San Antonio, TX, 78230"
 
 Instance: Org-Loc-03
 InstanceOf: Location
+Description: "An instance of Location"
 * status = #active
 * name = "Sky Harbor Home Health Services"
 * address.text  = "8810 Old Sky Harbor, San Antonio, TX 78242"
@@ -189,6 +202,7 @@ InstanceOf: Location
 //////////////////////////////////////////
 Instance: provider-role-pcp
 InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
 * code = NUCC#261QP2300X
 * code.coding.display = "Primary Care Clinic/Center"
 * active = true
@@ -198,6 +212,7 @@ InstanceOf: PractitionerRole
 
 Instance: Practitioner-JohnSmith
 InstanceOf: Practitioner
+Description: "An instance of Practitioner"
 * name.given = "John"
 * name.family = "Smith"
 * name.text = "Primary Care Physician"
@@ -206,6 +221,7 @@ InstanceOf: Practitioner
 
 Instance: Practitioner-NoraOlogist
 InstanceOf: Practitioner
+Description: "An instance of Practitioner"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "3668788925"
 * name.given = "Nora"
@@ -219,10 +235,12 @@ InstanceOf: Practitioner
 
 Instance: provider-org-01
 InstanceOf: Organization
+Description: "An instance of Organization"
 * name = "Primary Care"
 
 Instance: provider-org-loc-01
 InstanceOf: Location
+Description: "An instance of Location"
 * status = #active
 * name = "Primary Care"
 * address.text = "177 Deerfield St. San Antonio, TX 78207"

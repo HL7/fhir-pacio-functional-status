@@ -3,6 +3,7 @@ Alias: LNC = http://loinc.org
 
 Instance: BSJ-Narrative-History-Functional-Status-1
 InstanceOf: NarrativeHistoryOfFunctionalStatus
+Description: "An instance of NarrativeHistoryOfFunctionalStatus"
 * subject = Reference(patientBSJ1)
 * status = #final
 
