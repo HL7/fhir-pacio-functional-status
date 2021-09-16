@@ -1,7 +1,11 @@
 == Suppressed Messages ==
 # The following code systems are external and not supported by terminology server
+Unknown Code System 'http://hl7.org/fhir/us/pacio-cs/CodeSystem/pacio-cat-cs'
+URL value 'http://hl7.org/fhir/us/pacio-cs/CodeSystem/pacio-cat-cs' does not resolve
 
 # These are actual warnings to surpress, all relating to validation of values from terminologies
+Canonical URL 'http://hl7.org/fhir/us/pacio-cs/ValueSet/pacio-cat-vs' does not resolve
+ValueSet http://hl7.org/fhir/us/pacio-cs/ValueSet/pacio-cat-vs not found by validator
 
 # informational -- these examples are in the IG because they are examples of the referenced profiles.
 
