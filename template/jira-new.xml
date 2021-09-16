@@ -127,6 +127,8 @@
 <artifact id="StructureDefinition/pacio-fs" key="StructureDefinition-pacio-fs" name="PACIO Functional Status"/>
 <artifact id="CapabilityStatement/pacio-fs" key="CapabilityStatement-pacio-fs" name="PACIO Functional Status Capability Statement"/>
 <artifact id="StructureDefinition/pacio-fsc" key="StructureDefinition-pacio-fsc" name="PACIO Functional Status Collection"/>
+<artifact id="CodeSystem/pacio-cat-cs" key="CodeSystem-pacio-cat-cs" name="PACIO Functioning Category Code System"/>
+<artifact id="ValueSet/pacio-cat-vs" key="ValueSet-pacio-cat-vs" name="PACIO Functioning Category Value Set"/>
 <artifact id="StructureDefinition/pacio-nhfs" key="StructureDefinition-pacio-nhfs" name="PACIO Narrative History of Functional Status"/>
 <artifact deprecated="true" id="StructureDefinition/pacio-functional-qr" key="StructureDefinition-pacio-functional-qr" name="PACIO Questionnaire Response"/>
 <artifact id="Practitioner/Practitioner-DanielGranger" key="Practitioner-Practitioner-DanielGranger" name="Practitioner-DanielGranger"/>

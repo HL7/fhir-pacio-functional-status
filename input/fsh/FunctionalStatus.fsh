@@ -23,7 +23,7 @@ Description:    "An exchange of functional status observation for a patient. Thi
 * category ^slicing.discriminator.type = #pattern
 * category ^slicing.discriminator.path = "coding"
 * category ^slicing.rules = #open
-* category ^slicing.ordered = true
+//* category ^slicing.ordered = true
 * category contains functioning 1..1
 * category[functioning] from PACIOFunctioningCategoryVS (extensible)
 * category[functioning].coding = PACIOFunctioningCategoryCS#functioning "Functioning"

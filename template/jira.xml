@@ -35,6 +35,12 @@
    <artifact name="ObservationEventLocation"
              key="StructureDefinition-event-location"
              id="StructureDefinition/event-location"/>
+   <artifact name="PACIO Functioning Category Value Set"
+             key="ValueSet-pacio-cat-vs"
+             id="ValueSet/pacio-cat-vs"/>
+   <artifact name="PACIO Functioning Category Code System"
+             key="CodeSystem-pacio-cat-cs"
+             id="CodeSystem/pacio-cat-cs"/>
    <artifact name="BSJ-Narrative-History-Functional-Status-1"
              key="Observation-BSJ-Narrative-History-Functional-Status-1"
              id="Observation/BSJ-Narrative-History-Functional-Status-1"/>
