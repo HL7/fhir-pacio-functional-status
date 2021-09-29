@@ -1,5 +1,5 @@
 
-Instance: FSC-Hospital-Admission-Mobility-1-UseOfDevice-17
+Instance: FSC-Hospital-Admission-Mobility-1-UseOfDevice-6
 InstanceOf: UseOfDevice
 Description: "An instance of UseOfDevice"
 * subject  = Reference(patientBSJ1)
@@ -9,7 +9,7 @@ Description: "An instance of UseOfDevice"
 * device = Reference(CMS-Device-1)
 * status = #active
 
-Instance: FSC-Hospital-Admission-Mobility-1-UseOfDevice-18
+Instance: FSC-Hospital-Admission-Mobility-1-UseOfDevice-7
 InstanceOf: UseOfDevice
 Description: "An instance of UseOfDevice"
 * subject  = Reference(patientBSJ1)
@@ -26,7 +26,7 @@ Description: "An instance of UseOfDevice"
 * derivedFrom = Reference(FSC-Hospital-Discharge-Mobility-1)
 * recordedOn = 2020-07-10T14:34:00-05:00
 * source = Reference(Practitioner-RonMarble)
-* device = Reference(CMS-Device-5)
+* device = Reference(CMS-Device-2)
 * status = #active
 
 Instance: FSC-Hospital-Discharge-Mobility-1-UseOfDevice-4
@@ -36,7 +36,7 @@ Description: "An instance of UseOfDevice"
 * derivedFrom = Reference(FSC-Hospital-Discharge-Mobility-1)
 * recordedOn = 2020-07-10T14:34:00-05:00
 * source = Reference(Practitioner-RonMarble)
-* device = Reference(CMS-Device-4)
+* device = Reference(CMS-Device-5)
 * status = #active
 
 Instance: FSC-Hospital-Discharge-Mobility-1-UseOfDevice-5
@@ -46,7 +46,7 @@ Description: "An instance of UseOfDevice"
 * derivedFrom = Reference(FSC-Hospital-Discharge-Mobility-1)
 * recordedOn = 2020-07-10T14:34:00-05:00
 * source = Reference(Practitioner-RonMarble)
-* device = Reference(CMS-Device-7)
+* device = Reference(CMS-Device-4)
 * status = #active
 
 Instance: FSC-Hospital-Discharge-Mobility-1-UseOfDevice-1
@@ -66,5 +66,5 @@ Description: "An instance of UseOfDevice"
 * derivedFrom = Reference(FSC-Hospital-Discharge-Mobility-1)
 * recordedOn = 2020-07-10T14:34:00-05:00
 * source = Reference(Practitioner-RonMarble)
-* device = Reference(CMS-Device-2)
+* device = Reference(CMS-Device-3)
 * status = #active

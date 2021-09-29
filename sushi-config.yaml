@@ -18,7 +18,10 @@ version: 0.1.0
 name: PACIOFunctionalStatusImplementationGuide
 title: PACIO Functional Status Implementation Guide
 status: active
-publisher: HL7 Patient Care Work Group
+publisher:
+  name: HL7 Patient Care Work Group
+  url: http://www.hl7.org/Special/committees/patientcare/
+  email: patientcare@lists.HL7.org
 jurisdiction: urn:iso:std:iso:3166#US
 contact:
   - name: PACIO project
@@ -35,8 +38,10 @@ dependencies:
   hl7.fhir.us.core: 3.1.1
 parameters:
   show-inherited-invariants: false
+  apply-jurisdiction: true
+  apply-publisher: true
 copyrightYear: 2020+
-releaseLabel: CI Build
+releaseLabel: STU Ballot
 
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
