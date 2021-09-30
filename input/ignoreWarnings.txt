@@ -7,7 +7,7 @@
 # This is due to a bug in the validator--will be fixed in the next IG Publisher release.
 The valueSet reference http://loinc.org/vs/LL4309-2 on element Extension.value[x] could not be resolved
 
-# The URL is good for downloading the questionnaire
+# The questionnaire is included with the IG and the URL is good for downloading the questionnaire
 The questionnaire 'https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
 
 # Suppress Slicing Information for Observation.category added by FHIR Shorthand SUSHI
