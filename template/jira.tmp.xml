@@ -265,7 +265,7 @@
    <name value="PACIOFunctionalStatusImplementationGuide"/>
    <title value="PACIO Functional Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2021-09-28T20:27:25-07:00"/>
+   <date value="2021-09-30T09:05:07-07:00"/>
    <publisher value="HL7 Patient Care Work Group"/>
    <contact>
       <name value="HL7 Patient Care Work Group"/>
@@ -2280,6 +2280,10 @@
       <parameter>
          <code value="apply-publisher"/>
          <value value="true"/>
+      </parameter>
+      <parameter>
+         <code value="path-expansion-params"/>
+         <value value="../../input/_resources/terminology-settings.json"/>
       </parameter>
       <parameter>
          <code value="autoload-resources"/>

@@ -1,4 +1,3 @@
-Alias: MDS3.0-NC-1.17 = https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17
 Alias:  LNC = http://loinc.org
 
 Instance: QResponse-SNF-Admission-Mobility-SelfCare-1

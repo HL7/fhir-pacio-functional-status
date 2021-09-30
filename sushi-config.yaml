@@ -13,7 +13,6 @@ id: hl7.fhir.us.pacio-fs
 ##### use this URL when publishing the IG:
 canonical: http://hl7.org/fhir/us/pacio-fs
 #####canonical: https://build.fhir.org/ig/HL7/fhir-pacio-functional-status
-###canonical: http://paciowg.github.io/functional-status-ig
 version: 0.1.0
 name: PACIOFunctionalStatusImplementationGuide
 title: PACIO Functional Status Implementation Guide
@@ -38,8 +37,7 @@ dependencies:
   hl7.fhir.us.core: 3.1.1
 parameters:
   show-inherited-invariants: false
-  apply-jurisdiction: true
-  apply-publisher: true
+  path-expansion-params: '../../input/_resources/terminology-settings.json'  # for using US ed of SNOMED
 copyrightYear: 2020+
 releaseLabel: STU Ballot
 
