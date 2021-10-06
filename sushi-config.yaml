@@ -19,14 +19,14 @@ title: PACIO Functional Status Implementation Guide
 status: active
 publisher:
   name: HL7 Patient Care Work Group
-  url: http://www.hl7.org/Special/committees/patientcare/
+  url: http://www.hl7.org/Special/committees/patientcare
   email: patientcare@lists.HL7.org
 jurisdiction: urn:iso:std:iso:3166#US
 contact:
   - name: PACIO project
     telecom:
       - system: url
-        value: http://www.hl7.org/Special/committees/patientcare/
+        value: http://www.hl7.org/Special/committees/patientcare
       - system: email
         value: info@pacioproject.org
 description: To advance interoperable health data exchange between post-acute care (PAC)

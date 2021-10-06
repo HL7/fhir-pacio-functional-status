@@ -17,13 +17,13 @@
    <name value="PACIOFunctionalStatusImplementationGuide"/>
    <title value="PACIO Functional Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2021-10-05T19:58:12-07:00"/>
+   <date value="2021-10-05T21:42:19-07:00"/>
    <publisher value="HL7 Patient Care Work Group"/>
    <contact>
       <name value="HL7 Patient Care Work Group"/>
       <telecom>
          <system value="url"/>
-         <value value="http://www.hl7.org/Special/committees/patientcare/"/>
+         <value value="http://www.hl7.org/Special/committees/patientcare"/>
       </telecom>
       <telecom>
          <system value="email"/>
@@ -34,7 +34,7 @@
       <name value="PACIO project"/>
       <telecom>
          <system value="url"/>
-         <value value="http://www.hl7.org/Special/committees/patientcare/"/>
+         <value value="http://www.hl7.org/Special/committees/patientcare"/>
       </telecom>
       <telecom>
          <system value="email"/>
@@ -223,10 +223,10 @@
             <valueString value="CodeSystem"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="CodeSystem-pacio-cat-cs.html"/>
+            <valueUri value="CodeSystem-pacio-cat-fs.html"/>
          </extension>
          <reference>
-            <reference value="CodeSystem/pacio-cat-cs"/>
+            <reference value="CodeSystem/pacio-cat-fs"/>
          </reference>
          <name value="PACIO Functioning Category Code System"/>
          <description value="Defining a specific code for the classification of patient observation regarding individual's functioning."/>
@@ -1587,7 +1587,7 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="CodeSystem-pacio-cat-cs.html"/>
+               <nameUrl value="CodeSystem-pacio-cat-fs.html"/>
                <title value="PACIO Functioning Category Code System"/>
                <generation value="generated"/>
             </page>

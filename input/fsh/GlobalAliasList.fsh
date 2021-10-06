@@ -20,4 +20,4 @@ Alias: USCoreOrganization = http://hl7.org/fhir/us/core/StructureDefinition/us-c
 Alias: SDCQR = http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse
 
 //Alias: MDS3.0-NC-1.17 = http://hl7.org/fhir/us/pacio-fs/MDS3.0-NC-1.17
-Alias: MDS3.0-NC-1.17 = https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/MDS3.0-NC-1.17
+Alias: MDS3.0-NC-1.17 = http://build.fhir.org/ig/HL7/fhir-pacio-functional-status/MDS3.0-NC-1.17

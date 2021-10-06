@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                url="http://hl7.org/fhir/us/pacio-fs"
-               ciUrl="https://build.fhir.org/ig/HL7/fhir-pacio-functional-status"
-               defaultWorkgroup=""
+               ciUrl="http://build.fhir.org/ig/HL7/fhir-pacio-functional-status"
+               defaultWorkgroup="pc"
                defaultVersion="1.0.0"
                xsi:noNamespaceSchemaLocation="../schemas/specification.xsd"
                gitUrl="https://github.com/HL7/fhir-pacio-functional-status"
                ballotUrl="http://hl7.org/fhir/us/pacio-fs/2021Jan">
    <version code="current"
-            url="https://build.fhir.org/ig/HL7/fhir-pacio-functional-status"/>
+            url="http://build.fhir.org/ig/HL7/fhir-pacio-functional-status"/>
    <version code="1.0.0" url="http://hl7.org/fhir/us/pacio-fs/STU1"/>
    <version code="0.1.0" url="http://hl7.org/fhir/us/pacio-fs/2021Jan"/>
    <version code="0.0.1" deprecated="true" url="http://example.org/fhir/STU1"/>
@@ -42,7 +42,7 @@
              id="ValueSet/pacio-cat-vs"/>
    <artifact name="PACIO Functioning Category Code System"
              key="CodeSystem-pacio-cat-fs"
-             id="CodeSystem/pacio-cat-cs"/>
+             id="CodeSystem/pacio-cat-fs"/>
    <artifact name="BSJ-Narrative-History-Functional-Status-1"
              key="Observation-BSJ-Narrative-History-Functional-Status-1"
              id="Observation/BSJ-Narrative-History-Functional-Status-1"/>
