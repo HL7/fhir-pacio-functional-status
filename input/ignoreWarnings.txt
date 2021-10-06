@@ -10,7 +10,7 @@ The valueSet reference http://loinc.org/vs/LL4309-2 on element Extension.value[x
 # The questionnaire is included with the IG and the URL is good for downloading the questionnaire
 The questionnaire 'https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
 
-# Suppress Slicing Information for Observation.category added by FHIR Shorthand SUSHI
+# Suppress Slicing Information for Observation.category since all these examples have optional slices that are not defined in the profile - not matching is expected behavior
 INFORMATION: Observation/FSC-Hospital-Admission-Mobility-1: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fsc
 INFORMATION: Observation/FSC-Hospital-Admission-Mobility-1-Ob-Question-1: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs
 INFORMATION: Observation/FSC-Hospital-Admission-Mobility-1-Ob-Question-3: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs
