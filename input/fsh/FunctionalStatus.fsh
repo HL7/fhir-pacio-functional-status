@@ -34,7 +34,7 @@ Description:    "An exchange of functional status observation for a patient. Thi
 * effective[x] only dateTime
 * effective[x] 1..1
 
-* derivedFrom only Reference(QuestionnaireResponse)
+* derivedFrom only Reference(SDCQR)
 * derivedFrom MS
 
 * extension contains ObservationEventLocation named event-location 0..1 MS
@@ -62,6 +62,6 @@ Description:    "An exchange of functional status observation for a patient. Thi
 * device ^short = "Currently not used in FunctionalStatus."
 * referenceRange ^short = "Currently not used in FunctionalStatus."
 * hasMember ^short = "Currently not used in FunctionalStatus."
-* derivedFrom ^short = "Should point back to the QuestionnaireResponse that this resource is derived from."
+* derivedFrom ^short = "Should point back to the SDC QuestionnaireResponse that this resource is derived from."
 * extension[event-location] ^short = "An extension to indicate where the observation event occurred."
 * extension[event-location] ^definition = "The principal physical location where the observation event occurred."

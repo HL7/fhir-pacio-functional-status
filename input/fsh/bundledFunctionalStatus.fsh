@@ -33,7 +33,7 @@ Description:    "A point in time collection of functional status observations fo
 * hasMember only Reference(FunctionalStatus)
 * hasMember MS
 
-* derivedFrom only Reference(QuestionnaireResponse)
+* derivedFrom only Reference(SDCQR)
 * derivedFrom MS
 
 * extension contains ObservationEventLocation named event-location 0..1 MS
@@ -62,7 +62,7 @@ Description:    "A point in time collection of functional status observations fo
 * device ^short = "Currently not used in FunctionalStatusCollection."
 * referenceRange ^short = "Currently not used in FunctionalStatusCollection."
 * component ^short = "Currently not used in FunctionalStatusCollection."
-* derivedFrom ^short = "Should point back to the QuestionnaireResponse that this resource is derived from."
+* derivedFrom ^short = "Should point back to the SDC QuestionnaireResponse that this resource is derived from."
 * extension[event-location] ^short = "An extension to indicate where the observation event occurred."
 * extension[event-location] ^definition = "The principal physical location where the observation event occurred."
 * extension[device-use] ^short = "An extension to indicate a record of assistive device usage by a patient during an assessment."

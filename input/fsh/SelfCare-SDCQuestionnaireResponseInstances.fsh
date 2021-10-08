@@ -1,11 +1,12 @@
 Alias:  LNC = http://loinc.org
 
 Instance: QResponse-SNF-Admission-Mobility-SelfCare-1
-InstanceOf: QuestionnaireResponse
+InstanceOf: SDCQR
 Description: "An instance of QuestionnaireResponse"
 * subject = Reference(patientBSJ1)
 * status = #completed
 * questionnaire = MDS3.0-NC-1.17
+* questionnaire.extension[questionnaireDisplay].valueString = "Minimum Data Set (MDS) - version 3.0 - Resident Assessment Instrument (RAI) version 1.17.1 [CMS Assessment]"
 * authored = "2020-07-11T16:32:00-05:00"
 * author = Reference(Role-OT-JenCadbury)
 * item[0].linkId = "Section-37"
@@ -36,7 +37,7 @@ Description: "An instance of QuestionnaireResponse"
 
 
 // Instance: QResponse-SNF-DischargeGoal-Mobility-SelfCare-1
-// InstanceOf: QuestionnaireResponse
+// InstanceOf: SDCQR
 // Description: "An instance of QuestionnaireResponse"
 // * subject = Reference(patientBSJ1)
 // * status = #completed
@@ -79,7 +80,7 @@ Description: "An instance of QuestionnaireResponse"
 // * item[0].item[0].item[6].answer.valueReference = Reference(FSC-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-35)
 
 // Instance: QResponse-SNF-Discharge-Mobility-SelfCare-1
-// InstanceOf: QuestionnaireResponse
+// InstanceOf: SDCQR
 // Description: "An instance of QuestionnaireResponse"
 // * subject = Reference(patientBSJ1)
 // * status = #completed

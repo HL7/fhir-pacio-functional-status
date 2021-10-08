@@ -2,13 +2,12 @@ Alias: SDCQR = http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnairer
 Alias: LNC = http://loinc.org
 
 Instance: QResponse-Hospital-Discharge-Mobility-1
-InstanceOf: QuestionnaireResponse
+InstanceOf: SDCQR
 Description: "An instance of SDCQuestionnaireResponse"
-//* meta.profile = SDCQR
 * subject = Reference(patientBSJ1)
 * status = #completed
 * questionnaire = MDS3.0-NC-1.17
-//* extension[questionnaireDisplay] = "Minimum Data Set (MDS) - version 3.0 - Resident Assessment Instrument (RAI) version 1.17.1 [CMS Assessment]"
+* questionnaire.extension[questionnaireDisplay].valueString = "Minimum Data Set (MDS) - version 3.0 - Resident Assessment Instrument (RAI) version 1.17.1 [CMS Assessment]"
 * authored = "2020-07-10T14:34:00-05:00"
 * author = Reference(Role-PT-RonMarble)
 * item[0].linkId = "Section-37"
@@ -70,13 +69,12 @@ Description: "An instance of SDCQuestionnaireResponse"
 
 
 Instance: QResponse-Hospital-Admission-Mobility-1
-InstanceOf: QuestionnaireResponse
+InstanceOf: SDCQR
 Description: "An instance of SDCQuestionnaireResponse"
-//* meta.profile = SDCQR
 * subject = Reference(patientBSJ1)
 * status = #completed
 * questionnaire = MDS3.0-NC-1.17
-//* extension[questionnaireDisplay] = "Minimum Data Set (MDS) - version 3.0 - Resident Assessment Instrument (RAI) version 1.17.1 [CMS Assessment]"
+* questionnaire.extension[questionnaireDisplay].valueString = "Minimum Data Set (MDS) - version 3.0 - Resident Assessment Instrument (RAI) version 1.17.1 [CMS Assessment]"
 * authored = "2020-07-08T16:00:00-05:00"
 * author = Reference(Role-PT-SallySmith)
 * item[0].linkId = "Section-37"
