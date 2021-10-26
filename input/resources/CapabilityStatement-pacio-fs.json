@@ -1,7 +1,7 @@
 {
   "resourceType": "CapabilityStatement",
   "id": "pacio-fs",
-  "url": "/CapabilityStatement-pacio-fs.html",
+  "url": "https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/CapabilityStatement-pacio-fs.html",
   "version": "0.1.0",
   "name": "PACIO_FunctionalStatus_CapabilityStatement",
   "title": "PACIO Functional Status Capability Statement",
